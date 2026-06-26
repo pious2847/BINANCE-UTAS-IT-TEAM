@@ -22,17 +22,7 @@ class RegistrationBot:
         self.log_path = self.config['log_path']
         self.ensure_log_exists()
         self.registered_emails = self.load_registered_emails()
-        
-        # Options for randomizing "How did you hear about us?"
-        self.referral_sources = [
-            "Social Media", 
-            "Friend", 
-            "Binance App", 
-            "Twitter", 
-            "Telegram", 
-            "Email", 
-            "University Club"
-        ]
+        self.referral_sources = ["Social Media", "Friend", "Binance App", "Twitter", "Telegram", "Email", "Other"]
 
     def ensure_log_exists(self):
         os.makedirs(os.path.dirname(self.log_path), exist_ok=True)
@@ -45,19 +35,16 @@ class RegistrationBot:
         try:
             df = pd.read_csv(self.log_path)
             return set(df['Email'].astype(str).str.lower().tolist())
-        except:
-            return set()
+        except: return set()
 
     def init_driver(self):
         chrome_options = Options()
         if self.config['settings']['headless']:
             chrome_options.add_argument("--headless")
-        
         chrome_options.add_argument("--disable-blink-features=AutomationControlled")
         chrome_options.add_experimental_option("excludeSwitches", ["enable-automation"])
-        
         driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=chrome_options)
-        driver.set_window_size(random.choice([1366, 1440, 1920]), 1000)
+        driver.set_window_size(1440, 1000)
         return driver
 
     def js_click(self, driver, element):
@@ -65,54 +52,84 @@ class RegistrationBot:
         time.sleep(0.5)
         driver.execute_script("arguments[0].click();", element)
 
-    def select_react_dropdown(self, driver, element_id, value):
-        """Handles React-Select components for Gender/Referral"""
+    def robust_type(self, driver, element_id, text):
+        """Types text and ensures focus is removed afterward to prevent text leakage."""
+        wait = WebDriverWait(driver, 10)
+        el = wait.until(EC.presence_of_element_located((By.ID, element_id)))
+        self.js_click(driver, el)
+        time.sleep(0.2)
+        el.send_keys(Keys.CONTROL + "a")
+        el.send_keys(Keys.BACKSPACE)
+        for char in str(text):
+            el.send_keys(char)
+            time.sleep(random.uniform(0.01, 0.03))
+        # Remove focus from field
+        el.send_keys(Keys.TAB)
+        time.sleep(0.3)
+
+    def force_select_dropdown(self, driver, element_id, target_value):
+        """Forces selection on React and Standard Selects."""
+        wait = WebDriverWait(driver, 10)
         try:
-            container = driver.find_element(By.ID, element_id)
-            self.js_click(driver, container)
-            time.sleep(0.8)
+            container = wait.until(EC.element_to_be_clickable((By.ID, element_id)))
             
-            actions = ActionChains(driver)
-            actions.send_keys(value)
-            time.sleep(1)
-            actions.send_keys(Keys.ENTER)
-            actions.perform()
+            if container.tag_name == 'select':
+                # Standard HTML Select (Gender / Country)
+                s = Select(container)
+                s.select_by_visible_text(target_value)
+                driver.execute_script("arguments[0].dispatchEvent(new Event('change', { bubbles: true }));", container)
+            else:
+                # React Custom Dropdown (How Heard)
+                self.js_click(driver, container)
+                time.sleep(0.8)
+                actions = ActionChains(driver)
+                actions.send_keys(target_value)
+                actions.pause(1)
+                actions.send_keys(Keys.ENTER)
+                actions.perform()
             time.sleep(0.5)
         except Exception as e:
-            print(f"   ! Dropdown Warning ({element_id}): {e}")
+            print(f"   ! Warning: Failed to select {target_value} on {element_id}")
 
     def register_user(self, user_data):
         driver = self.init_driver()
-        wait = WebDriverWait(driver, 25)
+        wait = WebDriverWait(driver, 30)
         
         try:
             driver.get(self.config['target_url'])
             
-            # --- Personal Info ---
-            wait.until(EC.presence_of_element_located((By.ID, "56aeaca6-a0ad-4548-8afc-94d8d4361ba1"))).send_keys(user_data['First Name'])
-            driver.find_element(By.ID, "cfc98829-80b7-41b6-82b5-b968d43ef1c1").send_keys(user_data['Last Name'])
-            driver.find_element(By.ID, "ff919d05-4281-4d9c-aa0d-82e3722d580d").send_keys(user_data['Email'])
-            
-            # --- Gender (From Excel) ---
-            # Mapping Excel values to Select options (Male/Female)
-            gender_val = str(user_data.get('Gender', 'Male')).strip().capitalize()
-            if gender_val not in ["Male", "Female"]: gender_val = "Male" # Fallback
-            
-            try:
-                gender_el = driver.find_element(By.ID, "widget:0aa5a2d5-27e5-443e-9c04-01d7f0c1c98d")
-                Select(gender_el).select_by_visible_text(gender_val)
-            except:
-                self.select_react_dropdown(driver, "widget:0aa5a2d5-27e5-443e-9c04-01d7f0c1c98d", gender_val)
+            # Wait for spinner
+            try: wait.until(EC.invisibility_of_element_located((By.ID, "initialPageLoadSpinner")))
+            except: pass
+            time.sleep(2)
 
-            # --- Country ---
-            country_el = driver.find_element(By.ID, "bbe011f6-855c-41f2-ac1f-d1cbc6b15af8")
-            Select(country_el).select_by_visible_text(self.config['defaults']['country'])
-            
-            # --- Referral (Randomized) ---
-            random_source = random.choice(self.referral_sources)
-            self.select_react_dropdown(driver, "b1fc7e46-8327-4e6a-91f5-10ddae71a8f1", random_source)
+            # 1. First/Last/Email
+            self.robust_type(driver, "56aeaca6-a0ad-4548-8afc-94d8d4361ba1", user_data['First Name'])
+            self.robust_type(driver, "cfc98829-80b7-41b6-82b5-b968d43ef1c1", user_data['Last Name'])
+            self.robust_type(driver, "ff919d05-4281-4d9c-aa0d-82e3722d580d", user_data['Email'])
 
-            # --- Consent Radios ---
+            # 2. Gender Selection (Robust)
+            gender_raw = str(user_data.get('Gender', 'Male')).strip().lower()
+            gender_final = "Female" if "female" in gender_raw else "Male"
+            print(f"   Gender: {gender_final}")
+            self.force_select_dropdown(driver, "widget:0aa5a2d5-27e5-443e-9c04-01d7f0c1c98d", gender_final)
+
+            # 3. Country (Fixed to Ghana)
+            print(f"   Country: Ghana")
+            self.force_select_dropdown(driver, "bbe011f6-855c-41f2-ac1f-d1cbc6b15af8", "Ghana")
+
+            # 4. Referral (How did you hear about us?)
+            chosen_ref = random.choice(self.referral_sources)
+            print(f"   Referral: {chosen_ref}")
+            self.force_select_dropdown(driver, "b1fc7e46-8327-4e6a-91f5-10ddae71a8f1", chosen_ref)
+            
+            if chosen_ref == "Other":
+                time.sleep(1.5)
+                # Select the box that doesn't have the hyphenated ID
+                other_box = wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, "input[type='text']:not([id*='-'])")))
+                self.robust_type(driver, other_box.get_attribute("id"), "University Of Technology And Applied Sciences, Navorongo")
+
+            # 5. Consent Radios (JS click to ensure they are hit)
             consent_ids = [
                 "1e8d0338-89c4-4983-beea-4ffa7ecb6a19-primary_0", 
                 "0dde9017-0819-4383-a921-fc502bee3cc1-primary_0", 
@@ -122,13 +139,18 @@ class RegistrationBot:
                 consent_ids.append("b320fbfd-e250-4cc1-bdad-8db06a643ec2-primary_0")
 
             for cid in consent_ids:
-                self.js_click(driver, driver.find_element(By.ID, cid))
+                try:
+                    el = driver.find_element(By.ID, cid)
+                    driver.execute_script("arguments[0].click();", el)
+                    time.sleep(0.3)
+                except: pass
 
-            # --- Final Submit ---
+            # 6. Final Submit
             time.sleep(1)
-            self.js_click(driver, driver.find_element(By.ID, "forward"))
+            submit_btn = driver.find_element(By.ID, "forward")
+            driver.execute_script("arguments[0].click();", submit_btn)
             
-            # Verify success (URL change)
+            # Wait for Step 2
             wait.until(EC.url_contains("regProcessStep2"))
             self.log_registration(user_data, "Success")
             return True
@@ -147,21 +169,20 @@ class RegistrationBot:
 
     def run(self):
         df = pd.read_excel(self.config['excel_path'])
+        df.columns = [str(c).strip() for c in df.columns]
         to_process = df[~df['Email'].str.lower().isin(self.registered_emails)]
         
-        print(f"--- Session Summary ---")
-        print(f"New Records: {len(to_process)}")
-        
-        limit = input("Enter quantity to register (Press Enter for ALL): ")
+        print(f"--- Session: {len(to_process)} records ---")
+        limit = input("Quantity? (Enter for all): ")
         if limit: to_process = to_process.head(int(limit))
 
         for _, row in to_process.iterrows():
-            print(f"Processing: {row['Email']} ({row.get('Gender', 'N/A')})")
+            print(f"-> {row['Email']}")
             if self.register_user(row.to_dict()):
-                print(f"SUCCESS!")
+                print("   SUCCESS!")
                 if self.config['settings']['manual_ip_rotation']:
-                    input(">>> PROMPT: Change IP/VPN now. Press ENTER to continue...")
-            time.sleep(random.uniform(3, 6))
+                    input(">>> Rotated IP? Press ENTER...")
+            time.sleep(random.uniform(2, 4))
 
 if __name__ == "__main__":
     bot = RegistrationBot('config.json')

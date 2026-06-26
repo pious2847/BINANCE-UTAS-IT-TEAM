@@ -4,8 +4,8 @@
   "log_path": "data/registered_users.csv",
   "defaults": {
     "country": "Ghana",
-    "how_heard": "Social Media",
-    "marketing_consent": true
+    "marketing_consent": true,
+    "other_text": "University Of Technology And Applied Sciences, Navorongo"
   },
   "settings": {
     "headless": false,

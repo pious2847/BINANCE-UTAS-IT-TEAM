@@ -27,3 +27,159 @@ Stacktrace:
 "
 2026-06-26 06:39:46,Abigail ,Tikesseh ,Abigailtikesseh@gmail.com,"Failed: Message: 
 "
+2026-06-26 07:07:22,Patricia ,Yenbapoka ,patriciakparib25@gmail.com,"Failed: Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=149.0.7827.199); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff7a39b3fa5+14925]
+	chromedriver!GetHandleVerifier [0x7ff7a39b4000+14980]
+	chromedriver!(No symbol) [0x7ff7a34f793d]
+	chromedriver!(No symbol) [0x7ff7a34e2d82]
+	chromedriver!(No symbol) [0x7ff7a35090cc]
+	chromedriver!(No symbol) [0x7ff7a3581aa0]
+	chromedriver!(No symbol) [0x7ff7a359ec82]
+	chromedriver!(No symbol) [0x7ff7a354401c]
+	chromedriver!(No symbol) [0x7ff7a3544f43]
+	chromedriver!GetHandleVerifier [0x7ff7a3f97591+5f7f11]
+	chromedriver!GetHandleVerifier [0x7ff7a3f91902+5f2282]
+	chromedriver!GetHandleVerifier [0x7ff7a3fb7115+617a95]
+	chromedriver!GetHandleVerifier [0x7ff7a39d1dce+3274e]
+	chromedriver!GetHandleVerifier [0x7ff7a39da82c+3b1ac]
+	chromedriver!GetHandleVerifier [0x7ff7a39bd744+1e0c4]
+	chromedriver!GetHandleVerifier [0x7ff7a39bd8d4+1e254]
+	chromedriver!GetHandleVerifier [0x7ff7a39a1447+1dc7]
+	KERNEL32!BaseThreadInitThunk [0x7ffcdb0ae957+17]
+	ntdll!RtlUserThreadStart [0x7ffcdc807c1c+2c]
+"
+2026-06-26 07:13:53,Nabuer Zaccheous ,Nteajal,nabuerzaccheous001@gmail.com,"Failed: Message: element not interactable
+  (Session info: chrome=149.0.7827.199); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementnotinteractableexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff7a39b3fa5+14925]
+	chromedriver!GetHandleVerifier [0x7ff7a39b4000+14980]
+	chromedriver!(No symbol) [0x7ff7a34f7726]
+	chromedriver!(No symbol) [0x7ff7a354c8a9]
+	chromedriver!(No symbol) [0x7ff7a354a448]
+	chromedriver!(No symbol) [0x7ff7a357a3ca]
+	chromedriver!(No symbol) [0x7ff7a35457c6]
+	chromedriver!(No symbol) [0x7ff7a359f39b]
+	chromedriver!(No symbol) [0x7ff7a354401c]
+	chromedriver!(No symbol) [0x7ff7a3544f43]
+	chromedriver!GetHandleVerifier [0x7ff7a3f97591+5f7f11]
+	chromedriver!GetHandleVerifier [0x7ff7a3f91902+5f2282]
+	chromedriver!GetHandleVerifier [0x7ff7a3fb7115+617a95]
+	chromedriver!GetHandleVerifier [0x7ff7a39d1dce+3274e]
+	chromedriver!GetHandleVerifier [0x7ff7a39da82c+3b1ac]
+	chromedriver!GetHandleVerifier [0x7ff7a39bd744+1e0c4]
+	chromedriver!GetHandleVerifier [0x7ff7a39bd8d4+1e254]
+	chromedriver!GetHandleVerifier [0x7ff7a39a1447+1dc7]
+	KERNEL32!BaseThreadInitThunk [0x7ffcdb0ae957+17]
+	ntdll!RtlUserThreadStart [0x7ffcdc807c1c+2c]
+"
+2026-06-26 07:14:27,Fortune,Awinsune ,fortuneayaane718@gmail.com,"Failed: Message: element not interactable
+  (Session info: chrome=149.0.7827.199); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementnotinteractableexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff7a39b3fa5+14925]
+	chromedriver!GetHandleVerifier [0x7ff7a39b4000+14980]
+	chromedriver!(No symbol) [0x7ff7a34f7726]
+	chromedriver!(No symbol) [0x7ff7a354c8a9]
+	chromedriver!(No symbol) [0x7ff7a354a448]
+	chromedriver!(No symbol) [0x7ff7a357a3ca]
+	chromedriver!(No symbol) [0x7ff7a35457c6]
+	chromedriver!(No symbol) [0x7ff7a359f39b]
+	chromedriver!(No symbol) [0x7ff7a354401c]
+	chromedriver!(No symbol) [0x7ff7a3544f43]
+	chromedriver!GetHandleVerifier [0x7ff7a3f97591+5f7f11]
+	chromedriver!GetHandleVerifier [0x7ff7a3f91902+5f2282]
+	chromedriver!GetHandleVerifier [0x7ff7a3fb7115+617a95]
+	chromedriver!GetHandleVerifier [0x7ff7a39d1dce+3274e]
+	chromedriver!GetHandleVerifier [0x7ff7a39da82c+3b1ac]
+	chromedriver!GetHandleVerifier [0x7ff7a39bd744+1e0c4]
+	chromedriver!GetHandleVerifier [0x7ff7a39bd8d4+1e254]
+	chromedriver!GetHandleVerifier [0x7ff7a39a1447+1dc7]
+	KERNEL32!BaseThreadInitThunk [0x7ffcdb0ae957+17]
+	ntdll!RtlUserThreadStart [0x7ffcdc807c1c+2c]
+"
+2026-06-26 07:33:55,Tahiru ,Munira Winpini ,tahirumunirawinpini72@gmail.com,"Failed: Message: element not interactable
+  (Session info: chrome=149.0.7827.199); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementnotinteractableexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff7a39b3fa5+14925]
+	chromedriver!GetHandleVerifier [0x7ff7a39b4000+14980]
+	chromedriver!(No symbol) [0x7ff7a34f7726]
+	chromedriver!(No symbol) [0x7ff7a354c8a9]
+	chromedriver!(No symbol) [0x7ff7a354a448]
+	chromedriver!(No symbol) [0x7ff7a357a3ca]
+	chromedriver!(No symbol) [0x7ff7a35457c6]
+	chromedriver!(No symbol) [0x7ff7a359f39b]
+	chromedriver!(No symbol) [0x7ff7a354401c]
+	chromedriver!(No symbol) [0x7ff7a3544f43]
+	chromedriver!GetHandleVerifier [0x7ff7a3f97591+5f7f11]
+	chromedriver!GetHandleVerifier [0x7ff7a3f91902+5f2282]
+	chromedriver!GetHandleVerifier [0x7ff7a3fb7115+617a95]
+	chromedriver!GetHandleVerifier [0x7ff7a39d1dce+3274e]
+	chromedriver!GetHandleVerifier [0x7ff7a39da82c+3b1ac]
+	chromedriver!GetHandleVerifier [0x7ff7a39bd744+1e0c4]
+	chromedriver!GetHandleVerifier [0x7ff7a39bd8d4+1e254]
+	chromedriver!GetHandleVerifier [0x7ff7a39a1447+1dc7]
+	KERNEL32!BaseThreadInitThunk [0x7ffcdb0ae957+17]
+	ntdll!RtlUserThreadStart [0x7ffcdc807c1c+2c]
+"
+2026-06-26 07:36:26,Ndakan ,Akor ,ndakanakor0@gmail.com,"Failed: Message: no such element: Unable to locate element: {""method"":""css selector"",""selector"":""[id=""56aeaca6-a0ad-4548-8afc-94d8d4361ba1""]""}
+  (Session info: chrome=149.0.7827.199); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff7a39b3fa5+14925]
+	chromedriver!GetHandleVerifier [0x7ff7a39b4000+14980]
+	chromedriver!(No symbol) [0x7ff7a34f793d]
+	chromedriver!(No symbol) [0x7ff7a3551aad]
+	chromedriver!(No symbol) [0x7ff7a3551dac]
+	chromedriver!(No symbol) [0x7ff7a35a27d7]
+	chromedriver!(No symbol) [0x7ff7a359f39b]
+	chromedriver!(No symbol) [0x7ff7a354401c]
+	chromedriver!(No symbol) [0x7ff7a3544f43]
+	chromedriver!GetHandleVerifier [0x7ff7a3f97591+5f7f11]
+	chromedriver!GetHandleVerifier [0x7ff7a3f91902+5f2282]
+	chromedriver!GetHandleVerifier [0x7ff7a3fb7115+617a95]
+	chromedriver!GetHandleVerifier [0x7ff7a39d1dce+3274e]
+	chromedriver!GetHandleVerifier [0x7ff7a39da82c+3b1ac]
+	chromedriver!GetHandleVerifier [0x7ff7a39bd744+1e0c4]
+	chromedriver!GetHandleVerifier [0x7ff7a39bd8d4+1e254]
+	chromedriver!GetHandleVerifier [0x7ff7a39a1447+1dc7]
+	KERNEL32!BaseThreadInitThunk [0x7ffcdb0ae957+17]
+	ntdll!RtlUserThreadStart [0x7ffcdc807c1c+2c]
+"
+2026-06-26 07:38:22,Musadiq,Salisu,musadiqsalisu@gmail.com,"Failed: Message: 
+"
+2026-06-26 07:42:28,Anyars,Farida,anyarsfarida@gmail.com,"Failed: Message: element click intercepted: Element <input data-cvent-id=""input"" maxlength=""30"" aria-required=""true"" required="""" type=""text"" autocomplete=""given-name"" class=""TextInput__textbox___eQpJt css-87ndg2"" label=""[object Object]"" id=""56aeaca6-a0ad-4548-8afc-94d8d4361ba1"" name=""56aeaca6-a0ad-4548-8afc-94d8d4361ba1"" aria-describedby=""56aeaca6-a0ad-4548-8afc-94d8d4361ba1"" value="""" style=""font-family: &quot;customGotham HTC&quot;, Helvetica, Arial, sans-serif; font-weight: 400; font-size: 16px; color: rgb(30, 32, 38); line-height: 1.3; font-style: normal; text-align: left; background-color: rgb(255, 255, 255); border-radius: 0px; border-width: 1px; border-style: solid; border-color: rgb(30, 32, 38); padding: 5px;""> is not clickable at point (716, 394). Other element would receive the click: <img alt=""BInance Learning Lab Podgorica"" srcset=""https://images-eur.cvent.com/pr53/09ea8e8dd03f4676a24755ba47394373/pix/9b4093f9a168407b96407a7869a0a7aa!_!ed910cf458cc41ff41870f752c32c739.jpg?d=320&amp;f=webp 320w,
+        https://images-eur.cvent.com/pr53/09ea8e8dd03f4676a24755ba47394373/pix/9b4093f9a168407b96407a7869a0a7aa!_!ed910cf458cc41ff41870f752c32c739.jpg?d=480&amp;f=webp 480w,
+        https://images-eur.cvent.com/pr53/09ea8e8dd03f4676a24755ba47394373/pix/9b4093f9a168407b96407a7869a0a7aa!_!ed910cf458cc41ff41870f752c32c739.jpg?d=768&amp;f=webp 768w,
+        https://images-eur.cvent.com/pr53/09ea8e8dd03f4676a24755ba47394373/pix/9b4093f9a168407b96407a7869a0a7aa!_!ed910cf458cc41ff41870f752c32c739.jpg?d=992&amp;f=webp 992w,
+        https://images-eur.cvent.com/pr53/09ea8e8dd03f4676a24755ba47394373/pix/9b4093f9a168407b96407a7869a0a7aa!_!ed910cf458cc41ff41870f752c32c739.jpg?f=webp 1600w"" src=""https://images-eur.cvent.com/pr53/09ea8e8dd03f4676a24755ba47394373/pix/9b4093f9a168407b96407a7869a0a7aa!_!ed910cf458cc41ff41870f752c32c739.jpg?f=webp"" style=""max-width: 1600px;"">
+  (Session info: chrome=149.0.7827.199); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementclickinterceptedexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff7a39b3fa5+14925]
+	chromedriver!GetHandleVerifier [0x7ff7a39b4000+14980]
+	chromedriver!(No symbol) [0x7ff7a34f793d]
+	chromedriver!(No symbol) [0x7ff7a3559755]
+	chromedriver!(No symbol) [0x7ff7a355736a]
+	chromedriver!(No symbol) [0x7ff7a35546b7]
+	chromedriver!(No symbol) [0x7ff7a3553567]
+	chromedriver!(No symbol) [0x7ff7a3545f48]
+	chromedriver!(No symbol) [0x7ff7a357a3ca]
+	chromedriver!(No symbol) [0x7ff7a35457c6]
+	chromedriver!(No symbol) [0x7ff7a359f39b]
+	chromedriver!(No symbol) [0x7ff7a354401c]
+	chromedriver!(No symbol) [0x7ff7a3544f43]
+	chromedriver!GetHandleVerifier [0x7ff7a3f97591+5f7f11]
+	chromedriver!GetHandleVerifier [0x7ff7a3f91902+5f2282]
+	chromedriver!GetHandleVerifier [0x7ff7a3fb7115+617a95]
+	chromedriver!GetHandleVerifier [0x7ff7a39d1dce+3274e]
+	chromedriver!GetHandleVerifier [0x7ff7a39da82c+3b1ac]
+	chromedriver!GetHandleVerifier [0x7ff7a39bd744+1e0c4]
+	chromedriver!GetHandleVerifier [0x7ff7a39bd8d4+1e254]
+	chromedriver!GetHandleVerifier [0x7ff7a39a1447+1dc7]
+	KERNEL32!BaseThreadInitThunk [0x7ffcdb0ae957+17]
+	ntdll!RtlUserThreadStart [0x7ffcdc807c1c+2c]
+"
+2026-06-26 07:44:49,Iddrisu ,Ibrahim ,iddrisu4356ibrahim@gmail.com,"Failed: Message: 
+"
+2026-06-26 07:52:07,ADAM ,IBRAHIM ,iadam7095@gmail.com,"Failed: Message: 
+"
