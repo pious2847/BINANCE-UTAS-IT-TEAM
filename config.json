@@ -1,16 +1,34 @@
 {
   "target_url": "https://www.binance.events/event/a483c41e-d3f9-4fe3-ba5c-5e1a61f4e56b/regProcessStep1",
-  "excel_path": "data/Contact Information (Responses).xlsx",
+  "csv_path": "data/Contact Information (Responses) - list one.csv",
   "log_path": "data/registered_users.csv",
+  "screenshot_dir": "data/screenshots",
   "defaults": {
+    "gender": "Male",
     "country": "Ghana",
-    "marketing_consent": true,
-    "other_text": "University Of Technology And Applied Sciences, Navorongo"
+    "how_heard_options": [
+      "Binance Communications",
+      "Email",
+      "X",
+      "Instagram",
+      "YouTube",
+      "Facebook",
+      "LinkedIn",
+      "TikTok",
+      "Google Search",
+      "Media",
+      "Others"
+    ],
+    "marketing_consent": true
   },
   "settings": {
     "headless": false,
     "manual_ip_rotation": true,
     "min_delay": 1.5,
-    "max_delay": 3.0
+    "max_delay": 3.0,
+    "max_retries": 3,
+    "screenshot_on_failure": true,
+    "page_load_timeout": 30,
+    "dry_run": false
   }
 }
