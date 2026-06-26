@@ -321,3 +321,22 @@ Stacktrace:
 "
 2026-06-26 09:41:14,Fortune,Awinsune,fortuneayaane718@gmail.com,"Failed: Message: 
 "
+2026-06-26 09:47:19,Atiga,Kuniba Aisha,atigakunibaaisha@gmail.com,"Failed: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff7a39b3fa5+14925]
+	chromedriver!GetHandleVerifier [0x7ff7a39b4000+14980]
+	chromedriver!(No symbol) [0x7ff7a34f793d]
+	chromedriver!(No symbol)"
+2026-06-26 09:48:27,Abigail,Tikesseh,Abigailtikesseh@gmail.com,"Failed: Message: 
+"
+2026-06-26 09:49:35,Patricia,Yenbapoka,patriciakparib25@gmail.com,"Failed: Message: 
+"
+2026-06-26 09:50:43,Nabuer Zaccheous,Nteajal,nabuerzaccheous001@gmail.com,"Failed: Message: 
+"
+2026-06-26 09:51:57,Fortune,Awinsune,fortuneayaane718@gmail.com,"Failed: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff7a39b3fa5+14925]
+	chromedriver!GetHandleVerifier [0x7ff7a39b4000+14980]
+	chromedriver!(No symbol) [0x7ff7a34f793d]
+	chromedriver!(No symbol)"
+2026-06-26 09:57:45,Atiga,Kuniba Aisha,atigakunibaaisha@gmail.com,Already Registered

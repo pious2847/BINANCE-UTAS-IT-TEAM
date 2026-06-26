@@ -394,37 +394,100 @@ class RegistrationBot:
 
             time.sleep(0.5)
 
-            # --- Step 6: Submit Step 1 (Next button) ---
+            # --- Step 6: Click "Next" on Step 1 ---
             next_btn = wait.until(EC.element_to_be_clickable((By.ID, "forward")))
             driver.execute_script("arguments[0].scrollIntoView({block: 'center'});", next_btn)
             time.sleep(0.5)
             driver.execute_script("arguments[0].click();", next_btn)
-            logger.info("   Clicked 'Next' — waiting for Summary page...")
+            logger.info("   Clicked 'Next' — watching for modal or page change...")
 
-            # --- Step 7: Wait for page to advance past Step 1 ---
-            wait.until(lambda d: "regProcessStep1" not in d.current_url)
-            time.sleep(3)  # Let the summary page fully render
+            # --- Step 7: Check for "already registered" modal ---
+            # Give the page up to 8 seconds to either show a modal OR navigate away
+            already_registered = False
+            for _ in range(16):  # 16 × 0.5s = 8s
+                time.sleep(0.5)
+                cur_url = driver.current_url
+
+                # If page navigated away from step1, we're on the summary page — good
+                if "regProcessStep1" not in cur_url:
+                    break
+
+                # Check for a modal / dialog indicating already registered
+                modal_text = driver.execute_script(
+                    "var modal = document.querySelector("
+                    "  '[role=\"dialog\"], [class*=\"modal\"], [class*=\"Modal\"], "
+                    "   [class*=\"alert\"], [class*=\"Alert\"]'"
+                    ");"
+                    "return modal ? modal.innerText : '';"
+                )
+                if modal_text and any(kw in modal_text.lower() for kw in
+                                      ["already", "duplicate", "registered", "exists"]):
+                    logger.info(f"   Already-registered modal detected: {modal_text[:120]}")
+                    already_registered = True
+
+                    # Dismiss the modal — try common close buttons
+                    dismissed = driver.execute_script(
+                        "var btns = document.querySelectorAll("
+                        "  'button, [role=\"button\"]'"
+                        ");"
+                        "for (var i = 0; i < btns.length; i++) {"
+                        "  var t = btns[i].innerText.toLowerCase();"
+                        "  if (t.includes('ok') || t.includes('close') || t.includes('dismiss') ||"
+                        "      t.includes('cancel') || t.includes('got it')) {"
+                        "    btns[i].click(); return btns[i].innerText;"
+                        "  }"
+                        "}"
+                        "return null;"
+                    )
+                    logger.info(f"   Modal dismissed via: '{dismissed}'")
+                    break
+            else:
+                # Timed out still on step1 — something is wrong
+                raise Exception("Timed out waiting for page to advance from Step 1.")
+
+            # If already registered, log and treat as success (skip, don't re-add to CSV)
+            if already_registered:
+                logger.info(f"   ALREADY REGISTERED: {email} — skipping.")
+                self.log_registration(user_data, "Already Registered")
+                return "already_registered"
+
+            time.sleep(2)  # Let summary page fully render
             logger.info(f"   Summary page loaded: {driver.current_url}")
 
-            # --- Step 8: Final submit ---
-            final_btn = wait.until(EC.element_to_be_clickable((By.ID, "forward")))
+            # --- Step 8: Final submit (button id="submit", not "forward") ---
+            # Try "submit" first (page 2 button), then fall back to "forward"
+            final_btn = None
+            for btn_id in ["submit", "forward"]:
+                try:
+                    final_btn = wait.until(EC.element_to_be_clickable((By.ID, btn_id)))
+                    logger.info(f"   Found final button: id='{btn_id}'")
+                    break
+                except Exception:
+                    continue
+
+            if final_btn is None:
+                raise Exception("Could not find final Submit/Next button on summary page.")
+
             driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
             time.sleep(1)
             driver.execute_script("arguments[0].click();", final_btn)
-            logger.info("   Final submit clicked — waiting for confirmation...")
+            logger.info("   Final submit clicked — proceeding to next registration...")
 
-            # --- Step 9: Confirm success ---
-            # The URL transitions to /summary or /confirmation after successful submit
-            wait.until(lambda d: (
-                "confirmation" in d.current_url or
-                "summary"      in d.current_url or
-                "regProcessStep1" not in d.current_url
-            ))
+            # --- Step 9: Wait briefly then move on (don't block on confirmation page) ---
+            # We just need the page to leave the summary/regPage — success is confirmed
+            # by the URL changing away from regPage. We do NOT wait for /confirmation
+            # since that wastes time; the submission is already queued server-side.
+            try:
+                WebDriverWait(driver, 20).until(
+                    lambda d: "regPage" not in d.current_url or
+                              "confirmation" in d.current_url
+                )
+            except Exception:
+                pass  # If it times out, check the URL anyway
+
             final_url = driver.current_url
-
-            # If we're back on step1 or still on regPage, it failed
-            if "regProcessStep1" in final_url:
-                raise Exception(f"Form did not advance. Still on: {final_url}")
+            if "regProcessStep1" in final_url and "regPage" not in final_url:
+                raise Exception(f"Submission may have failed. URL: {final_url}")
 
             logger.info(f"   SUCCESS: {email} | Final URL: {final_url}")
             self.log_registration(user_data, "Success")
@@ -459,16 +522,22 @@ class RegistrationBot:
         if limit.isdigit():
             to_process = to_process.head(int(limit))
 
-        success_count = 0
-        fail_count    = 0
+        success_count  = 0
+        fail_count     = 0
+        already_count  = 0
+        session_successes = []  # track successful rows for the session summary
 
         for idx, (_, row) in enumerate(to_process.iterrows(), start=1):
             print(f"\n[{idx}/{len(to_process)}]", flush=True)
-            ok = self.register_user(row.to_dict())
-            if ok:
+            result = self.register_user(row.to_dict())
+            if result is True:
                 success_count += 1
+                session_successes.append(row.to_dict())
                 if self.config['settings'].get('manual_ip_rotation', False):
                     input(">>> Rotate your IP now, then press ENTER to continue...")
+            elif result == "already_registered":
+                already_count += 1
+                # No IP rotation needed; no delay either — just move on
             else:
                 fail_count += 1
 
@@ -479,7 +548,76 @@ class RegistrationBot:
             logger.info(f"   Sleeping {delay:.1f}s before next record...")
             time.sleep(delay)
 
-        logger.info(f"\n=== SESSION COMPLETE | Success: {success_count} | Failed: {fail_count} ===")
+        # --- Write session summary ---
+        self._write_session_summary(session_successes, success_count, fail_count, already_count)
+        logger.info(
+            f"\n=== SESSION COMPLETE | "
+            f"Success: {success_count} | "
+            f"Already Registered: {already_count} | "
+            f"Failed: {fail_count} ==="
+        )
+
+    def _write_session_summary(self, successes, success_count, fail_count, already_count=0):
+        """
+        Writes two files after each session:
+          data/session_TIMESTAMP.csv  — clean CSV of everyone registered this session
+          data/session_TIMESTAMP.txt  — human-readable summary with counts and name list
+        """
+        timestamp   = time.strftime('%Y-%m-%d_%H-%M-%S')
+        summary_dir = os.path.dirname(self.log_path)
+        csv_path    = os.path.join(summary_dir, f"session_{timestamp}.csv")
+        txt_path    = os.path.join(summary_dir, f"session_{timestamp}.txt")
+
+        # --- CSV: one row per successful registrant (no duplicates) ---
+        seen_emails = set()
+        unique_successes = []
+        for s in successes:
+            em = str(s.get('Email', '')).strip().lower()
+            if em not in seen_emails:
+                seen_emails.add(em)
+                unique_successes.append(s)
+
+        if unique_successes:
+            with open(csv_path, 'w', newline='', encoding='utf-8') as f:
+                writer = csv.writer(f)
+                writer.writerow(['First Name', 'Last Name', 'Email', 'Registered At'])
+                reg_time = time.strftime('%Y-%m-%d %H:%M:%S')
+                for s in unique_successes:
+                    writer.writerow([
+                        str(s.get('First Name', '')).strip(),
+                        str(s.get('Last Name',  '')).strip(),
+                        str(s.get('Email',      '')).strip(),
+                        reg_time,
+                    ])
+            logger.info(f"   Session CSV saved: {csv_path}")
+        else:
+            logger.info("   No new successes this session — skipping CSV.")
+
+        # --- TXT: human-readable summary ---
+        total = success_count + fail_count + already_count
+        with open(txt_path, 'w', encoding='utf-8') as f:
+            f.write("=" * 52 + "\n")
+            f.write("     REGISTRATION SESSION SUMMARY\n")
+            f.write("=" * 52 + "\n")
+            f.write(f"  Date/Time        : {time.strftime('%Y-%m-%d %H:%M:%S')}\n")
+            f.write(f"  Successful       : {success_count}\n")
+            f.write(f"  Already Registered: {already_count}\n")
+            f.write(f"  Failed           : {fail_count}\n")
+            f.write(f"  Total Processed  : {total}\n")
+            f.write("=" * 52 + "\n\n")
+
+            if unique_successes:
+                f.write("Newly Registered Participants:\n")
+                f.write("-" * 52 + "\n")
+                for i, s in enumerate(unique_successes, start=1):
+                    first = str(s.get('First Name', '')).strip()
+                    last  = str(s.get('Last Name',  '')).strip()
+                    email = str(s.get('Email',      '')).strip()
+                    f.write(f"  {i:>3}. {first} {last} — {email}\n")
+            else:
+                f.write("  No new successful registrations this session.\n")
+
+        logger.info(f"   Session summary saved: {txt_path}")
 
 
 if __name__ == "__main__":

@@ -586,3 +586,187 @@ DIV|react-select-2-option-11| css-1262nuc-option|Others
 2026-06-26 09:41:16,824 - INFO -    Sleeping 1.9s before next record...
 2026-06-26 09:41:18,725 - INFO - 
 === SESSION COMPLETE | Success: 0 | Failed: 5 ===
+2026-06-26 09:45:55,744 - INFO - --- PROCESSING: Atiga Kuniba Aisha (atigakunibaaisha@gmail.com) ---
+2026-06-26 09:45:55,748 - INFO - ====== WebDriver manager ======
+2026-06-26 09:45:56,553 - INFO - Driver [C:\Users\Code-D\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win64/chromedriver.exe] found in cache by browser version
+2026-06-26 09:46:06,427 - INFO -    [Input] First Name set to: Atiga
+2026-06-26 09:46:07,063 - INFO -    [Input] Last Name set to: Kuniba Aisha
+2026-06-26 09:46:07,669 - INFO -    [Input] Email set to: atigakunibaaisha@gmail.com
+2026-06-26 09:46:07,752 - INFO -    [Select] Gender set to: Female
+2026-06-26 09:46:08,233 - INFO -    [Select] Country set to: Ghana
+2026-06-26 09:46:12,555 - INFO -    [Referral] Menu opened via: div[data-cvent-id='async-dropdown-wrapper'] div[class*='indicatorContainer']
+2026-06-26 09:46:12,561 - INFO -    [Referral Debug] DOM snapshot:
+SPAN|react-select-2-live-region|css-7pg0cj-a11yText|
+DIV|react-select-2-placeholder| css-14xwkp7-placeholder|
+DIV|react-select-2-listbox| css-og0n0e|Binance CommunicationsEmailXInstagramYou
+DIV|react-select-2-option-0| css-sl33e4-option|
+DIV|react-select-2-option-1| css-1262nuc-option|Binance Communications
+DIV|react-select-2-option-2| css-1262nuc-option|Email
+DIV|react-select-2-option-3| css-1262nuc-option|X
+DIV|react-select-2-option-4| css-1262nuc-option|Instagram
+DIV|react-select-2-option-5| css-1262nuc-option|YouTube
+DIV|react-select-2-option-6| css-1262nuc-option|Facebook
+DIV|react-select-2-option-7| css-1262nuc-option|LinkedIn
+DIV|react-select-2-option-8| css-1262nuc-option|TikTok
+DIV|react-select-2-option-9| css-1262nuc-option|Google Search
+DIV|react-select-2-option-10| css-1262nuc-option|Media
+DIV|react-select-2-option-11| css-1262nuc-option|Others
+2026-06-26 09:46:12,570 - INFO -    [Referral] Found 12 options. Looking for: 'Email'
+2026-06-26 09:46:12,584 - INFO -    [Referral] Options: ['', 'Binance Communications', 'Email', 'X', 'Instagram', 'YouTube', 'Facebook', 'LinkedIn', 'TikTok', 'Google Search', 'Media', 'Others']
+2026-06-26 09:46:13,401 - INFO -    [Referral] Selected: Email
+2026-06-26 09:46:15,958 - INFO -    Clicked 'Next' — waiting for Summary page...
+2026-06-26 09:46:38,972 - INFO -    Summary page loaded: https://www.binance.events/event/a483c41e-d3f9-4fe3-ba5c-5e1a61f4e56b/regPage:8a362de7-7f50-4880-a9a5-1035b2c14d43
+2026-06-26 09:47:19,095 - ERROR -    FAILED: atigakunibaaisha@gmail.com | URL: https://www.binance.events/event/a483c41e-d3f9-4fe3-ba5c-5e1a61f4e56b/confirmation
+2026-06-26 09:47:19,095 - ERROR -    Error: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff7a39b3fa5+14925]
+	chromedriver!GetHandleVerifier [0x7ff7a39b4000+14980]
+	chromedriver!(No symbol) [0x7ff7a34f793d]
+	chromedriver!(No symbol) [0x7ff7a3551aad]
+	chromedriver!(No symbol) [0x7ff7a3551dac]
+	chromedriver!(No symbol) [0x7ff7a35a27
+2026-06-26 09:47:21,403 - INFO -    Sleeping 2.7s before next record...
+2026-06-26 09:47:24,086 - INFO - --- PROCESSING: Abigail Tikesseh (Abigailtikesseh@gmail.com) ---
+2026-06-26 09:47:24,086 - INFO - ====== WebDriver manager ======
+2026-06-26 09:47:24,805 - INFO - Driver [C:\Users\Code-D\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win64/chromedriver.exe] found in cache by browser version
+2026-06-26 09:47:37,019 - INFO -    [Input] First Name set to: Abigail
+2026-06-26 09:47:37,656 - INFO -    [Input] Last Name set to: Tikesseh
+2026-06-26 09:47:38,311 - INFO -    [Input] Email set to: Abigailtikesseh@gmail.com
+2026-06-26 09:47:38,408 - INFO -    [Select] Gender set to: Female
+2026-06-26 09:47:38,904 - INFO -    [Select] Country set to: Ghana
+2026-06-26 09:47:43,164 - INFO -    [Referral] Menu opened via: div[data-cvent-id='async-dropdown-wrapper'] div[class*='indicatorContainer']
+2026-06-26 09:47:43,171 - INFO -    [Referral Debug] DOM snapshot:
+SPAN|react-select-2-live-region|css-7pg0cj-a11yText|
+DIV|react-select-2-placeholder| css-14xwkp7-placeholder|
+DIV|react-select-2-listbox| css-og0n0e|Binance CommunicationsEmailXInstagramYou
+DIV|react-select-2-option-0| css-sl33e4-option|
+DIV|react-select-2-option-1| css-1262nuc-option|Binance Communications
+DIV|react-select-2-option-2| css-1262nuc-option|Email
+DIV|react-select-2-option-3| css-1262nuc-option|X
+DIV|react-select-2-option-4| css-1262nuc-option|Instagram
+DIV|react-select-2-option-5| css-1262nuc-option|YouTube
+DIV|react-select-2-option-6| css-1262nuc-option|Facebook
+DIV|react-select-2-option-7| css-1262nuc-option|LinkedIn
+DIV|react-select-2-option-8| css-1262nuc-option|TikTok
+DIV|react-select-2-option-9| css-1262nuc-option|Google Search
+DIV|react-select-2-option-10| css-1262nuc-option|Media
+DIV|react-select-2-option-11| css-1262nuc-option|Others
+2026-06-26 09:47:43,179 - INFO -    [Referral] Found 12 options. Looking for: 'Instagram'
+2026-06-26 09:47:43,192 - INFO -    [Referral] Options: ['', 'Binance Communications', 'Email', 'X', 'Instagram', 'YouTube', 'Facebook', 'LinkedIn', 'TikTok', 'Google Search', 'Media', 'Others']
+2026-06-26 09:47:44,005 - INFO -    [Referral] Selected: Instagram
+2026-06-26 09:47:46,783 - INFO -    Clicked 'Next' — waiting for Summary page...
+2026-06-26 09:48:27,026 - ERROR -    FAILED: Abigailtikesseh@gmail.com | URL: https://www.binance.events/event/a483c41e-d3f9-4fe3-ba5c-5e1a61f4e56b/regProcessStep1
+2026-06-26 09:48:27,026 - ERROR -    Error: Message: 
+
+2026-06-26 09:48:29,430 - INFO -    Sleeping 2.9s before next record...
+2026-06-26 09:48:32,379 - INFO - --- PROCESSING: Patricia Yenbapoka (patriciakparib25@gmail.com) ---
+2026-06-26 09:48:32,379 - INFO - ====== WebDriver manager ======
+2026-06-26 09:48:33,134 - INFO - Driver [C:\Users\Code-D\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win64/chromedriver.exe] found in cache by browser version
+2026-06-26 09:48:46,007 - INFO -    [Input] First Name set to: Patricia
+2026-06-26 09:48:46,605 - INFO -    [Input] Last Name set to: Yenbapoka
+2026-06-26 09:48:47,268 - INFO -    [Input] Email set to: patriciakparib25@gmail.com
+2026-06-26 09:48:47,365 - INFO -    [Select] Gender set to: Female
+2026-06-26 09:48:47,847 - INFO -    [Select] Country set to: Ghana
+2026-06-26 09:48:52,099 - INFO -    [Referral] Menu opened via: div[data-cvent-id='async-dropdown-wrapper'] div[class*='indicatorContainer']
+2026-06-26 09:48:52,105 - INFO -    [Referral Debug] DOM snapshot:
+SPAN|react-select-2-live-region|css-7pg0cj-a11yText|
+DIV|react-select-2-placeholder| css-14xwkp7-placeholder|
+DIV|react-select-2-listbox| css-og0n0e|Binance CommunicationsEmailXInstagramYou
+DIV|react-select-2-option-0| css-sl33e4-option|
+DIV|react-select-2-option-1| css-1262nuc-option|Binance Communications
+DIV|react-select-2-option-2| css-1262nuc-option|Email
+DIV|react-select-2-option-3| css-1262nuc-option|X
+DIV|react-select-2-option-4| css-1262nuc-option|Instagram
+DIV|react-select-2-option-5| css-1262nuc-option|YouTube
+DIV|react-select-2-option-6| css-1262nuc-option|Facebook
+DIV|react-select-2-option-7| css-1262nuc-option|LinkedIn
+DIV|react-select-2-option-8| css-1262nuc-option|TikTok
+DIV|react-select-2-option-9| css-1262nuc-option|Google Search
+DIV|react-select-2-option-10| css-1262nuc-option|Media
+DIV|react-select-2-option-11| css-1262nuc-option|Others
+2026-06-26 09:48:52,113 - INFO -    [Referral] Found 12 options. Looking for: 'Binance Communications'
+2026-06-26 09:48:52,128 - INFO -    [Referral] Options: ['', 'Binance Communications', 'Email', 'X', 'Instagram', 'YouTube', 'Facebook', 'LinkedIn', 'TikTok', 'Google Search', 'Media', 'Others']
+2026-06-26 09:48:52,945 - INFO -    [Referral] Selected: Binance Communications
+2026-06-26 09:48:55,913 - INFO -    Clicked 'Next' — waiting for Summary page...
+2026-06-26 09:49:35,919 - ERROR -    FAILED: patriciakparib25@gmail.com | URL: https://www.binance.events/event/a483c41e-d3f9-4fe3-ba5c-5e1a61f4e56b/regProcessStep1
+2026-06-26 09:49:35,920 - ERROR -    Error: Message: 
+
+2026-06-26 09:49:38,259 - INFO -    Sleeping 2.2s before next record...
+2026-06-26 09:49:40,497 - INFO - --- PROCESSING: Nabuer Zaccheous Nteajal (nabuerzaccheous001@gmail.com) ---
+2026-06-26 09:49:40,498 - INFO - ====== WebDriver manager ======
+2026-06-26 09:49:41,241 - INFO - Driver [C:\Users\Code-D\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win64/chromedriver.exe] found in cache by browser version
+2026-06-26 09:49:54,095 - INFO -    [Input] First Name set to: Nabuer Zaccheous
+2026-06-26 09:49:54,692 - INFO -    [Input] Last Name set to: Nteajal
+2026-06-26 09:49:55,300 - INFO -    [Input] Email set to: nabuerzaccheous001@gmail.com
+2026-06-26 09:49:55,418 - INFO -    [Select] Gender set to: Male
+2026-06-26 09:49:55,901 - INFO -    [Select] Country set to: Ghana
+2026-06-26 09:50:00,155 - INFO -    [Referral] Menu opened via: div[data-cvent-id='async-dropdown-wrapper'] div[class*='indicatorContainer']
+2026-06-26 09:50:00,162 - INFO -    [Referral Debug] DOM snapshot:
+SPAN|react-select-2-live-region|css-7pg0cj-a11yText|
+DIV|react-select-2-placeholder| css-14xwkp7-placeholder|
+DIV|react-select-2-listbox| css-og0n0e|Binance CommunicationsEmailXInstagramYou
+DIV|react-select-2-option-0| css-sl33e4-option|
+DIV|react-select-2-option-1| css-1262nuc-option|Binance Communications
+DIV|react-select-2-option-2| css-1262nuc-option|Email
+DIV|react-select-2-option-3| css-1262nuc-option|X
+DIV|react-select-2-option-4| css-1262nuc-option|Instagram
+DIV|react-select-2-option-5| css-1262nuc-option|YouTube
+DIV|react-select-2-option-6| css-1262nuc-option|Facebook
+DIV|react-select-2-option-7| css-1262nuc-option|LinkedIn
+DIV|react-select-2-option-8| css-1262nuc-option|TikTok
+DIV|react-select-2-option-9| css-1262nuc-option|Google Search
+DIV|react-select-2-option-10| css-1262nuc-option|Media
+DIV|react-select-2-option-11| css-1262nuc-option|Others
+2026-06-26 09:50:00,173 - INFO -    [Referral] Found 12 options. Looking for: 'Instagram'
+2026-06-26 09:50:00,188 - INFO -    [Referral] Options: ['', 'Binance Communications', 'Email', 'X', 'Instagram', 'YouTube', 'Facebook', 'LinkedIn', 'TikTok', 'Google Search', 'Media', 'Others']
+2026-06-26 09:50:01,021 - INFO -    [Referral] Selected: Instagram
+2026-06-26 09:50:03,414 - INFO -    Clicked 'Next' — waiting for Summary page...
+2026-06-26 09:50:43,893 - ERROR -    FAILED: nabuerzaccheous001@gmail.com | URL: https://www.binance.events/event/a483c41e-d3f9-4fe3-ba5c-5e1a61f4e56b/regProcessStep1
+2026-06-26 09:50:43,893 - ERROR -    Error: Message: 
+
+2026-06-26 09:50:46,387 - INFO -    Sleeping 2.4s before next record...
+2026-06-26 09:50:48,779 - INFO - --- PROCESSING: Fortune Awinsune (fortuneayaane718@gmail.com) ---
+2026-06-26 09:50:48,779 - INFO - ====== WebDriver manager ======
+2026-06-26 09:50:49,471 - INFO - Driver [C:\Users\Code-D\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win64/chromedriver.exe] found in cache by browser version
+2026-06-26 09:51:01,045 - INFO -    [Input] First Name set to: Fortune
+2026-06-26 09:51:01,639 - INFO -    [Input] Last Name set to: Awinsune
+2026-06-26 09:51:02,254 - INFO -    [Input] Email set to: fortuneayaane718@gmail.com
+2026-06-26 09:51:02,369 - INFO -    [Select] Gender set to: Female
+2026-06-26 09:51:02,864 - INFO -    [Select] Country set to: Ghana
+2026-06-26 09:51:07,111 - INFO -    [Referral] Menu opened via: div[data-cvent-id='async-dropdown-wrapper'] div[class*='indicatorContainer']
+2026-06-26 09:51:07,118 - INFO -    [Referral Debug] DOM snapshot:
+SPAN|react-select-2-live-region|css-7pg0cj-a11yText|
+DIV|react-select-2-placeholder| css-14xwkp7-placeholder|
+DIV|react-select-2-listbox| css-og0n0e|Binance CommunicationsEmailXInstagramYou
+DIV|react-select-2-option-0| css-sl33e4-option|
+DIV|react-select-2-option-1| css-1262nuc-option|Binance Communications
+DIV|react-select-2-option-2| css-1262nuc-option|Email
+DIV|react-select-2-option-3| css-1262nuc-option|X
+DIV|react-select-2-option-4| css-1262nuc-option|Instagram
+DIV|react-select-2-option-5| css-1262nuc-option|YouTube
+DIV|react-select-2-option-6| css-1262nuc-option|Facebook
+DIV|react-select-2-option-7| css-1262nuc-option|LinkedIn
+DIV|react-select-2-option-8| css-1262nuc-option|TikTok
+DIV|react-select-2-option-9| css-1262nuc-option|Google Search
+DIV|react-select-2-option-10| css-1262nuc-option|Media
+DIV|react-select-2-option-11| css-1262nuc-option|Others
+2026-06-26 09:51:07,127 - INFO -    [Referral] Found 12 options. Looking for: 'Instagram'
+2026-06-26 09:51:07,147 - INFO -    [Referral] Options: ['', 'Binance Communications', 'Email', 'X', 'Instagram', 'YouTube', 'Facebook', 'LinkedIn', 'TikTok', 'Google Search', 'Media', 'Others']
+2026-06-26 09:51:07,939 - INFO -    [Referral] Selected: Instagram
+2026-06-26 09:51:10,318 - INFO -    Clicked 'Next' — waiting for Summary page...
+2026-06-26 09:51:16,974 - INFO -    Summary page loaded: https://www.binance.events/event/a483c41e-d3f9-4fe3-ba5c-5e1a61f4e56b/regPage:8a362de7-7f50-4880-a9a5-1035b2c14d43
+2026-06-26 09:51:57,279 - ERROR -    FAILED: fortuneayaane718@gmail.com | URL: https://www.binance.events/event/a483c41e-d3f9-4fe3-ba5c-5e1a61f4e56b/regPage:8a362de7-7f50-4880-a9a5-1035b2c14d43
+2026-06-26 09:51:57,280 - ERROR -    Error: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff7a39b3fa5+14925]
+	chromedriver!GetHandleVerifier [0x7ff7a39b4000+14980]
+	chromedriver!(No symbol) [0x7ff7a34f793d]
+	chromedriver!(No symbol) [0x7ff7a3551aad]
+	chromedriver!(No symbol) [0x7ff7a3551dac]
+	chromedriver!(No symbol) [0x7ff7a35a27
+2026-06-26 09:51:59,626 - INFO -    Sleeping 2.0s before next record...
+2026-06-26 09:52:01,606 - INFO - --- PROCESSING: Tahiru Munira Winpini (tahirumunirawinpini72@gmail.com) ---
+2026-06-26 09:52:01,606 - INFO - ====== WebDriver manager ======
+2026-06-26 09:52:02,456 - INFO - Driver [C:\Users\Code-D\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win64/chromedriver.exe] found in cache by browser version
+2026-06-26 09:52:14,756 - INFO -    [Input] First Name set to: Tahiru
+2026-06-26 09:52:15,299 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)': /session/b0f892ec39ec3b7a97a29a7c9400f4b4
