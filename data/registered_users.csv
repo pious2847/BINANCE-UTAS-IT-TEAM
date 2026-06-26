@@ -1,0 +1,29 @@
+Timestamp,First Name,Last Name,Email,Status
+2026-06-26 06:24:13,Jacob ,Kolwefera ,jkolwefera@gmail.com,Failed: module 'selenium.webdriver.support.expected_conditions' has no attribute 'presence_of_element_list'
+2026-06-26 06:29:46,Isaac Newton ,Quaye,isaacquaye508@gmail.com,Failed: module 'selenium.webdriver.support.expected_conditions' has no attribute 'presence_of_element_list'
+2026-06-26 06:37:19,Atiga,Kuniba Aisha ,atigakunibaaisha@gmail.com,"Failed: Message: element not interactable
+  (Session info: chrome=149.0.7827.199); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementnotinteractableexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff7a39b3fa5+14925]
+	chromedriver!GetHandleVerifier [0x7ff7a39b4000+14980]
+	chromedriver!(No symbol) [0x7ff7a34f7726]
+	chromedriver!(No symbol) [0x7ff7a354c8a9]
+	chromedriver!(No symbol) [0x7ff7a354a448]
+	chromedriver!(No symbol) [0x7ff7a357a3ca]
+	chromedriver!(No symbol) [0x7ff7a35457c6]
+	chromedriver!(No symbol) [0x7ff7a359f39b]
+	chromedriver!(No symbol) [0x7ff7a354401c]
+	chromedriver!(No symbol) [0x7ff7a3544f43]
+	chromedriver!GetHandleVerifier [0x7ff7a3f97591+5f7f11]
+	chromedriver!GetHandleVerifier [0x7ff7a3f91902+5f2282]
+	chromedriver!GetHandleVerifier [0x7ff7a3fb7115+617a95]
+	chromedriver!GetHandleVerifier [0x7ff7a39d1dce+3274e]
+	chromedriver!GetHandleVerifier [0x7ff7a39da82c+3b1ac]
+	chromedriver!GetHandleVerifier [0x7ff7a39bd744+1e0c4]
+	chromedriver!GetHandleVerifier [0x7ff7a39bd8d4+1e254]
+	chromedriver!GetHandleVerifier [0x7ff7a39a1447+1dc7]
+	KERNEL32!BaseThreadInitThunk [0x7ffcdb0ae957+17]
+	ntdll!RtlUserThreadStart [0x7ffcdc807c1c+2c]
+"
+2026-06-26 06:39:46,Abigail ,Tikesseh ,Abigailtikesseh@gmail.com,"Failed: Message: 
+"
