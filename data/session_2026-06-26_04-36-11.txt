@@ -1,0 +1,58 @@
+====================================================
+     REGISTRATION SESSION SUMMARY
+====================================================
+  Date/Time        : 2026-06-26 04:36:11
+  Successful       : 46
+  Already Registered: 10
+  Failed           : 8
+  Total Processed  : 64
+====================================================
+
+Newly Registered Participants:
+----------------------------------------------------
+    1. Ayisha Mumuni — ayisham4141@gmail.com
+    2. Joana Ayinsakiya Akake — akakejoanaayinsakiya@gmail.com
+    3. Tia Luke — tialuke35@gmail.com
+    4. Njonan Joseph Donkor — josephnjonan4@gmail.com
+    5. Saviour Asante — sasante26.stu@utas.edu.gh
+    6. Ibrahim Abdul Karim — ibrahimabdulkarima75@gmail.com
+    7. SARAH AFFEDZIE — sarahaffedzie4@gmail.com
+    8. Joyce Nbeninbe — Joycenbeninbe@gmail.com
+    9. Alhassan Amidu — alhassanamidu803@gmail.com
+   10. Hummu Habiba Haruna — hummuhabiba2@gmail.com
+   11. Millicent Ayeepoka Abugri — abugrimillicent454@gmail.com
+   12. Mubashira Ahmed Musah — mubashiramusah9@gmail.com
+   13. Dogo Salam — dogosalam@gmail.com
+   14. Sulemana Yussif — ysulemana40@gmail.com
+   15. Nang Rita — nangrita25@gmail.com
+   16. Priscilla Buabeng — priscillakudugu@gmail.com
+   17. Gladys Turubagwi Kufogidirah — turubagwigladys@gmail.com
+   18. Kasimu Khadija — khadijahkasimu440@gmail.com
+   19. Fatima Deisheni — deborahfatima343@gmail.com
+   20. Lisa Wumboradak Upoalkpajor — upoalkpajorlisa@gmail.com
+   21. Sisu Atelyini Musah — musahsisuatelyini@gmail.com
+   22. Godwin Alouyere — alouyerew@gmail.com
+   23. Haruna Wasib — wharuna25.stu@utas.edu.gh
+   24. Iddrisu Mohammed Hardi — middrisu26.stu@utas.edu.gh
+   25. Abdulai Abdul-Malick — abdulaiabdulmalick@gmail.com
+   26. Mugnen Batichu Johnson — mugnenbjohnson@gmail.com
+   27. Franklina Akwodam — akwodamfranklina@gmail.com
+   28. Joshua Tungkungmen — jtungkungmen@gmail.com
+   29. Salma Alhassan Salma — salhassansalma28@gmail.com
+   30. Moses Akanjevari — akabiyerkwabena123@gmail.com
+   31. Delicia Atuidem — deliciaawenimaalie@gmail.com
+   32. Ishmael Abdulai — abdulaiishmael86@gmail.com
+   33. Firdaus Hamidu — fhamidu23.stu@utas.edu.gh
+   34. MARY WANIB  KUTUNAM — marykutunam@gmail.com
+   35. Amadu Hammadu — amadumahammde@gmail.com
+   36. Aminatu Mirabel Karim — karimmirabel60@gmail.com
+   37. Akolbire Mary — ananganamahm@gmail.com
+   38. MATTHEW AAKOM — maakom23.stu@utas.edu.gh
+   39. Konlan Priscilla Yennuloom — konlanpriscilla53@gmail.com
+   40. Wakila Baisaana — wbaisaana24@cktutas.edu.gh
+   41. Munyah Deborah Akiwele — deborahmunyahd@gmail.com
+   42. Sakina Awufor Bala Kwabena — kwabenasakinaawuforbala03@gmail.com
+   43. Augustina Luguyeire — augestinaluguyeire@gmail.com
+   44. Genevieve Awenseba — awensebagenevieve96@gmail.com
+   45. DAMATIUS BUURINUMA MOLONAAH — damatiusmolonaah@gmail.com
+   46. Emmanuel Akazoore — emmanuelakazoore@gmail.com

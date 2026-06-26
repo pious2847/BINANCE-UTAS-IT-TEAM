@@ -759,7 +759,7 @@ class RegistrationBot:
                 success_count += 1
                 session_successes.append(row.to_dict())
                 if self.config['settings'].get('manual_ip_rotation', False):
-                    input(">>> Rotate your IP now, then press ENTER to continue...")
+                    time.sleep(1)
             elif result == "already_registered":
                 already_count += 1
                 # No IP rotation needed; no delay either — just move on
