@@ -12,6 +12,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.action_chains import ActionChains
+from selenium.webdriver.common.keys import Keys
 from webdriver_manager.chrome import ChromeDriverManager
 
 # --- LOGGING SETUP ---
@@ -315,6 +316,57 @@ class RegistrationBot:
         except Exception:
             pass  # Non-critical; just skip if not found
 
+    def _handle_resume_modal(self, driver):
+        """
+        Detects and handles the 'You have a previous session — continue?' modal
+        that appears when a user previously started but didn't finish registration.
+        Clicks 'Yes' / 'Continue' to resume, then waits for the form to re-render.
+        If no modal is present, returns silently.
+        """
+        try:
+            # Quick check — only look for 1.5s so we don't slow down fresh sessions
+            modal = WebDriverWait(driver, 1.5).until(
+                EC.presence_of_element_located((
+                    By.CSS_SELECTOR,
+                    '[role="dialog"], [class*="modal"], [class*="Modal"], '
+                    '[class*="Dialog"], [class*="dialog"]'
+                ))
+            )
+            modal_text = modal.text.lower()
+            is_resume = any(kw in modal_text for kw in
+                            ["continue", "resume", "previous", "session", "started"])
+
+            if not is_resume:
+                return  # Different modal, leave it for other handlers
+
+            logger.info(f"   [Resume Modal] Detected: {modal.text[:100]}")
+
+            # Click Yes/Continue button inside the modal
+            clicked = driver.execute_script(
+                "var btns = arguments[0].querySelectorAll('button, [role=\"button\"]');"
+                "for (var i = 0; i < btns.length; i++) {"
+                "  var t = btns[i].innerText.toLowerCase();"
+                "  if (t.includes('yes') || t.includes('continue') || t.includes('resume')) {"
+                "    btns[i].click(); return btns[i].innerText;"
+                "  }"
+                "}"
+                # Fallback: try any primary/confirm-looking button
+                "var allBtns = document.querySelectorAll('button');"
+                "for (var j = 0; j < allBtns.length; j++) {"
+                "  var cls = allBtns[j].className.toLowerCase();"
+                "  if (cls.includes('primary') || cls.includes('confirm')) {"
+                "    allBtns[j].click(); return allBtns[j].innerText;"
+                "  }"
+                "}"
+                "return null;",
+                modal
+            )
+            logger.info(f"   [Resume Modal] Clicked: '{clicked}'")
+            time.sleep(2)  # Wait for form to re-populate after resume
+
+        except Exception:
+            pass  # No modal found — normal flow
+
     # ------------------------------------------------------------------ #
     #  Main registration flow
     # ------------------------------------------------------------------ #
@@ -338,6 +390,11 @@ class RegistrationBot:
             ))
             # Extra buffer for React to finish rendering all fields
             time.sleep(2)
+
+            # --- Pre-step: Handle "continue previous session?" modal ---
+            # This appears when someone previously started but didn't finish.
+            # We click Yes to resume, which may pre-fill some fields.
+            self._handle_resume_modal(driver)
 
             # --- Step 1: Text fields ---
             self.js_set_input(driver, "56aeaca6-a0ad-4548-8afc-94d8d4361ba1", first, "First Name")
@@ -401,49 +458,65 @@ class RegistrationBot:
             driver.execute_script("arguments[0].click();", next_btn)
             logger.info("   Clicked 'Next' — watching for modal or page change...")
 
-            # --- Step 7: Check for "already registered" modal ---
-            # Give the page up to 8 seconds to either show a modal OR navigate away
+            # --- Step 7: Wait for page to advance, handle modals ---
+            # After clicking Next the page either:
+            #   a) Advances to the summary/regPage URL  → success path
+            #   b) Shows an "already registered" modal  → skip user
+            #   c) Shows validation errors and stays    → retry Next click once
             already_registered = False
-            for _ in range(16):  # 16 × 0.5s = 8s
+            next_retry_done    = False
+
+            for tick in range(50):  # 50 × 0.5s = 25s max
                 time.sleep(0.5)
                 cur_url = driver.current_url
 
-                # If page navigated away from step1, we're on the summary page — good
+                # Page advanced — we're done with step1
                 if "regProcessStep1" not in cur_url:
                     break
 
-                # Check for a modal / dialog indicating already registered
                 modal_text = driver.execute_script(
-                    "var modal = document.querySelector("
-                    "  '[role=\"dialog\"], [class*=\"modal\"], [class*=\"Modal\"], "
-                    "   [class*=\"alert\"], [class*=\"Alert\"]'"
-                    ");"
-                    "return modal ? modal.innerText : '';"
+                    "var m = document.querySelector("
+                    "  '[role=\"dialog\"],[class*=\"modal\"],[class*=\"Modal\"],"
+                    "   [class*=\"Dialog\"],[class*=\"dialog\"]');"
+                    "return m ? m.innerText : '';"
                 )
+
+                # Already-registered modal
                 if modal_text and any(kw in modal_text.lower() for kw in
                                       ["already", "duplicate", "registered", "exists"]):
-                    logger.info(f"   Already-registered modal detected: {modal_text[:120]}")
+                    logger.info(f"   Already-registered modal: {modal_text[:100]}")
                     already_registered = True
-
-                    # Dismiss the modal — try common close buttons
-                    dismissed = driver.execute_script(
-                        "var btns = document.querySelectorAll("
-                        "  'button, [role=\"button\"]'"
-                        ");"
-                        "for (var i = 0; i < btns.length; i++) {"
-                        "  var t = btns[i].innerText.toLowerCase();"
-                        "  if (t.includes('ok') || t.includes('close') || t.includes('dismiss') ||"
-                        "      t.includes('cancel') || t.includes('got it')) {"
-                        "    btns[i].click(); return btns[i].innerText;"
-                        "  }"
+                    driver.execute_script(
+                        "var btns=document.querySelectorAll('button,[role=\"button\"]');"
+                        "for(var i=0;i<btns.length;i++){"
+                        "  var t=btns[i].innerText.toLowerCase();"
+                        "  if(t.includes('ok')||t.includes('close')||t.includes('dismiss')||"
+                        "     t.includes('cancel')||t.includes('got it')){"
+                        "    btns[i].click();return;}"
                         "}"
-                        "return null;"
                     )
-                    logger.info(f"   Modal dismissed via: '{dismissed}'")
                     break
+
+                # Validation errors — retry the Next click once after a short pause
+                if not next_retry_done and tick >= 4:
+                    has_errors = driver.execute_script(
+                        "return document.querySelector("
+                        "  '[class*=\"error\"],[class*=\"Error\"],[class*=\"invalid\"],"
+                        "   [class*=\"required\"],[aria-invalid=\"true\"]') !== null;"
+                    )
+                    if has_errors:
+                        logger.warning("   Validation errors detected — retrying Next click...")
+                        try:
+                            nb = driver.find_element(By.ID, "forward")
+                            driver.execute_script(
+                                "arguments[0].scrollIntoView({block:'center'});", nb)
+                            time.sleep(0.3)
+                            driver.execute_script("arguments[0].click();", nb)
+                        except Exception:
+                            pass
+                        next_retry_done = True
             else:
-                # Timed out still on step1 — something is wrong
-                raise Exception("Timed out waiting for page to advance from Step 1.")
+                raise Exception("Timed out (25s) waiting for page to advance from Step 1.")
 
             # If already registered, log and treat as success (skip, don't re-add to CSV)
             if already_registered:
@@ -491,6 +564,7 @@ class RegistrationBot:
 
             logger.info(f"   SUCCESS: {email} | Final URL: {final_url}")
             self.log_registration(user_data, "Success")
+            self.remove_from_excel(email)
             return True
 
         except Exception as e:
@@ -500,6 +574,22 @@ class RegistrationBot:
             return False
         finally:
             driver.quit()
+
+    def remove_from_excel(self, email):
+        """Remove a row from the source Excel file after successful registration."""
+        excel_path = self.config['excel_path']
+        try:
+            df = pd.read_excel(excel_path)
+            df.columns = [str(c).strip() for c in df.columns]
+            before = len(df)
+            df = df[df['Email'].astype(str).str.strip().str.lower() != email.strip().lower()]
+            if len(df) < before:
+                df.to_excel(excel_path, index=False)
+                logger.info(f"   [Excel] Removed {email} from source file.")
+            else:
+                logger.warning(f"   [Excel] Email not found in source to remove: {email}")
+        except Exception as e:
+            logger.warning(f"   [Excel] Could not update source file: {str(e)[:100]}")
 
     def log_registration(self, user_data, status):
         first = str(user_data.get('First Name', '')).strip()
@@ -518,9 +608,25 @@ class RegistrationBot:
         to_process = df[mask].copy()
 
         print(f"\nTotal pending: {len(to_process)} records")
-        limit = input("How many to process this session? (blank = all): ").strip()
-        if limit.isdigit():
-            to_process = to_process.head(int(limit))
+        print("Enter a number (e.g. 50), a range (e.g. 1-100 or 200-250), or leave blank for all.")
+        raw = input("Process: ").strip()
+
+        if '-' in raw:
+            # Range like "1-100" or "50-150"
+            parts = raw.split('-')
+            try:
+                start_i = max(0, int(parts[0].strip()) - 1)   # convert to 0-based
+                end_i   = int(parts[1].strip())
+                to_process = to_process.iloc[start_i:end_i].copy()
+                print(f"Processing rows {start_i+1}–{end_i} ({len(to_process)} records)")
+            except ValueError:
+                print("Invalid range — processing all.")
+        elif raw.isdigit():
+            # Single number — take first N
+            to_process = to_process.head(int(raw))
+            print(f"Processing first {len(to_process)} records")
+        else:
+            print(f"Processing all {len(to_process)} records")
 
         success_count  = 0
         fail_count     = 0

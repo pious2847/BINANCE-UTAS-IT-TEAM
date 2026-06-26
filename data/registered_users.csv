@@ -340,3 +340,24 @@ Stacktrace:
 	chromedriver!(No symbol) [0x7ff7a34f793d]
 	chromedriver!(No symbol)"
 2026-06-26 09:57:45,Atiga,Kuniba Aisha,atigakunibaaisha@gmail.com,Already Registered
+2026-06-26 09:58:14,Abigail,Tikesseh,Abigailtikesseh@gmail.com,Already Registered
+2026-06-26 09:58:46,Patricia,Yenbapoka,patriciakparib25@gmail.com,Already Registered
+2026-06-26 09:59:16,Nabuer Zaccheous,Nteajal,nabuerzaccheous001@gmail.com,Already Registered
+2026-06-26 09:59:53,Fortune,Awinsune,fortuneayaane718@gmail.com,Failed: Timed out waiting for page to advance from Step 1.
+2026-06-26 11:09:41,Atiga,Kuniba Aisha,atigakunibaaisha@gmail.com,Already Registered
+2026-06-26 11:12:12,Abigail,Tikesseh,Abigailtikesseh@gmail.com,"Failed: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff7a39b3fa5+14925]
+	chromedriver!GetHandleVerifier [0x7ff7a39b4000+14980]
+	chromedriver!(No symbol) [0x7ff7a34f793d]
+	chromedriver!(No symbol)"
+2026-06-26 11:12:39,Patricia,Yenbapoka,patriciakparib25@gmail.com,"Failed: Message: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=149.0.7827.199)
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff7a39b3fa5+14925]
+	chromedriver!GetHandleVerifier [0x7ff7a39"
+2026-06-26 11:13:11,Nabuer Zaccheous,Nteajal,nabuerzaccheous001@gmail.com,"Failed: Message: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=149.0.7827.199)
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff7a39b3fa5+14925]
+	chromedriver!GetHandleVerifier [0x7ff7a39"
