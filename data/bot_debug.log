@@ -1,0 +1,33 @@
+2026-06-26 08:26:22,232 - INFO - --- Session Started: 187 New Records ---
+2026-06-26 08:26:34,919 - INFO - --- DATA RECORD: Anastasia  Aduku  (anastasiaaduku028@gmail.com) | Gender: nan ---
+2026-06-26 08:26:34,923 - INFO - ====== WebDriver manager ======
+2026-06-26 08:26:35,780 - INFO - Driver [C:\Users\Code-D\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win64/chromedriver.exe] found in cache by browser version
+2026-06-26 08:26:45,475 - INFO -    Filling Form Step 1...
+2026-06-26 08:26:45,497 - INFO -    [Input] First Name set to: Anastasia 
+2026-06-26 08:26:45,522 - INFO -    [Input] Last Name set to: Aduku 
+2026-06-26 08:26:45,547 - INFO -    [Input] Email set to: anastasiaaduku028@gmail.com
+2026-06-26 08:26:45,655 - INFO -    [Select] Gender set to: Male
+2026-06-26 08:26:45,743 - INFO -    [Select] Country set to: Ghana
+2026-06-26 08:26:48,390 - INFO -    [Referral] Selected: Twitter
+2026-06-26 08:26:50,409 - WARNING -    Validation failed (Attempt 1), errors detected. Retrying...
+2026-06-26 08:26:50,409 - INFO -    Filling Form Step 1...
+2026-06-26 08:26:50,427 - INFO -    [Input] First Name set to: Anastasia 
+2026-06-26 08:26:50,466 - INFO -    [Input] Last Name set to: Aduku 
+2026-06-26 08:26:50,492 - INFO -    [Input] Email set to: anastasiaaduku028@gmail.com
+2026-06-26 08:26:50,524 - INFO -    [Select] Gender set to: Male
+2026-06-26 08:26:50,559 - INFO -    [Select] Country set to: Ghana
+2026-06-26 08:26:53,100 - INFO -    [Referral] Selected: Twitter
+2026-06-26 08:26:55,118 - WARNING -    Validation failed (Attempt 2), errors detected. Retrying...
+2026-06-26 08:26:55,118 - INFO -    Filling Form Step 1...
+2026-06-26 08:26:55,182 - INFO -    [Input] First Name set to: Anastasia 
+2026-06-26 08:26:55,234 - INFO -    [Input] Last Name set to: Aduku 
+2026-06-26 08:26:55,265 - INFO -    [Input] Email set to: anastasiaaduku028@gmail.com
+2026-06-26 08:26:55,307 - INFO -    [Select] Gender set to: Male
+2026-06-26 08:26:55,325 - INFO -    [Select] Country set to: Ghana
+2026-06-26 08:26:57,958 - INFO -    [Referral] Selected: Twitter
+2026-06-26 08:26:59,983 - WARNING -    Validation failed (Attempt 3), errors detected. Retrying...
+2026-06-26 08:27:01,459 - INFO -    Clicking 'Next' to move to Summary page...
+2026-06-26 08:27:07,587 - INFO -    Summary page loaded. Searching for final Submit button...
+2026-06-26 08:27:09,335 - INFO -    Final Submission clicked.
+2026-06-26 08:27:49,447 - ERROR -    FAILED: anastasiaaduku028@gmail.com | Error: Message: 
+
