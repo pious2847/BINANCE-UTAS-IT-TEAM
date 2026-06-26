@@ -263,3 +263,61 @@ Stacktrace:
 "
 2026-06-26 08:27:49,Anastasia ,Aduku ,anastasiaaduku028@gmail.com,"Failed: Message: 
 "
+2026-06-26 08:36:31,Emmanuel ,Azaare ,emmanuelazare4@gmail.com,"Failed: Message: 
+"
+2026-06-26 08:40:26,Wanzeliba ,Theresah,wanzelibatheresah74@gmail.com,"Failed: Message: 
+"
+2026-06-26 08:44:48,Apina ,Patience ,patienceapina@gmail.com,"Failed: Message: 
+"
+2026-06-26 08:49:04,Rahinatu ,Adwoa ,ibrahimadwoa601@gmail.com,"Failed: Message: 
+"
+2026-06-26 08:49:42,Listowel Sunday ,Ayaribil ,listowelsundayayaribil377@gmail.com,"Failed: Message: no such element: Unable to locate element: {""method"":""css selector"",""selector"":""[id=""forward""]""}
+  (Session info: chrome=149.0.7827.199); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff7a39b3fa5+14925]
+	chromedriver!GetHandleVerifier [0x7ff7a39b4000+14980]
+	chromedriver!(No symbol) [0x7ff7a34f793d]
+	chromedriver!(No symbol) [0x7ff7a3551aad]
+	chromedriver!(No symbol) [0x7ff7a3551dac]
+	chromedriver!(No symbol) [0x7ff7a35a27d7]
+	chromedriver!(No symbol) [0x7ff7a359f39b]
+	chromedriver!(No symbol) [0x7ff7a354401c]
+	chromedriver!(No symbol) [0x7ff7a3544f43]
+	chromedriver!GetHandleVerifier [0x7ff7a3f97591+5f7f11]
+	chromedriver!GetHandleVerifier [0x7ff7a3f91902+5f2282]
+	chromedriver!GetHandleVerifier [0x7ff7a3fb7115+617a95]
+	chromedriver!GetHandleVerifier [0x7ff7a39d1dce+3274e]
+	chromedriver!GetHandleVerifier [0x7ff7a39da82c+3b1ac]
+	chromedriver!GetHandleVerifier [0x7ff7a39bd744+1e0c4]
+	chromedriver!GetHandleVerifier [0x7ff7a39bd8d4+1e254]
+	chromedriver!GetHandleVerifier [0x7ff7a39a1447+1dc7]
+	KERNEL32!BaseThreadInitThunk [0x7ffcdb0ae957+17]
+	ntdll!RtlUserThreadStart [0x7ffcdc807c1c+2c]
+"
+2026-06-26 09:14:40,Jacob,Kolwefera,jkolwefera@gmail.com,"Failed: Message: 
+"
+2026-06-26 09:19:35,Jacob,Kolwefera,jkolwefera@gmail.com,"Failed: Message: 
+"
+2026-06-26 09:20:38,Jacob,Kolwefera,jkolwefera@gmail.com,"Failed: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=149.0.7827.199); For documentation on this error, please visit: https://www.selenium.dev/document"
+2026-06-26 09:24:22,Jacob,Kolwefera,jkolwefera@gmail.com,Success
+2026-06-26 09:28:35,Isaac Newton,Quaye,isaacquaye508@gmail.com,"Failed: Message: 
+"
+2026-06-26 09:36:32,Atiga,Kuniba Aisha,atigakunibaaisha@gmail.com,"Failed: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff7a39b3fa5+14925]
+	chromedriver!GetHandleVerifier [0x7ff7a39b4000+14980]
+	chromedriver!(No symbol) [0x7ff7a34f793d]
+	chromedriver!(No symbol)"
+2026-06-26 09:37:40,Abigail,Tikesseh,Abigailtikesseh@gmail.com,"Failed: Message: 
+"
+2026-06-26 09:38:52,Patricia,Yenbapoka,patriciakparib25@gmail.com,"Failed: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff7a39b3fa5+14925]
+	chromedriver!GetHandleVerifier [0x7ff7a39b4000+14980]
+	chromedriver!(No symbol) [0x7ff7a34f793d]
+	chromedriver!(No symbol)"
+2026-06-26 09:40:06,Nabuer Zaccheous,Nteajal,nabuerzaccheous001@gmail.com,"Failed: Message: 
+"
+2026-06-26 09:41:14,Fortune,Awinsune,fortuneayaane718@gmail.com,"Failed: Message: 
+"
