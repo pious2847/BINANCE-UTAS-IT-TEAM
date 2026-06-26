@@ -22,6 +22,17 @@ class RegistrationBot:
         self.log_path = self.config['log_path']
         self.ensure_log_exists()
         self.registered_emails = self.load_registered_emails()
+        
+        # Options for randomizing "How did you hear about us?"
+        self.referral_sources = [
+            "Social Media", 
+            "Friend", 
+            "Binance App", 
+            "Twitter", 
+            "Telegram", 
+            "Email", 
+            "University Club"
+        ]
 
     def ensure_log_exists(self):
         os.makedirs(os.path.dirname(self.log_path), exist_ok=True)
@@ -37,34 +48,38 @@ class RegistrationBot:
         except:
             return set()
 
-    def get_random_user_agent(self):
-        user_agents = [
-            "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-            "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
-        ]
-        return random.choice(user_agents)
-
     def init_driver(self):
         chrome_options = Options()
         if self.config['settings']['headless']:
             chrome_options.add_argument("--headless")
         
-        chrome_options.add_argument(f"user-agent={self.get_random_user_agent()}")
         chrome_options.add_argument("--disable-blink-features=AutomationControlled")
         chrome_options.add_experimental_option("excludeSwitches", ["enable-automation"])
         
         driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=chrome_options)
-        driver.set_window_size(1440, 1000)
+        driver.set_window_size(random.choice([1366, 1440, 1920]), 1000)
         return driver
 
     def js_click(self, driver, element):
-        """Forces a click on hidden elements using JavaScript."""
         driver.execute_script("arguments[0].scrollIntoView({block: 'center'});", element)
         time.sleep(0.5)
         driver.execute_script("arguments[0].click();", element)
 
-    def human_delay(self, mult=1.0):
-        time.sleep(random.uniform(self.config['settings']['min_delay'], self.config['settings']['max_delay']) * mult)
+    def select_react_dropdown(self, driver, element_id, value):
+        """Handles React-Select components for Gender/Referral"""
+        try:
+            container = driver.find_element(By.ID, element_id)
+            self.js_click(driver, container)
+            time.sleep(0.8)
+            
+            actions = ActionChains(driver)
+            actions.send_keys(value)
+            time.sleep(1)
+            actions.send_keys(Keys.ENTER)
+            actions.perform()
+            time.sleep(0.5)
+        except Exception as e:
+            print(f"   ! Dropdown Warning ({element_id}): {e}")
 
     def register_user(self, user_data):
         driver = self.init_driver()
@@ -73,58 +88,48 @@ class RegistrationBot:
         try:
             driver.get(self.config['target_url'])
             
-            # 1. First Name
-            first_name = wait.until(EC.presence_of_element_located((By.ID, "56aeaca6-a0ad-4548-8afc-94d8d4361ba1")))
-            first_name.send_keys(user_data['First Name'])
-            
-            # 2. Last Name
+            # --- Personal Info ---
+            wait.until(EC.presence_of_element_located((By.ID, "56aeaca6-a0ad-4548-8afc-94d8d4361ba1"))).send_keys(user_data['First Name'])
             driver.find_element(By.ID, "cfc98829-80b7-41b6-82b5-b968d43ef1c1").send_keys(user_data['Last Name'])
-            
-            # 3. Email
             driver.find_element(By.ID, "ff919d05-4281-4d9c-aa0d-82e3722d580d").send_keys(user_data['Email'])
-            self.human_delay(0.5)
+            
+            # --- Gender (From Excel) ---
+            # Mapping Excel values to Select options (Male/Female)
+            gender_val = str(user_data.get('Gender', 'Male')).strip().capitalize()
+            if gender_val not in ["Male", "Female"]: gender_val = "Male" # Fallback
+            
+            try:
+                gender_el = driver.find_element(By.ID, "widget:0aa5a2d5-27e5-443e-9c04-01d7f0c1c98d")
+                Select(gender_el).select_by_visible_text(gender_val)
+            except:
+                self.select_react_dropdown(driver, "widget:0aa5a2d5-27e5-443e-9c04-01d7f0c1c98d", gender_val)
 
-            # 4. Country of Residence
+            # --- Country ---
             country_el = driver.find_element(By.ID, "bbe011f6-855c-41f2-ac1f-d1cbc6b15af8")
             Select(country_el).select_by_visible_text(self.config['defaults']['country'])
             
-            # 5. How did you hear about us? (Handling Dummy Input)
-            # We click the container instead of the input to ensure focus
-            how_heard_container = driver.find_element(By.ID, "b1fc7e46-8327-4e6a-91f5-10ddae71a8f1")
-            self.js_click(driver, how_heard_container)
-            self.human_delay(0.3)
-            # Use ActionChains to type directly into the focused component
-            actions = ActionChains(driver)
-            actions.send_keys(self.config['defaults']['how_heard'])
-            actions.pause(1)
-            actions.send_keys(Keys.ENTER)
-            actions.perform()
+            # --- Referral (Randomized) ---
+            random_source = random.choice(self.referral_sources)
+            self.select_react_dropdown(driver, "b1fc7e46-8327-4e6a-91f5-10ddae71a8f1", random_source)
 
-            # 6-9. Radio Button Consents (Using JS Click for hidden inputs)
+            # --- Consent Radios ---
             consent_ids = [
-                "1e8d0338-89c4-4983-beea-4ffa7ecb6a19-primary_0", # Age
-                "0dde9017-0819-4383-a921-fc502bee3cc1-primary_0", # Photos
-                "7b573551-d547-4f51-adc5-b74686825765-primary_0"  # Privacy
+                "1e8d0338-89c4-4983-beea-4ffa7ecb6a19-primary_0", 
+                "0dde9017-0819-4383-a921-fc502bee3cc1-primary_0", 
+                "7b573551-d547-4f51-adc5-b74686825765-primary_0"
             ]
-            
-            # Optional Marketing Consent
             if self.config['defaults']['marketing_consent']:
-                consent_ids.insert(1, "b320fbfd-e250-4cc1-bdad-8db06a643ec2-primary_0")
+                consent_ids.append("b320fbfd-e250-4cc1-bdad-8db06a643ec2-primary_0")
 
             for cid in consent_ids:
-                el = driver.find_element(By.ID, cid)
-                self.js_click(driver, el)
-                time.sleep(0.2)
+                self.js_click(driver, driver.find_element(By.ID, cid))
 
-            self.human_delay(1.5)
+            # --- Final Submit ---
+            time.sleep(1)
+            self.js_click(driver, driver.find_element(By.ID, "forward"))
             
-            # 10. Submit
-            btn_next = driver.find_element(By.ID, "forward")
-            self.js_click(driver, btn_next)
-            
-            # Verification
+            # Verify success (URL change)
             wait.until(EC.url_contains("regProcessStep2"))
-            print(f"SUCCESS: {user_data['Email']}")
             self.log_registration(user_data, "Success")
             return True
 
@@ -144,21 +149,19 @@ class RegistrationBot:
         df = pd.read_excel(self.config['excel_path'])
         to_process = df[~df['Email'].str.lower().isin(self.registered_emails)]
         
-        print(f"--- Registration Session Started ---")
-        print(f"Pending Records: {len(to_process)}")
+        print(f"--- Session Summary ---")
+        print(f"New Records: {len(to_process)}")
         
-        limit = input("Number of registrations to perform (Enter for ALL): ")
-        if limit:
-            to_process = to_process.head(int(limit))
+        limit = input("Enter quantity to register (Press Enter for ALL): ")
+        if limit: to_process = to_process.head(int(limit))
 
-        for index, row in to_process.iterrows():
-            print(f"Processing: {row['Email']}")
-            success = self.register_user(row.to_dict())
-            
-            if success and self.config['settings']['manual_ip_rotation']:
-                input(">>> Change IP/VPN now, then press ENTER...")
-            
-            time.sleep(random.uniform(3, 7))
+        for _, row in to_process.iterrows():
+            print(f"Processing: {row['Email']} ({row.get('Gender', 'N/A')})")
+            if self.register_user(row.to_dict()):
+                print(f"SUCCESS!")
+                if self.config['settings']['manual_ip_rotation']:
+                    input(">>> PROMPT: Change IP/VPN now. Press ENTER to continue...")
+            time.sleep(random.uniform(3, 6))
 
 if __name__ == "__main__":
     bot = RegistrationBot('config.json')
