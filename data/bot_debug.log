@@ -31,3 +31,558 @@
 2026-06-26 08:27:09,335 - INFO -    Final Submission clicked.
 2026-06-26 08:27:49,447 - ERROR -    FAILED: anastasiaaduku028@gmail.com | Error: Message: 
 
+2026-06-26 08:35:00,871 - INFO - --- Session Started: 186 New Records ---
+2026-06-26 08:35:03,231 - INFO - --- DATA RECORD: Emmanuel  Azaare  (emmanuelazare4@gmail.com) | Gender: Male ---
+2026-06-26 08:35:03,235 - INFO - ====== WebDriver manager ======
+2026-06-26 08:35:03,915 - INFO - Driver [C:\Users\Code-D\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win64/chromedriver.exe] found in cache by browser version
+2026-06-26 08:35:14,695 - INFO -    Filling Form Step 1...
+2026-06-26 08:35:14,967 - INFO -    [Input] First Name set to: Emmanuel 
+2026-06-26 08:35:14,994 - INFO -    [Input] Last Name set to: Azaare 
+2026-06-26 08:35:15,021 - INFO -    [Input] Email set to: emmanuelazare4@gmail.com
+2026-06-26 08:35:15,091 - INFO -    [Select] Gender set to: Male
+2026-06-26 08:35:15,154 - INFO -    [Select] Country set to: Ghana
+2026-06-26 08:35:15,168 - WARNING -    [Referral Failed] Could not select: Others
+2026-06-26 08:35:22,398 - WARNING -    Validation failed (Attempt 1), errors detected. Retrying...
+2026-06-26 08:35:22,398 - INFO -    Filling Form Step 1...
+2026-06-26 08:35:22,412 - INFO -    [Input] First Name set to: Emmanuel 
+2026-06-26 08:35:22,433 - INFO -    [Input] Last Name set to: Azaare 
+2026-06-26 08:35:22,454 - INFO -    [Input] Email set to: emmanuelazare4@gmail.com
+2026-06-26 08:35:22,475 - INFO -    [Select] Gender set to: Male
+2026-06-26 08:35:22,490 - INFO -    [Select] Country set to: Ghana
+2026-06-26 08:35:25,105 - INFO -    [Referral] Selected: Others
+2026-06-26 08:35:32,222 - WARNING -    Validation failed (Attempt 2), errors detected. Retrying...
+2026-06-26 08:35:32,222 - INFO -    Filling Form Step 1...
+2026-06-26 08:35:32,234 - INFO -    [Input] First Name set to: Emmanuel 
+2026-06-26 08:35:32,253 - INFO -    [Input] Last Name set to: Azaare 
+2026-06-26 08:35:32,271 - INFO -    [Input] Email set to: emmanuelazare4@gmail.com
+2026-06-26 08:35:32,291 - INFO -    [Select] Gender set to: Male
+2026-06-26 08:35:32,307 - INFO -    [Select] Country set to: Ghana
+2026-06-26 08:35:34,917 - INFO -    [Referral] Selected: Others
+2026-06-26 08:35:42,072 - WARNING -    Validation failed (Attempt 3), errors detected. Retrying...
+2026-06-26 08:35:43,496 - INFO -    Clicking 'Next' to move to Summary page...
+2026-06-26 08:35:49,615 - INFO -    Summary page loaded. Searching for final Submit button...
+2026-06-26 08:35:51,291 - INFO -    Final Submission clicked.
+2026-06-26 08:36:31,791 - ERROR -    FAILED: emmanuelazare4@gmail.com | Error: Message: 
+
+2026-06-26 08:39:08,922 - INFO - --- Session: 185 New Records ---
+2026-06-26 08:39:12,608 - INFO - --- PROCESSING: Wanzeliba  Theresah ---
+2026-06-26 08:39:12,611 - INFO - ====== WebDriver manager ======
+2026-06-26 08:39:13,361 - INFO - Driver [C:\Users\Code-D\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win64/chromedriver.exe] found in cache by browser version
+2026-06-26 08:39:26,212 - INFO -    [Input] First Name verified as: Wanzeliba 
+2026-06-26 08:39:26,777 - INFO -    [Input] Last Name verified as: Theresah
+2026-06-26 08:39:27,270 - INFO -    [Input] Email verified as: wanzelibatheresah74@gmail.com
+2026-06-26 08:39:27,349 - INFO -    [Select] Gender set to: Female
+2026-06-26 08:39:27,434 - INFO -    [Select] Country set to: Ghana
+2026-06-26 08:39:30,707 - INFO -    [Referral] Selected: Binance App
+2026-06-26 08:39:32,221 - INFO -    [Input] First Name verified as: Wanzeliba 
+2026-06-26 08:39:32,809 - INFO -    [Input] Last Name verified as: Theresah
+2026-06-26 08:39:33,443 - INFO -    [Input] Email verified as: wanzelibatheresah74@gmail.com
+2026-06-26 08:39:33,458 - INFO -    [Select] Gender set to: Female
+2026-06-26 08:39:33,480 - INFO -    [Select] Country set to: Ghana
+2026-06-26 08:39:37,028 - INFO -    [Referral] Selected: Binance App
+2026-06-26 08:39:38,042 - WARNING -    Red error messages still present. Re-injecting vital fields...
+2026-06-26 08:39:38,696 - INFO -    [Input] First Name verified as: Wanzeliba 
+2026-06-26 08:39:39,237 - INFO -    [Input] Last Name verified as: Theresah
+2026-06-26 08:39:39,614 - INFO -    Proceeding to Summary...
+2026-06-26 08:40:26,350 - ERROR -    FAILED: wanzelibatheresah74@gmail.com | Error: Message: 
+
+2026-06-26 08:43:41,989 - INFO - --- START SESSION: 184 Pending ---
+2026-06-26 08:43:44,262 - INFO - --- STARTING: Apina  Patience  ---
+2026-06-26 08:43:44,266 - INFO - ====== WebDriver manager ======
+2026-06-26 08:43:45,031 - INFO - Driver [C:\Users\Code-D\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win64/chromedriver.exe] found in cache by browser version
+2026-06-26 08:43:56,117 - INFO -    [Input] First Name set to: Apina 
+2026-06-26 08:43:56,930 - INFO -    [Input] Last Name set to: Patience 
+2026-06-26 08:43:57,695 - INFO -    [Input] Email set to: patienceapina@gmail.com
+2026-06-26 08:43:57,772 - INFO -    [Select] Gender set to: Female
+2026-06-26 08:43:57,858 - INFO -    [Select] Country set to: Ghana
+2026-06-26 08:44:00,450 - INFO -    [Referral] Selected: X
+2026-06-26 08:44:07,881 - INFO -    Summary page check...
+2026-06-26 08:44:48,629 - ERROR -    FAILED: patienceapina@gmail.com | Error: Message: 
+
+2026-06-26 08:47:49,894 - INFO - --- ATTEMPTING: Rahinatu  Adwoa  ---
+2026-06-26 08:47:49,897 - INFO - ====== WebDriver manager ======
+2026-06-26 08:47:50,580 - INFO - Driver [C:\Users\Code-D\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win64/chromedriver.exe] found in cache by browser version
+2026-06-26 08:48:14,777 - INFO -    Selecting Referral: YouTube
+2026-06-26 08:48:19,910 - WARNING -    Validation Error: 6 fields still required. Retrying critical fields...
+2026-06-26 08:49:04,372 - ERROR -    FAILED: ibrahimadwoa601@gmail.com | Error: Message: 
+
+2026-06-26 08:49:24,418 - INFO - --- START SESSION: 182 records pending ---
+2026-06-26 08:49:27,358 - INFO - --- DATA RECORD: Listowel Sunday  Ayaribil  (listowelsundayayaribil377@gmail.com) ---
+2026-06-26 08:49:27,360 - INFO - ====== WebDriver manager ======
+2026-06-26 08:49:28,046 - INFO - Driver [C:\Users\Code-D\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win64/chromedriver.exe] found in cache by browser version
+2026-06-26 08:49:41,032 - ERROR -    [Type Error] First Name: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id="56aeaca6-a0ad-4548-8afc-94d8d4361ba1"]"}
+  (Session info: chrome=149.0.7827.199); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff7a39b3fa5+14925]
+	chromedriver!GetHandleVerifier [0x7ff7a39b4000+14980]
+	chromedriver!(No symbol) [0x7ff7a34f793d]
+	chromedriver!(No symbol) [0x7ff7a3551aad]
+	chromedriver!(No symbol) [0x7ff7a3551dac]
+	chromedriver!(No symbol) [0x7ff7a35a27d7]
+	chromedriver!(No symbol) [0x7ff7a359f39b]
+	chromedriver!(No symbol) [0x7ff7a354401c]
+	chromedriver!(No symbol) [0x7ff7a3544f43]
+	chromedriver!GetHandleVerifier [0x7ff7a3f97591+5f7f11]
+	chromedriver!GetHandleVerifier [0x7ff7a3f91902+5f2282]
+	chromedriver!GetHandleVerifier [0x7ff7a3fb7115+617a95]
+	chromedriver!GetHandleVerifier [0x7ff7a39d1dce+3274e]
+	chromedriver!GetHandleVerifier [0x7ff7a39da82c+3b1ac]
+	chromedriver!GetHandleVerifier [0x7ff7a39bd744+1e0c4]
+	chromedriver!GetHandleVerifier [0x7ff7a39bd8d4+1e254]
+	chromedriver!GetHandleVerifier [0x7ff7a39a1447+1dc7]
+	KERNEL32!BaseThreadInitThunk [0x7ffcdb0ae957+17]
+	ntdll!RtlUserThreadStart [0x7ffcdc807c1c+2c]
+
+2026-06-26 08:49:41,042 - ERROR -    [Type Error] Last Name: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id="cfc98829-80b7-41b6-82b5-b968d43ef1c1"]"}
+  (Session info: chrome=149.0.7827.199); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff7a39b3fa5+14925]
+	chromedriver!GetHandleVerifier [0x7ff7a39b4000+14980]
+	chromedriver!(No symbol) [0x7ff7a34f793d]
+	chromedriver!(No symbol) [0x7ff7a3551aad]
+	chromedriver!(No symbol) [0x7ff7a3551dac]
+	chromedriver!(No symbol) [0x7ff7a35a27d7]
+	chromedriver!(No symbol) [0x7ff7a359f39b]
+	chromedriver!(No symbol) [0x7ff7a354401c]
+	chromedriver!(No symbol) [0x7ff7a3544f43]
+	chromedriver!GetHandleVerifier [0x7ff7a3f97591+5f7f11]
+	chromedriver!GetHandleVerifier [0x7ff7a3f91902+5f2282]
+	chromedriver!GetHandleVerifier [0x7ff7a3fb7115+617a95]
+	chromedriver!GetHandleVerifier [0x7ff7a39d1dce+3274e]
+	chromedriver!GetHandleVerifier [0x7ff7a39da82c+3b1ac]
+	chromedriver!GetHandleVerifier [0x7ff7a39bd744+1e0c4]
+	chromedriver!GetHandleVerifier [0x7ff7a39bd8d4+1e254]
+	chromedriver!GetHandleVerifier [0x7ff7a39a1447+1dc7]
+	KERNEL32!BaseThreadInitThunk [0x7ffcdb0ae957+17]
+	ntdll!RtlUserThreadStart [0x7ffcdc807c1c+2c]
+
+2026-06-26 08:49:41,053 - ERROR -    [Type Error] Email: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id="ff919d05-4281-4d9c-aa0d-82e3722d580d"]"}
+  (Session info: chrome=149.0.7827.199); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff7a39b3fa5+14925]
+	chromedriver!GetHandleVerifier [0x7ff7a39b4000+14980]
+	chromedriver!(No symbol) [0x7ff7a34f793d]
+	chromedriver!(No symbol) [0x7ff7a3551aad]
+	chromedriver!(No symbol) [0x7ff7a3551dac]
+	chromedriver!(No symbol) [0x7ff7a35a27d7]
+	chromedriver!(No symbol) [0x7ff7a359f39b]
+	chromedriver!(No symbol) [0x7ff7a354401c]
+	chromedriver!(No symbol) [0x7ff7a3544f43]
+	chromedriver!GetHandleVerifier [0x7ff7a3f97591+5f7f11]
+	chromedriver!GetHandleVerifier [0x7ff7a3f91902+5f2282]
+	chromedriver!GetHandleVerifier [0x7ff7a3fb7115+617a95]
+	chromedriver!GetHandleVerifier [0x7ff7a39d1dce+3274e]
+	chromedriver!GetHandleVerifier [0x7ff7a39da82c+3b1ac]
+	chromedriver!GetHandleVerifier [0x7ff7a39bd744+1e0c4]
+	chromedriver!GetHandleVerifier [0x7ff7a39bd8d4+1e254]
+	chromedriver!GetHandleVerifier [0x7ff7a39a1447+1dc7]
+	KERNEL32!BaseThreadInitThunk [0x7ffcdb0ae957+17]
+	ntdll!RtlUserThreadStart [0x7ffcdc807c1c+2c]
+
+2026-06-26 08:49:41,068 - WARNING -    [Select Failed] Gender
+2026-06-26 08:49:41,082 - WARNING -    [Select Failed] Country
+2026-06-26 08:49:42,166 - INFO -    Clicking Next...
+2026-06-26 08:49:42,181 - ERROR -    FAILED: listowelsundayayaribil377@gmail.com | Error: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id="forward"]"}
+  (Session info: chrome=149.0.7827.199); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff7a39b3fa5+14925]
+	chromedriver!GetHandleVerifier [0x7ff7a39b4000+14980]
+	chromedriver!(No symbol) [0x7ff7a34f793d]
+	chromedriver!(No symbol) [0x7ff7a3551aad]
+	chromedriver!(No symbol) [0x7ff7a3551dac]
+	chromedriver!(No symbol) [0x7ff7a35a27d7]
+	chromedriver!(No symbol) [0x7ff7a359f39b]
+	chromedriver!(No symbol) [0x7ff7a354401c]
+	chromedriver!(No symbol) [0x7ff7a3544f43]
+	chromedriver!GetHandleVerifier [0x7ff7a3f97591+5f7f11]
+	chromedriver!GetHandleVerifier [0x7ff7a3f91902+5f2282]
+	chromedriver!GetHandleVerifier [0x7ff7a3fb7115+617a95]
+	chromedriver!GetHandleVerifier [0x7ff7a39d1dce+3274e]
+	chromedriver!GetHandleVerifier [0x7ff7a39da82c+3b1ac]
+	chromedriver!GetHandleVerifier [0x7ff7a39bd744+1e0c4]
+	chromedriver!GetHandleVerifier [0x7ff7a39bd8d4+1e254]
+	chromedriver!GetHandleVerifier [0x7ff7a39a1447+1dc7]
+	KERNEL32!BaseThreadInitThunk [0x7ffcdb0ae957+17]
+	ntdll!RtlUserThreadStart [0x7ffcdc807c1c+2c]
+
+2026-06-26 08:51:21,183 - INFO - --- DATA RECORD: Tia Malik  (tiamalikmalik@gmail.com) ---
+2026-06-26 08:51:21,186 - INFO - ====== WebDriver manager ======
+2026-06-26 08:51:21,926 - INFO - Driver [C:\Users\Code-D\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win64/chromedriver.exe] found in cache by browser version
+2026-06-26 08:51:33,976 - INFO -    [Type] First Name verified.
+2026-06-26 08:51:35,312 - INFO -    [Type] Last Name verified.
+2026-06-26 08:51:39,205 - INFO -    [Type] Email verified.
+2026-06-26 08:51:41,654 - INFO -    [Referral] Chosen: X
+2026-06-26 08:52:10,682 - ERROR -    FAILED: tiamalikmalik@gmail.com | Current URL: https://www.binance.events/event/a483c41e-d3f9-4fe3-ba5c-5e1a61f4e56b/regPage:8a362de7-7f50-4880-a9a5-1035b2c14d43
+2026-06-26 08:52:10,683 - ERROR -    Error: Message: 
+
+2026-06-26 08:57:02,486 - INFO - --- DATA RECORD: Tia Malik  ---
+2026-06-26 08:57:02,489 - INFO - ====== WebDriver manager ======
+2026-06-26 08:57:03,167 - INFO - Driver [C:\Users\Code-D\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win64/chromedriver.exe] found in cache by browser version
+2026-06-26 08:57:14,477 - INFO -    [Type] First Name verified.
+2026-06-26 08:57:15,876 - INFO -    [Type] Last Name verified.
+2026-06-26 08:57:19,680 - INFO -    [Type] Email verified.
+2026-06-26 08:57:23,673 - WARNING -    [Referral Fallback] Tier 1 failed for 'YouTube'. Trying Tier 2...
+2026-06-26 08:57:24,690 - WARNING -    [Referral Fallback] Tier 2 failed. Picking first available option...
+2026-06-26 08:57:24,700 - INFO -    [Referral] Selection complete.
+2026-06-26 08:57:26,081 - INFO -    Waiting for Summary Page to stabilize...
+2026-06-26 08:57:56,423 - ERROR -    FAILED: tiamalikmalik@gmail.com | URL: https://www.binance.events/event/a483c41e-d3f9-4fe3-ba5c-5e1a61f4e56b/regProcessStep1
+2026-06-26 08:57:56,423 - ERROR -    Error detail: Message: 
+
+2026-06-26 09:05:22,152 - INFO - --- DATA RECORD: Tia Malik  ---
+2026-06-26 09:05:22,155 - INFO - ====== WebDriver manager ======
+2026-06-26 09:05:22,861 - INFO - Driver [C:\Users\Code-D\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win64/chromedriver.exe] found in cache by browser version
+2026-06-26 09:05:35,932 - INFO -    [Type] First Name finished.
+2026-06-26 09:05:37,208 - INFO -    [Type] Last Name finished.
+2026-06-26 09:05:41,204 - INFO -    [Type] Email finished.
+2026-06-26 09:05:41,280 - INFO -    [JS-Select] Gender forced to: Male
+2026-06-26 09:05:41,856 - INFO -    [JS-Select] Country forced to: Ghana
+2026-06-26 09:05:46,640 - INFO -    [Referral] Successfully selected: Binance Communications
+2026-06-26 09:05:48,070 - INFO -    Navigating to Summary Page...
+2026-06-26 09:07:13,554 - ERROR -    FAILED: tiamalikmalik@gmail.com | URL: https://www.binance.events/event/a483c41e-d3f9-4fe3-ba5c-5e1a61f4e56b/confirmation
+2026-06-26 09:07:13,554 - ERROR -    Error detail: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff7a39b3fa5+14925]
+	chromedriver!GetHandleVerifier [0x7ff7a39b4000+14980]
+	chromedriver!(No symbol) [0x7ff7a34f793d]
+	chromedriver!(No symbol) [0x7ff7a3551aad]
+	chromedriver!(No symbol) [0x7ff7a3551dac]
+	chromedriver!(No symbol) [0x7ff7a35a27d7]
+	chromedriver!(No symbol) [0x7ff7a359f39b]
+	chromedriver!(No symbol) [0x7ff7a354401c]
+	chromedriver!(No symbol) [0x7ff7a3544f43]
+	chromedriver!GetHandleVerifier [0x7ff7a3f97591+5f7f11]
+	chromedriver!GetHandleVerifier [0x7ff7a3f91902+5f2282]
+	chromedriver!GetHandleVerifier [0x7ff7a3fb7115+617a95]
+	chromedriver!GetHandleVerifier [0x7ff7a39d1dce+3274e]
+	chromedriver!GetHandleVerifier [0x7ff7a39da82c+3b1ac]
+	chromedriver!GetHandleVerifier [0x7ff7a39bd744+1e0c4]
+	chromedriver!GetHandleVerifier [0x7ff7a39bd8d4+1e254]
+	chromedriver!GetHandleVerifier [0x7ff7a39a1447+1dc7]
+	KERNEL32!BaseThreadInitThunk [0x7ffcdb0ae957+17]
+	ntdll!RtlUserThreadStart [0x7ffcdc807c1c+2c]
+
+2026-06-26 09:13:23,344 - INFO - --- PROCESSING: Jacob Kolwefera (jkolwefera@gmail.com) ---
+2026-06-26 09:13:23,347 - INFO - ====== WebDriver manager ======
+2026-06-26 09:13:29,487 - INFO - Driver [C:\Users\Code-D\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win64/chromedriver.exe] found in cache by browser version
+2026-06-26 09:13:42,592 - INFO -    [Input] First Name set to: Jacob
+2026-06-26 09:13:43,174 - INFO -    [Input] Last Name set to: Kolwefera
+2026-06-26 09:13:43,814 - INFO -    [Input] Email set to: jkolwefera@gmail.com
+2026-06-26 09:13:43,821 - WARNING -    [Select Failed] Gender: Message: javascript error: Cannot read properties of undefined (reading 'length'
+2026-06-26 09:13:43,903 - INFO -    [Select] Country set to: Ghana
+2026-06-26 09:13:57,494 - ERROR -    [Referral Error] Message: 
+
+2026-06-26 09:13:59,842 - INFO -    Clicked 'Next' — waiting for Summary page...
+2026-06-26 09:14:40,334 - ERROR -    FAILED: jkolwefera@gmail.com | URL: https://www.binance.events/event/a483c41e-d3f9-4fe3-ba5c-5e1a61f4e56b/regProcessStep1
+2026-06-26 09:14:40,335 - ERROR -    Error: Message: 
+
+2026-06-26 09:14:42,636 - INFO -    Sleeping 2.9s before next record...
+2026-06-26 09:14:45,551 - INFO - 
+=== SESSION COMPLETE | Success: 0 | Failed: 1 ===
+2026-06-26 09:18:19,128 - INFO - --- PROCESSING: Jacob Kolwefera (jkolwefera@gmail.com) ---
+2026-06-26 09:18:19,131 - INFO - ====== WebDriver manager ======
+2026-06-26 09:18:26,300 - INFO - Driver [C:\Users\Code-D\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win64/chromedriver.exe] found in cache by browser version
+2026-06-26 09:18:42,311 - INFO -    [Input] First Name set to: Jacob
+2026-06-26 09:18:42,999 - INFO -    [Input] Last Name set to: Kolwefera
+2026-06-26 09:18:43,624 - INFO -    [Input] Email set to: jkolwefera@gmail.com
+2026-06-26 09:18:43,713 - INFO -    [Select] Gender set to: Male
+2026-06-26 09:18:44,194 - INFO -    [Select] Country set to: Ghana
+2026-06-26 09:18:51,771 - WARNING -    [Referral] 'Binance App' not found, using first: 
+2026-06-26 09:18:52,115 - INFO -    [Referral] Selected: Binance App
+2026-06-26 09:18:55,155 - INFO -    Clicked 'Next' — waiting for Summary page...
+2026-06-26 09:19:35,189 - ERROR -    FAILED: jkolwefera@gmail.com | URL: https://www.binance.events/event/a483c41e-d3f9-4fe3-ba5c-5e1a61f4e56b/regProcessStep1
+2026-06-26 09:19:35,189 - ERROR -    Error: Message: 
+
+2026-06-26 09:19:37,493 - INFO -    Sleeping 3.0s before next record...
+2026-06-26 09:19:40,459 - INFO - 
+=== SESSION COMPLETE | Success: 0 | Failed: 1 ===
+2026-06-26 09:20:13,566 - INFO - --- PROCESSING: Jacob Kolwefera (jkolwefera@gmail.com) ---
+2026-06-26 09:20:13,569 - INFO - ====== WebDriver manager ======
+2026-06-26 09:20:19,988 - INFO - Driver [C:\Users\Code-D\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win64/chromedriver.exe] found in cache by browser version
+2026-06-26 09:20:32,452 - INFO -    [Input] First Name set to: Jacob
+2026-06-26 09:20:33,066 - INFO -    [Input] Last Name set to: Kolwefera
+2026-06-26 09:20:33,668 - INFO -    [Input] Email set to: jkolwefera@gmail.com
+2026-06-26 09:20:33,779 - INFO -    [Select] Gender set to: Male
+2026-06-26 09:20:34,251 - INFO -    [Select] Country set to: Ghana
+2026-06-26 09:20:36,185 - INFO -    [Referral] Element tag: <input>
+2026-06-26 09:20:38,071 - ERROR -    FAILED: jkolwefera@gmail.com | URL: https://www.binance.events/event/a483c41e-d3f9-4fe3-ba5c-5e1a61f4e56b/regProcessStep1
+2026-06-26 09:20:38,071 - ERROR -    Error: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=149.0.7827.199); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+	chromedriver!GetH
+2026-06-26 09:20:40,415 - INFO -    Sleeping 2.5s before next record...
+2026-06-26 09:20:42,872 - INFO - 
+=== SESSION COMPLETE | Success: 0 | Failed: 1 ===
+2026-06-26 09:22:58,007 - INFO - --- PROCESSING: Jacob Kolwefera (jkolwefera@gmail.com) ---
+2026-06-26 09:22:58,011 - INFO - ====== WebDriver manager ======
+2026-06-26 09:23:04,394 - INFO - Driver [C:\Users\Code-D\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win64/chromedriver.exe] found in cache by browser version
+2026-06-26 09:23:19,724 - INFO -    [Input] First Name set to: Jacob
+2026-06-26 09:23:20,360 - INFO -    [Input] Last Name set to: Kolwefera
+2026-06-26 09:23:20,955 - INFO -    [Input] Email set to: jkolwefera@gmail.com
+2026-06-26 09:23:21,069 - INFO -    [Select] Gender set to: Male
+2026-06-26 09:23:21,549 - INFO -    [Select] Country set to: Ghana
+2026-06-26 09:23:24,892 - INFO -    [Referral Debug] DOM snapshot:
+SPAN|react-select-2-live-region|css-7pg0cj-a11yText|
+DIV|react-select-2-placeholder| css-14xwkp7-placeholder|
+2026-06-26 09:23:39,207 - INFO -    [Referral] Found 13 options. Looking for: 'Binance App'
+2026-06-26 09:23:39,500 - WARNING -    [Referral] 'Binance App' not found, using first: 'Binance Communications
+Email
+X
+Instagram
+YouTube
+Facebook
+LinkedIn
+TikTok
+Google Search
+Media
+Others'
+2026-06-26 09:23:40,214 - INFO -    [Referral] Selected: Binance App
+2026-06-26 09:23:42,779 - INFO -    Clicked 'Next' — waiting for Summary page...
+2026-06-26 09:24:12,824 - INFO -    Summary page loaded: https://www.binance.events/event/a483c41e-d3f9-4fe3-ba5c-5e1a61f4e56b/regPage:8a362de7-7f50-4880-a9a5-1035b2c14d43
+2026-06-26 09:24:20,690 - INFO -    Final submit clicked — waiting for confirmation...
+2026-06-26 09:24:22,506 - INFO -    SUCCESS: jkolwefera@gmail.com | Final URL: https://www.binance.events/event/a483c41e-d3f9-4fe3-ba5c-5e1a61f4e56b/regPage:8a362de7-7f50-4880-a9a5-1035b2c14d43
+2026-06-26 09:25:11,326 - INFO -    Sleeping 2.1s before next record...
+2026-06-26 09:25:13,460 - INFO - 
+=== SESSION COMPLETE | Success: 1 | Failed: 0 ===
+2026-06-26 09:27:23,071 - INFO - --- PROCESSING: Isaac Newton Quaye (isaacquaye508@gmail.com) ---
+2026-06-26 09:27:23,073 - INFO - ====== WebDriver manager ======
+2026-06-26 09:27:29,531 - INFO - Driver [C:\Users\Code-D\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win64/chromedriver.exe] found in cache by browser version
+2026-06-26 09:27:43,658 - INFO -    [Input] First Name set to: Isaac Newton
+2026-06-26 09:27:44,265 - INFO -    [Input] Last Name set to: Quaye
+2026-06-26 09:27:44,877 - INFO -    [Input] Email set to: isaacquaye508@gmail.com
+2026-06-26 09:27:44,951 - INFO -    [Select] Gender set to: Male
+2026-06-26 09:27:45,420 - INFO -    [Select] Country set to: Ghana
+2026-06-26 09:27:48,766 - INFO -    [Referral Debug] DOM snapshot:
+SPAN|react-select-2-live-region|css-7pg0cj-a11yText|
+DIV|react-select-2-placeholder| css-14xwkp7-placeholder|
+2026-06-26 09:27:52,808 - ERROR -    [Referral Error] Could not find dropdown option elements.
+2026-06-26 09:27:55,198 - INFO -    Clicked 'Next' — waiting for Summary page...
+2026-06-26 09:28:35,646 - ERROR -    FAILED: isaacquaye508@gmail.com | URL: https://www.binance.events/event/a483c41e-d3f9-4fe3-ba5c-5e1a61f4e56b/regProcessStep1
+2026-06-26 09:28:35,647 - ERROR -    Error: Message: 
+
+2026-06-26 09:28:37,971 - INFO -    Sleeping 2.8s before next record...
+2026-06-26 09:28:40,723 - INFO - 
+=== SESSION COMPLETE | Success: 0 | Failed: 1 ===
+2026-06-26 09:30:54,480 - INFO - --- PROCESSING: Isaac Newton Quaye (isaacquaye508@gmail.com) ---
+2026-06-26 09:30:54,482 - INFO - ====== WebDriver manager ======
+2026-06-26 09:30:55,197 - INFO - Driver [C:\Users\Code-D\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win64/chromedriver.exe] found in cache by browser version
+2026-06-26 09:31:07,786 - INFO -    [Input] First Name set to: Isaac Newton
+2026-06-26 09:31:08,394 - INFO -    [Input] Last Name set to: Quaye
+2026-06-26 09:31:08,992 - INFO -    [Input] Email set to: isaacquaye508@gmail.com
+2026-06-26 09:31:09,134 - INFO -    [Select] Gender set to: Male
+2026-06-26 09:31:09,602 - INFO -    [Select] Country set to: Ghana
+2026-06-26 09:31:13,860 - INFO -    [Referral] Menu opened via: div[data-cvent-id='async-dropdown-wrapper'] div[class*='indicatorContainer']
+2026-06-26 09:31:13,867 - INFO -    [Referral Debug] DOM snapshot:
+SPAN|react-select-2-live-region|css-7pg0cj-a11yText|
+DIV|react-select-2-placeholder| css-14xwkp7-placeholder|
+DIV|react-select-2-listbox| css-og0n0e|Binance CommunicationsEmailXInstagramYou
+DIV|react-select-2-option-0| css-sl33e4-option|
+DIV|react-select-2-option-1| css-1262nuc-option|Binance Communications
+DIV|react-select-2-option-2| css-1262nuc-option|Email
+DIV|react-select-2-option-3| css-1262nuc-option|X
+DIV|react-select-2-option-4| css-1262nuc-option|Instagram
+DIV|react-select-2-option-5| css-1262nuc-option|YouTube
+DIV|react-select-2-option-6| css-1262nuc-option|Facebook
+DIV|react-select-2-option-7| css-1262nuc-option|LinkedIn
+DIV|react-select-2-option-8| css-1262nuc-option|TikTok
+DIV|react-select-2-option-9| css-1262nuc-option|Google Search
+DIV|react-select-2-option-10| css-1262nuc-option|Media
+DIV|react-select-2-option-11| css-1262nuc-option|Others
+2026-06-26 09:31:13,936 - INFO -    [Referral] Found 12 options. Looking for: 'X'
+2026-06-26 09:31:13,967 - INFO -    [Referral] Options: ['', 'Binance Communications', 'Email', 'X', 'Instagram', 'YouTube', 'Facebook', 'LinkedIn', 'TikTok', 'Google Search', 'Media', 'Others']
+2026-06-26 09:31:14,783 - INFO -    [Referral] Selected: X
+2026-06-26 09:31:17,229 - INFO -    Clicked 'Next' — waiting for Summary page...
+2026-06-26 09:32:20,016 - INFO - --- PROCESSING: Isaac Newton Quaye (isaacquaye508@gmail.com) ---
+2026-06-26 09:32:20,019 - INFO - ====== WebDriver manager ======
+2026-06-26 09:32:20,692 - INFO - Driver [C:\Users\Code-D\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win64/chromedriver.exe] found in cache by browser version
+2026-06-26 09:32:32,698 - INFO -    [Input] First Name set to: Isaac Newton
+2026-06-26 09:32:33,308 - INFO -    [Input] Last Name set to: Quaye
+2026-06-26 09:32:33,927 - INFO -    [Input] Email set to: isaacquaye508@gmail.com
+2026-06-26 09:32:34,005 - INFO -    [Select] Gender set to: Male
+2026-06-26 09:32:34,472 - INFO -    [Select] Country set to: Ghana
+2026-06-26 09:32:35,875 - ERROR -    [Referral Error] Field not found within 15s.
+2026-06-26 09:34:25,727 - INFO - --- PROCESSING: Isaac Newton Quaye (isaacquaye508@gmail.com) ---
+2026-06-26 09:34:25,730 - INFO - ====== WebDriver manager ======
+2026-06-26 09:34:26,414 - INFO - Driver [C:\Users\Code-D\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win64/chromedriver.exe] found in cache by browser version
+2026-06-26 09:35:19,855 - INFO - --- PROCESSING: Atiga Kuniba Aisha (atigakunibaaisha@gmail.com) ---
+2026-06-26 09:35:19,859 - INFO - ====== WebDriver manager ======
+2026-06-26 09:35:20,592 - INFO - Driver [C:\Users\Code-D\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win64/chromedriver.exe] found in cache by browser version
+2026-06-26 09:35:33,220 - INFO -    [Input] First Name set to: Atiga
+2026-06-26 09:35:33,888 - INFO -    [Input] Last Name set to: Kuniba Aisha
+2026-06-26 09:35:34,492 - INFO -    [Input] Email set to: atigakunibaaisha@gmail.com
+2026-06-26 09:35:34,564 - INFO -    [Select] Gender set to: Female
+2026-06-26 09:35:35,032 - INFO -    [Select] Country set to: Ghana
+2026-06-26 09:35:39,308 - INFO -    [Referral] Menu opened via: div[data-cvent-id='async-dropdown-wrapper'] div[class*='indicatorContainer']
+2026-06-26 09:35:39,315 - INFO -    [Referral Debug] DOM snapshot:
+SPAN|react-select-2-live-region|css-7pg0cj-a11yText|
+DIV|react-select-2-placeholder| css-14xwkp7-placeholder|
+DIV|react-select-2-listbox| css-og0n0e|Binance CommunicationsEmailXInstagramYou
+DIV|react-select-2-option-0| css-sl33e4-option|
+DIV|react-select-2-option-1| css-1262nuc-option|Binance Communications
+DIV|react-select-2-option-2| css-1262nuc-option|Email
+DIV|react-select-2-option-3| css-1262nuc-option|X
+DIV|react-select-2-option-4| css-1262nuc-option|Instagram
+DIV|react-select-2-option-5| css-1262nuc-option|YouTube
+DIV|react-select-2-option-6| css-1262nuc-option|Facebook
+DIV|react-select-2-option-7| css-1262nuc-option|LinkedIn
+DIV|react-select-2-option-8| css-1262nuc-option|TikTok
+DIV|react-select-2-option-9| css-1262nuc-option|Google Search
+DIV|react-select-2-option-10| css-1262nuc-option|Media
+DIV|react-select-2-option-11| css-1262nuc-option|Others
+2026-06-26 09:35:39,324 - INFO -    [Referral] Found 12 options. Looking for: 'Binance App'
+2026-06-26 09:35:39,336 - INFO -    [Referral] Options: ['', 'Binance Communications', 'Email', 'X', 'Instagram', 'YouTube', 'Facebook', 'LinkedIn', 'TikTok', 'Google Search', 'Media', 'Others']
+2026-06-26 09:35:39,338 - WARNING -    [Referral] 'Binance App' not found, using first: ''
+2026-06-26 09:35:40,151 - INFO -    [Referral] Selected: Binance App
+2026-06-26 09:35:42,564 - INFO -    Clicked 'Next' — waiting for Summary page...
+2026-06-26 09:35:52,725 - INFO -    Summary page loaded: https://www.binance.events/event/a483c41e-d3f9-4fe3-ba5c-5e1a61f4e56b/regPage:8a362de7-7f50-4880-a9a5-1035b2c14d43
+2026-06-26 09:36:32,906 - ERROR -    FAILED: atigakunibaaisha@gmail.com | URL: https://www.binance.events/event/a483c41e-d3f9-4fe3-ba5c-5e1a61f4e56b/regPage:8a362de7-7f50-4880-a9a5-1035b2c14d43
+2026-06-26 09:36:32,906 - ERROR -    Error: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff7a39b3fa5+14925]
+	chromedriver!GetHandleVerifier [0x7ff7a39b4000+14980]
+	chromedriver!(No symbol) [0x7ff7a34f793d]
+	chromedriver!(No symbol) [0x7ff7a3551aad]
+	chromedriver!(No symbol) [0x7ff7a3551dac]
+	chromedriver!(No symbol) [0x7ff7a35a27
+2026-06-26 09:36:35,206 - INFO -    Sleeping 2.0s before next record...
+2026-06-26 09:36:37,242 - INFO - --- PROCESSING: Abigail Tikesseh (Abigailtikesseh@gmail.com) ---
+2026-06-26 09:36:37,243 - INFO - ====== WebDriver manager ======
+2026-06-26 09:36:37,944 - INFO - Driver [C:\Users\Code-D\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win64/chromedriver.exe] found in cache by browser version
+2026-06-26 09:36:50,542 - INFO -    [Input] First Name set to: Abigail
+2026-06-26 09:36:51,300 - INFO -    [Input] Last Name set to: Tikesseh
+2026-06-26 09:36:51,920 - INFO -    [Input] Email set to: Abigailtikesseh@gmail.com
+2026-06-26 09:36:52,026 - INFO -    [Select] Gender set to: Female
+2026-06-26 09:36:52,499 - INFO -    [Select] Country set to: Ghana
+2026-06-26 09:36:56,775 - INFO -    [Referral] Menu opened via: div[data-cvent-id='async-dropdown-wrapper'] div[class*='indicatorContainer']
+2026-06-26 09:36:56,781 - INFO -    [Referral Debug] DOM snapshot:
+SPAN|react-select-2-live-region|css-7pg0cj-a11yText|
+DIV|react-select-2-placeholder| css-14xwkp7-placeholder|
+DIV|react-select-2-listbox| css-og0n0e|Binance CommunicationsEmailXInstagramYou
+DIV|react-select-2-option-0| css-sl33e4-option|
+DIV|react-select-2-option-1| css-1262nuc-option|Binance Communications
+DIV|react-select-2-option-2| css-1262nuc-option|Email
+DIV|react-select-2-option-3| css-1262nuc-option|X
+DIV|react-select-2-option-4| css-1262nuc-option|Instagram
+DIV|react-select-2-option-5| css-1262nuc-option|YouTube
+DIV|react-select-2-option-6| css-1262nuc-option|Facebook
+DIV|react-select-2-option-7| css-1262nuc-option|LinkedIn
+DIV|react-select-2-option-8| css-1262nuc-option|TikTok
+DIV|react-select-2-option-9| css-1262nuc-option|Google Search
+DIV|react-select-2-option-10| css-1262nuc-option|Media
+DIV|react-select-2-option-11| css-1262nuc-option|Others
+2026-06-26 09:36:56,787 - INFO -    [Referral] Found 12 options. Looking for: 'Binance Communications'
+2026-06-26 09:36:56,799 - INFO -    [Referral] Options: ['', 'Binance Communications', 'Email', 'X', 'Instagram', 'YouTube', 'Facebook', 'LinkedIn', 'TikTok', 'Google Search', 'Media', 'Others']
+2026-06-26 09:36:57,598 - INFO -    [Referral] Selected: Binance Communications
+2026-06-26 09:37:00,117 - INFO -    Clicked 'Next' — waiting for Summary page...
+2026-06-26 09:37:40,616 - ERROR -    FAILED: Abigailtikesseh@gmail.com | URL: https://www.binance.events/event/a483c41e-d3f9-4fe3-ba5c-5e1a61f4e56b/regProcessStep1
+2026-06-26 09:37:40,616 - ERROR -    Error: Message: 
+
+2026-06-26 09:37:42,895 - INFO -    Sleeping 2.3s before next record...
+2026-06-26 09:37:45,189 - INFO - --- PROCESSING: Patricia Yenbapoka (patriciakparib25@gmail.com) ---
+2026-06-26 09:37:45,190 - INFO - ====== WebDriver manager ======
+2026-06-26 09:37:45,834 - INFO - Driver [C:\Users\Code-D\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win64/chromedriver.exe] found in cache by browser version
+2026-06-26 09:37:57,956 - INFO -    [Input] First Name set to: Patricia
+2026-06-26 09:37:58,601 - INFO -    [Input] Last Name set to: Yenbapoka
+2026-06-26 09:37:59,197 - INFO -    [Input] Email set to: patriciakparib25@gmail.com
+2026-06-26 09:37:59,276 - INFO -    [Select] Gender set to: Female
+2026-06-26 09:37:59,748 - INFO -    [Select] Country set to: Ghana
+2026-06-26 09:38:04,152 - INFO -    [Referral] Menu opened via: div[data-cvent-id='async-dropdown-wrapper'] div[class*='indicatorContainer']
+2026-06-26 09:38:04,158 - INFO -    [Referral Debug] DOM snapshot:
+SPAN|react-select-2-live-region|css-7pg0cj-a11yText|
+DIV|react-select-2-placeholder| css-14xwkp7-placeholder|
+DIV|react-select-2-listbox| css-og0n0e|Binance CommunicationsEmailXInstagramYou
+DIV|react-select-2-option-0| css-sl33e4-option|
+DIV|react-select-2-option-1| css-1262nuc-option|Binance Communications
+DIV|react-select-2-option-2| css-1262nuc-option|Email
+DIV|react-select-2-option-3| css-1262nuc-option|X
+DIV|react-select-2-option-4| css-1262nuc-option|Instagram
+DIV|react-select-2-option-5| css-1262nuc-option|YouTube
+DIV|react-select-2-option-6| css-1262nuc-option|Facebook
+DIV|react-select-2-option-7| css-1262nuc-option|LinkedIn
+DIV|react-select-2-option-8| css-1262nuc-option|TikTok
+DIV|react-select-2-option-9| css-1262nuc-option|Google Search
+DIV|react-select-2-option-10| css-1262nuc-option|Media
+DIV|react-select-2-option-11| css-1262nuc-option|Others
+2026-06-26 09:38:04,166 - INFO -    [Referral] Found 12 options. Looking for: 'Instagram'
+2026-06-26 09:38:04,179 - INFO -    [Referral] Options: ['', 'Binance Communications', 'Email', 'X', 'Instagram', 'YouTube', 'Facebook', 'LinkedIn', 'TikTok', 'Google Search', 'Media', 'Others']
+2026-06-26 09:38:05,003 - INFO -    [Referral] Selected: Instagram
+2026-06-26 09:38:07,332 - INFO -    Clicked 'Next' — waiting for Summary page...
+2026-06-26 09:38:12,873 - INFO -    Summary page loaded: https://www.binance.events/event/a483c41e-d3f9-4fe3-ba5c-5e1a61f4e56b/regPage:8a362de7-7f50-4880-a9a5-1035b2c14d43
+2026-06-26 09:38:52,900 - ERROR -    FAILED: patriciakparib25@gmail.com | URL: https://www.binance.events/event/a483c41e-d3f9-4fe3-ba5c-5e1a61f4e56b/confirmation
+2026-06-26 09:38:52,900 - ERROR -    Error: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff7a39b3fa5+14925]
+	chromedriver!GetHandleVerifier [0x7ff7a39b4000+14980]
+	chromedriver!(No symbol) [0x7ff7a34f793d]
+	chromedriver!(No symbol) [0x7ff7a3551aad]
+	chromedriver!(No symbol) [0x7ff7a3551dac]
+	chromedriver!(No symbol) [0x7ff7a35a27
+2026-06-26 09:38:55,372 - INFO -    Sleeping 2.5s before next record...
+2026-06-26 09:38:57,837 - INFO - --- PROCESSING: Nabuer Zaccheous Nteajal (nabuerzaccheous001@gmail.com) ---
+2026-06-26 09:38:57,837 - INFO - ====== WebDriver manager ======
+2026-06-26 09:38:58,558 - INFO - Driver [C:\Users\Code-D\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win64/chromedriver.exe] found in cache by browser version
+2026-06-26 09:39:17,271 - INFO -    [Input] First Name set to: Nabuer Zaccheous
+2026-06-26 09:39:17,886 - INFO -    [Input] Last Name set to: Nteajal
+2026-06-26 09:39:18,478 - INFO -    [Input] Email set to: nabuerzaccheous001@gmail.com
+2026-06-26 09:39:18,563 - INFO -    [Select] Gender set to: Male
+2026-06-26 09:39:19,053 - INFO -    [Select] Country set to: Ghana
+2026-06-26 09:39:23,301 - INFO -    [Referral] Menu opened via: div[data-cvent-id='async-dropdown-wrapper'] div[class*='indicatorContainer']
+2026-06-26 09:39:23,307 - INFO -    [Referral Debug] DOM snapshot:
+SPAN|react-select-2-live-region|css-7pg0cj-a11yText|
+DIV|react-select-2-placeholder| css-14xwkp7-placeholder|
+DIV|react-select-2-listbox| css-og0n0e|Binance CommunicationsEmailXInstagramYou
+DIV|react-select-2-option-0| css-sl33e4-option|
+DIV|react-select-2-option-1| css-1262nuc-option|Binance Communications
+DIV|react-select-2-option-2| css-1262nuc-option|Email
+DIV|react-select-2-option-3| css-1262nuc-option|X
+DIV|react-select-2-option-4| css-1262nuc-option|Instagram
+DIV|react-select-2-option-5| css-1262nuc-option|YouTube
+DIV|react-select-2-option-6| css-1262nuc-option|Facebook
+DIV|react-select-2-option-7| css-1262nuc-option|LinkedIn
+DIV|react-select-2-option-8| css-1262nuc-option|TikTok
+DIV|react-select-2-option-9| css-1262nuc-option|Google Search
+DIV|react-select-2-option-10| css-1262nuc-option|Media
+DIV|react-select-2-option-11| css-1262nuc-option|Others
+2026-06-26 09:39:23,316 - INFO -    [Referral] Found 12 options. Looking for: 'Email'
+2026-06-26 09:39:23,329 - INFO -    [Referral] Options: ['', 'Binance Communications', 'Email', 'X', 'Instagram', 'YouTube', 'Facebook', 'LinkedIn', 'TikTok', 'Google Search', 'Media', 'Others']
+2026-06-26 09:39:24,113 - INFO -    [Referral] Selected: Email
+2026-06-26 09:39:26,552 - INFO -    Clicked 'Next' — waiting for Summary page...
+2026-06-26 09:40:06,778 - ERROR -    FAILED: nabuerzaccheous001@gmail.com | URL: https://www.binance.events/event/a483c41e-d3f9-4fe3-ba5c-5e1a61f4e56b/regProcessStep1
+2026-06-26 09:40:06,778 - ERROR -    Error: Message: 
+
+2026-06-26 09:40:09,079 - INFO -    Sleeping 2.9s before next record...
+2026-06-26 09:40:11,993 - INFO - --- PROCESSING: Fortune Awinsune (fortuneayaane718@gmail.com) ---
+2026-06-26 09:40:11,993 - INFO - ====== WebDriver manager ======
+2026-06-26 09:40:12,632 - INFO - Driver [C:\Users\Code-D\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win64/chromedriver.exe] found in cache by browser version
+2026-06-26 09:40:24,699 - INFO -    [Input] First Name set to: Fortune
+2026-06-26 09:40:25,304 - INFO -    [Input] Last Name set to: Awinsune
+2026-06-26 09:40:25,922 - INFO -    [Input] Email set to: fortuneayaane718@gmail.com
+2026-06-26 09:40:25,999 - INFO -    [Select] Gender set to: Female
+2026-06-26 09:40:26,481 - INFO -    [Select] Country set to: Ghana
+2026-06-26 09:40:30,746 - INFO -    [Referral] Menu opened via: div[data-cvent-id='async-dropdown-wrapper'] div[class*='indicatorContainer']
+2026-06-26 09:40:30,753 - INFO -    [Referral Debug] DOM snapshot:
+SPAN|react-select-2-live-region|css-7pg0cj-a11yText|
+DIV|react-select-2-placeholder| css-14xwkp7-placeholder|
+DIV|react-select-2-listbox| css-og0n0e|Binance CommunicationsEmailXInstagramYou
+DIV|react-select-2-option-0| css-sl33e4-option|
+DIV|react-select-2-option-1| css-1262nuc-option|Binance Communications
+DIV|react-select-2-option-2| css-1262nuc-option|Email
+DIV|react-select-2-option-3| css-1262nuc-option|X
+DIV|react-select-2-option-4| css-1262nuc-option|Instagram
+DIV|react-select-2-option-5| css-1262nuc-option|YouTube
+DIV|react-select-2-option-6| css-1262nuc-option|Facebook
+DIV|react-select-2-option-7| css-1262nuc-option|LinkedIn
+DIV|react-select-2-option-8| css-1262nuc-option|TikTok
+DIV|react-select-2-option-9| css-1262nuc-option|Google Search
+DIV|react-select-2-option-10| css-1262nuc-option|Media
+DIV|react-select-2-option-11| css-1262nuc-option|Others
+2026-06-26 09:40:30,761 - INFO -    [Referral] Found 12 options. Looking for: 'Binance App'
+2026-06-26 09:40:30,774 - INFO -    [Referral] Options: ['', 'Binance Communications', 'Email', 'X', 'Instagram', 'YouTube', 'Facebook', 'LinkedIn', 'TikTok', 'Google Search', 'Media', 'Others']
+2026-06-26 09:40:30,774 - WARNING -    [Referral] 'Binance App' not found, using first: ''
+2026-06-26 09:40:31,570 - INFO -    [Referral] Selected: Binance App
+2026-06-26 09:40:33,979 - INFO -    Clicked 'Next' — waiting for Summary page...
+2026-06-26 09:41:14,461 - ERROR -    FAILED: fortuneayaane718@gmail.com | URL: https://www.binance.events/event/a483c41e-d3f9-4fe3-ba5c-5e1a61f4e56b/regProcessStep1
+2026-06-26 09:41:14,461 - ERROR -    Error: Message: 
+
+2026-06-26 09:41:16,824 - INFO -    Sleeping 1.9s before next record...
+2026-06-26 09:41:18,725 - INFO - 
+=== SESSION COMPLETE | Success: 0 | Failed: 5 ===
