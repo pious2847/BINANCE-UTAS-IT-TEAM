@@ -425,20 +425,74 @@ class RegistrationBot:
             # If "Others" chosen, fill the follow-up text box
             if chosen_ref == "Others":
                 time.sleep(1.5)
+                other_text = self.config['defaults'].get(
+                    'other_text', 'University of Technology and Applied Sciences'
+                )
+                filled = False
+
+                # Strategy 1: find input whose label contains "other" (case-insensitive)
                 try:
-                    other_input = driver.find_element(
-                        By.CSS_SELECTOR,
-                        "input[placeholder], input[aria-label*='specify'], "
-                        "input[aria-label*='other' i], input[aria-label*='Other' i]"
+                    label = WebDriverWait(driver, 8).until(
+                        EC.presence_of_element_located((
+                            By.XPATH,
+                            "//label[contains(translate(., 'ABCDEFGHIJKLMNOPQRSTUVWXYZ',"
+                            " 'abcdefghijklmnopqrstuvwxyz'), 'other')]"
+                        ))
                     )
-                    other_id = other_input.get_attribute("id")
-                    self.js_set_input(
-                        driver, other_id,
-                        self.config['defaults'].get('other_text', 'University of Technology and Applied Sciences'),
-                        "Other Source"
-                    )
+                    # Get the for= attribute to find the matching input
+                    for_id = label.get_attribute("for")
+                    if for_id:
+                        filled = self.js_set_input(driver, for_id, other_text, "Other Source")
                 except Exception:
-                    logger.warning("   [Others] Follow-up text box not found, skipping.")
+                    pass
+
+                # Strategy 2: find a newly-visible text input that is empty and required
+                if not filled:
+                    try:
+                        inputs = driver.find_elements(
+                            By.CSS_SELECTOR,
+                            "input[type='text'][aria-required='true'], "
+                            "input[type='text'][required]"
+                        )
+                        for inp in inputs:
+                            val = inp.get_attribute("value") or ""
+                            if val.strip() == "":
+                                inp_id = inp.get_attribute("id")
+                                if inp_id:
+                                    filled = self.js_set_input(
+                                        driver, inp_id, other_text, "Other Source"
+                                    )
+                                    if filled:
+                                        break
+                    except Exception:
+                        pass
+
+                # Strategy 3: JS — find input whose preceding label text contains "other"
+                if not filled:
+                    try:
+                        inp_el = driver.execute_script(
+                            "var labels = document.querySelectorAll('label');"
+                            "for (var i = 0; i < labels.length; i++) {"
+                            "  if (labels[i].innerText.toLowerCase().indexOf('other') !== -1) {"
+                            "    var id = labels[i].getAttribute('for');"
+                            "    if (id) { var el = document.getElementById(id);"
+                            "      if (el && el.tagName === 'INPUT') return el; }"
+                            "  }"
+                            "}"
+                            "return null;"
+                        )
+                        if inp_el:
+                            inp_id = driver.execute_script(
+                                "return arguments[0].id;", inp_el
+                            )
+                            filled = self.js_set_input(
+                                driver, inp_id, other_text, "Other Source"
+                            )
+                    except Exception:
+                        pass
+
+                if not filled:
+                    logger.warning("   [Others] Could not find follow-up text box.")
 
             # --- Step 5: Consent radio buttons ---
             for radio_id in [
@@ -527,40 +581,105 @@ class RegistrationBot:
             time.sleep(2)  # Let summary page fully render
             logger.info(f"   Summary page loaded: {driver.current_url}")
 
-            # --- Step 8: Final submit (button id="submit", not "forward") ---
-            # Try "submit" first (page 2 button), then fall back to "forward"
+            # --- Step 8: Find and click the Submit button ---
+            # The button reads "Submit" (text), not id="submit".
+            # We try by text first, then fall back to id/type selectors.
             final_btn = None
-            for btn_id in ["submit", "forward"]:
+
+            # Priority 1: button whose visible text is "Submit"
+            try:
+                final_btn = WebDriverWait(driver, 15).until(
+                    EC.element_to_be_clickable((
+                        By.XPATH,
+                        "//button[normalize-space(text())='Submit'] | "
+                        "//button[contains(@class,'primary') and normalize-space(.)='Submit']"
+                    ))
+                )
+                logger.info("   Found Submit button by text.")
+            except Exception:
+                pass
+
+            # Priority 2: id="submit" or id="forward"
+            if final_btn is None:
+                for btn_id in ["submit", "forward"]:
+                    try:
+                        final_btn = WebDriverWait(driver, 5).until(
+                            EC.element_to_be_clickable((By.ID, btn_id))
+                        )
+                        logger.info(f"   Found final button by id='{btn_id}'.")
+                        break
+                    except Exception:
+                        continue
+
+            # Priority 3: any yellow/primary button on the page
+            if final_btn is None:
                 try:
-                    final_btn = wait.until(EC.element_to_be_clickable((By.ID, btn_id)))
-                    logger.info(f"   Found final button: id='{btn_id}'")
-                    break
+                    final_btn = WebDriverWait(driver, 5).until(
+                        EC.element_to_be_clickable((
+                            By.XPATH,
+                            "//button[contains(@class,'primary-btn') or "
+                            "contains(@class,'primary')]"
+                        ))
+                    )
+                    logger.info(f"   Found final button by class. Text: {final_btn.text}")
                 except Exception:
-                    continue
+                    pass
 
             if final_btn is None:
-                raise Exception("Could not find final Submit/Next button on summary page.")
+                raise Exception("Could not find Submit button on summary page.")
 
             driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
             time.sleep(1)
+            driver.execute_script("arguments[0].scrollIntoView({block:'center'});", final_btn)
+            time.sleep(0.5)
             driver.execute_script("arguments[0].click();", final_btn)
-            logger.info("   Final submit clicked — proceeding to next registration...")
+            logger.info("   Submit clicked — waiting for post-submit modal or confirmation...")
 
-            # --- Step 9: Wait briefly then move on (don't block on confirmation page) ---
-            # We just need the page to leave the summary/regPage — success is confirmed
-            # by the URL changing away from regPage. We do NOT wait for /confirmation
-            # since that wastes time; the submission is already queued server-side.
-            try:
-                WebDriverWait(driver, 20).until(
-                    lambda d: "regPage" not in d.current_url or
-                              "confirmation" in d.current_url
-                )
-            except Exception:
-                pass  # If it times out, check the URL anyway
+            # --- Step 9: Handle post-submission modal, then wait for confirmation ---
+            # After clicking Submit, the site shows a processing modal briefly,
+            # then redirects to /confirmation. We:
+            #   a) Dismiss any modal that appears (OK / Close / Got it)
+            #   b) Wait for the URL to reach /confirmation (up to 20s)
+            confirmed = False
+            for tick in range(40):  # 40 × 0.5s = 20s
+                time.sleep(0.5)
+                cur_url = driver.current_url
+
+                if "confirmation" in cur_url:
+                    confirmed = True
+                    break
+
+                # Dismiss any modal that pops up during processing
+                try:
+                    modal = driver.find_element(
+                        By.CSS_SELECTOR,
+                        '[role="dialog"],[class*="modal"],[class*="Modal"],'
+                        '[class*="Dialog"],[class*="dialog"]'
+                    )
+                    if modal.is_displayed():
+                        modal_txt = modal.text
+                        logger.info(f"   Post-submit modal: {modal_txt[:80]}")
+                        driver.execute_script(
+                            "var btns=arguments[0].querySelectorAll('button');"
+                            "for(var i=0;i<btns.length;i++){"
+                            "  var t=btns[i].innerText.toLowerCase();"
+                            "  if(t.includes('ok')||t.includes('close')||"
+                            "     t.includes('got it')||t.includes('confirm')){"
+                            "    btns[i].click();return;}"
+                            "}"
+                            "if(btns.length) btns[0].click();",
+                            modal
+                        )
+                        time.sleep(1)
+                except Exception:
+                    pass
 
             final_url = driver.current_url
-            if "regProcessStep1" in final_url and "regPage" not in final_url:
-                raise Exception(f"Submission may have failed. URL: {final_url}")
+            if not confirmed:
+                # Warn but still treat as success if we left regPage
+                logger.warning(f"   Confirmation page not reached in 20s. URL: {final_url}")
+                if "regPage" in final_url or "regProcessStep1" in final_url:
+                    raise Exception(f"Submission unclear — still on: {final_url}")
 
             logger.info(f"   SUCCESS: {email} | Final URL: {final_url}")
             self.log_registration(user_data, "Success")
