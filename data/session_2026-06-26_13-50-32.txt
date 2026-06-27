@@ -1,0 +1,54 @@
+====================================================
+     REGISTRATION SESSION SUMMARY
+====================================================
+  Date/Time        : 2026-06-26 13:50:32
+  Successful       : 42
+  Already Registered: 82
+  Failed           : 7
+  Total Processed  : 131
+====================================================
+
+Newly Registered Participants:
+----------------------------------------------------
+    1. Asowe Kupoli — asowekupoli@gmail.com
+    2. Hisana Mashud — mashudhisana57@gmail.com
+    3. Aniwe Selina — adwoaselina41@gmail.com
+    4. Kwabena Eric Nlabiche — enkwabena24.stu@cktutas.edu.gh
+    5. Atawusu Angela Kalo — atawusua@gmail.com
+    6. Abukari Rafatu — rafatuabukari484@gmail.com
+    7. Muazu Mahamudu — mahamudumuazu@gmail.com
+    8. Adam Sakina — adamsakina498@gmail.com
+    9. Kamal Namoam — nloikamal64@gmail.com
+   10. Victoria  Azumah Awinida — awinidavictoria929@gmail.com
+   11. Emmanuella Naoh — etnaoh24.stu@utas.edu.gh
+   12. Ivy Atambeogo — ivyawinsusit@gmail.com
+   13. Chimual Eric Njoboon — chimualnjobooneric@gmail.com
+   14. Abdul-Jaliw Mumuni — amumuni25.stu@utas.edu.gh
+   15. Nachim Naomi — yabanaomi7@gmail.com
+   16. Emmanuella Ali — aliyoroka@gmail.com
+   17. Apana Vida — apanavida100@gmail.com
+   18. Christiana Ndanbon — ndanbonchristiana@gmail.com
+   19. Stanley Niwubi Gmayeunyan — stanleyniwubi65@gmail.com
+   20. Hassan Benjamin — benjaminhassan262@gmail.com
+   21. Murjana Rufai — rufaimurjana46@gmail.com
+   22. ASAAN EMMANUEL NDEWIN — asaanemmanuelndewin@gmail.com
+   23. Khadijah Shiraz — Shirazkhadija56@gmail.com
+   24. Sulemana Abdallah — abdallahsulemana577@gmail.com
+   25. Helena Atanga — hatanga23.stu@utas.edu.gh
+   26. MABEFAM NMANI  BERNARD — mabefambernard@gmail.com
+   27. Baachunia Mikel — ayipogsongmikel@gmail.com
+   28. Fred N-nyanbini — nnyanbinif614@gmail.com
+   29. Clemencia Nangoot — nangootclemencia@gmail.com
+   30. Anganyaaliboa Christopher Abolimasa — christopheranganyaaliboa@gmail.com
+   31. Fatimah Atiiga — atiigafatimah@gmail.com
+   32. Kulunla Simon Nponiche — nponichekulunla@gmail.com
+   33. Salamatu Abubakar — salamatusalamatu10@gmail.com
+   34. Abdul Wajid Musah — abdulwajidmusah@gmail.com
+   35. GRACE  YENNUMI SINGIR — singirgrace@gmail.com
+   36. Alhassan Haruna — alhassanharuna9821@gmail.com
+   37. Juliet Adobasom — julietadobasom25@gmail.com
+   38. Princess Siyabia — princesssiyabia@gmail.com
+   39. Bala Mohammed Ahat — ahatbala@gmail.com
+   40. Fakiha Ziblila — keehart76@gmail.com
+   41. Albert Batanye — batanyealbert@gmail.com
+   42. Grace Yennube — graceyennube958@gmail.com

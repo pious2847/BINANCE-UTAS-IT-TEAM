@@ -1,366 +1,53 @@
 Timestamp,First Name,Last Name,Email,Status
 2026-06-26 06:24:13,Jacob ,Kolwefera ,jkolwefera@gmail.com,Failed: module 'selenium.webdriver.support.expected_conditions' has no attribute 'presence_of_element_list'
 2026-06-26 06:29:46,Isaac Newton ,Quaye,isaacquaye508@gmail.com,Failed: module 'selenium.webdriver.support.expected_conditions' has no attribute 'presence_of_element_list'
-2026-06-26 06:37:19,Atiga,Kuniba Aisha ,atigakunibaaisha@gmail.com,"Failed: Message: element not interactable
-  (Session info: chrome=149.0.7827.199); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementnotinteractableexception
-Stacktrace:
-	chromedriver!GetHandleVerifier [0x7ff7a39b3fa5+14925]
-	chromedriver!GetHandleVerifier [0x7ff7a39b4000+14980]
-	chromedriver!(No symbol) [0x7ff7a34f7726]
-	chromedriver!(No symbol) [0x7ff7a354c8a9]
-	chromedriver!(No symbol) [0x7ff7a354a448]
-	chromedriver!(No symbol) [0x7ff7a357a3ca]
-	chromedriver!(No symbol) [0x7ff7a35457c6]
-	chromedriver!(No symbol) [0x7ff7a359f39b]
-	chromedriver!(No symbol) [0x7ff7a354401c]
-	chromedriver!(No symbol) [0x7ff7a3544f43]
-	chromedriver!GetHandleVerifier [0x7ff7a3f97591+5f7f11]
-	chromedriver!GetHandleVerifier [0x7ff7a3f91902+5f2282]
-	chromedriver!GetHandleVerifier [0x7ff7a3fb7115+617a95]
-	chromedriver!GetHandleVerifier [0x7ff7a39d1dce+3274e]
-	chromedriver!GetHandleVerifier [0x7ff7a39da82c+3b1ac]
-	chromedriver!GetHandleVerifier [0x7ff7a39bd744+1e0c4]
-	chromedriver!GetHandleVerifier [0x7ff7a39bd8d4+1e254]
-	chromedriver!GetHandleVerifier [0x7ff7a39a1447+1dc7]
-	KERNEL32!BaseThreadInitThunk [0x7ffcdb0ae957+17]
-	ntdll!RtlUserThreadStart [0x7ffcdc807c1c+2c]
-"
-2026-06-26 06:39:46,Abigail ,Tikesseh ,Abigailtikesseh@gmail.com,"Failed: Message: 
-"
-2026-06-26 07:07:22,Patricia ,Yenbapoka ,patriciakparib25@gmail.com,"Failed: Message: invalid session id: session deleted as the browser has closed the connection
-from disconnected: not connected to DevTools
-  (Session info: chrome=149.0.7827.199); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
-Stacktrace:
-	chromedriver!GetHandleVerifier [0x7ff7a39b3fa5+14925]
-	chromedriver!GetHandleVerifier [0x7ff7a39b4000+14980]
-	chromedriver!(No symbol) [0x7ff7a34f793d]
-	chromedriver!(No symbol) [0x7ff7a34e2d82]
-	chromedriver!(No symbol) [0x7ff7a35090cc]
-	chromedriver!(No symbol) [0x7ff7a3581aa0]
-	chromedriver!(No symbol) [0x7ff7a359ec82]
-	chromedriver!(No symbol) [0x7ff7a354401c]
-	chromedriver!(No symbol) [0x7ff7a3544f43]
-	chromedriver!GetHandleVerifier [0x7ff7a3f97591+5f7f11]
-	chromedriver!GetHandleVerifier [0x7ff7a3f91902+5f2282]
-	chromedriver!GetHandleVerifier [0x7ff7a3fb7115+617a95]
-	chromedriver!GetHandleVerifier [0x7ff7a39d1dce+3274e]
-	chromedriver!GetHandleVerifier [0x7ff7a39da82c+3b1ac]
-	chromedriver!GetHandleVerifier [0x7ff7a39bd744+1e0c4]
-	chromedriver!GetHandleVerifier [0x7ff7a39bd8d4+1e254]
-	chromedriver!GetHandleVerifier [0x7ff7a39a1447+1dc7]
-	KERNEL32!BaseThreadInitThunk [0x7ffcdb0ae957+17]
-	ntdll!RtlUserThreadStart [0x7ffcdc807c1c+2c]
-"
-2026-06-26 07:13:53,Nabuer Zaccheous ,Nteajal,nabuerzaccheous001@gmail.com,"Failed: Message: element not interactable
-  (Session info: chrome=149.0.7827.199); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementnotinteractableexception
-Stacktrace:
-	chromedriver!GetHandleVerifier [0x7ff7a39b3fa5+14925]
-	chromedriver!GetHandleVerifier [0x7ff7a39b4000+14980]
-	chromedriver!(No symbol) [0x7ff7a34f7726]
-	chromedriver!(No symbol) [0x7ff7a354c8a9]
-	chromedriver!(No symbol) [0x7ff7a354a448]
-	chromedriver!(No symbol) [0x7ff7a357a3ca]
-	chromedriver!(No symbol) [0x7ff7a35457c6]
-	chromedriver!(No symbol) [0x7ff7a359f39b]
-	chromedriver!(No symbol) [0x7ff7a354401c]
-	chromedriver!(No symbol) [0x7ff7a3544f43]
-	chromedriver!GetHandleVerifier [0x7ff7a3f97591+5f7f11]
-	chromedriver!GetHandleVerifier [0x7ff7a3f91902+5f2282]
-	chromedriver!GetHandleVerifier [0x7ff7a3fb7115+617a95]
-	chromedriver!GetHandleVerifier [0x7ff7a39d1dce+3274e]
-	chromedriver!GetHandleVerifier [0x7ff7a39da82c+3b1ac]
-	chromedriver!GetHandleVerifier [0x7ff7a39bd744+1e0c4]
-	chromedriver!GetHandleVerifier [0x7ff7a39bd8d4+1e254]
-	chromedriver!GetHandleVerifier [0x7ff7a39a1447+1dc7]
-	KERNEL32!BaseThreadInitThunk [0x7ffcdb0ae957+17]
-	ntdll!RtlUserThreadStart [0x7ffcdc807c1c+2c]
-"
-2026-06-26 07:14:27,Fortune,Awinsune ,fortuneayaane718@gmail.com,"Failed: Message: element not interactable
-  (Session info: chrome=149.0.7827.199); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementnotinteractableexception
-Stacktrace:
-	chromedriver!GetHandleVerifier [0x7ff7a39b3fa5+14925]
-	chromedriver!GetHandleVerifier [0x7ff7a39b4000+14980]
-	chromedriver!(No symbol) [0x7ff7a34f7726]
-	chromedriver!(No symbol) [0x7ff7a354c8a9]
-	chromedriver!(No symbol) [0x7ff7a354a448]
-	chromedriver!(No symbol) [0x7ff7a357a3ca]
-	chromedriver!(No symbol) [0x7ff7a35457c6]
-	chromedriver!(No symbol) [0x7ff7a359f39b]
-	chromedriver!(No symbol) [0x7ff7a354401c]
-	chromedriver!(No symbol) [0x7ff7a3544f43]
-	chromedriver!GetHandleVerifier [0x7ff7a3f97591+5f7f11]
-	chromedriver!GetHandleVerifier [0x7ff7a3f91902+5f2282]
-	chromedriver!GetHandleVerifier [0x7ff7a3fb7115+617a95]
-	chromedriver!GetHandleVerifier [0x7ff7a39d1dce+3274e]
-	chromedriver!GetHandleVerifier [0x7ff7a39da82c+3b1ac]
-	chromedriver!GetHandleVerifier [0x7ff7a39bd744+1e0c4]
-	chromedriver!GetHandleVerifier [0x7ff7a39bd8d4+1e254]
-	chromedriver!GetHandleVerifier [0x7ff7a39a1447+1dc7]
-	KERNEL32!BaseThreadInitThunk [0x7ffcdb0ae957+17]
-	ntdll!RtlUserThreadStart [0x7ffcdc807c1c+2c]
-"
-2026-06-26 07:33:55,Tahiru ,Munira Winpini ,tahirumunirawinpini72@gmail.com,"Failed: Message: element not interactable
-  (Session info: chrome=149.0.7827.199); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementnotinteractableexception
-Stacktrace:
-	chromedriver!GetHandleVerifier [0x7ff7a39b3fa5+14925]
-	chromedriver!GetHandleVerifier [0x7ff7a39b4000+14980]
-	chromedriver!(No symbol) [0x7ff7a34f7726]
-	chromedriver!(No symbol) [0x7ff7a354c8a9]
-	chromedriver!(No symbol) [0x7ff7a354a448]
-	chromedriver!(No symbol) [0x7ff7a357a3ca]
-	chromedriver!(No symbol) [0x7ff7a35457c6]
-	chromedriver!(No symbol) [0x7ff7a359f39b]
-	chromedriver!(No symbol) [0x7ff7a354401c]
-	chromedriver!(No symbol) [0x7ff7a3544f43]
-	chromedriver!GetHandleVerifier [0x7ff7a3f97591+5f7f11]
-	chromedriver!GetHandleVerifier [0x7ff7a3f91902+5f2282]
-	chromedriver!GetHandleVerifier [0x7ff7a3fb7115+617a95]
-	chromedriver!GetHandleVerifier [0x7ff7a39d1dce+3274e]
-	chromedriver!GetHandleVerifier [0x7ff7a39da82c+3b1ac]
-	chromedriver!GetHandleVerifier [0x7ff7a39bd744+1e0c4]
-	chromedriver!GetHandleVerifier [0x7ff7a39bd8d4+1e254]
-	chromedriver!GetHandleVerifier [0x7ff7a39a1447+1dc7]
-	KERNEL32!BaseThreadInitThunk [0x7ffcdb0ae957+17]
-	ntdll!RtlUserThreadStart [0x7ffcdc807c1c+2c]
-"
-2026-06-26 07:36:26,Ndakan ,Akor ,ndakanakor0@gmail.com,"Failed: Message: no such element: Unable to locate element: {""method"":""css selector"",""selector"":""[id=""56aeaca6-a0ad-4548-8afc-94d8d4361ba1""]""}
-  (Session info: chrome=149.0.7827.199); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
-Stacktrace:
-	chromedriver!GetHandleVerifier [0x7ff7a39b3fa5+14925]
-	chromedriver!GetHandleVerifier [0x7ff7a39b4000+14980]
-	chromedriver!(No symbol) [0x7ff7a34f793d]
-	chromedriver!(No symbol) [0x7ff7a3551aad]
-	chromedriver!(No symbol) [0x7ff7a3551dac]
-	chromedriver!(No symbol) [0x7ff7a35a27d7]
-	chromedriver!(No symbol) [0x7ff7a359f39b]
-	chromedriver!(No symbol) [0x7ff7a354401c]
-	chromedriver!(No symbol) [0x7ff7a3544f43]
-	chromedriver!GetHandleVerifier [0x7ff7a3f97591+5f7f11]
-	chromedriver!GetHandleVerifier [0x7ff7a3f91902+5f2282]
-	chromedriver!GetHandleVerifier [0x7ff7a3fb7115+617a95]
-	chromedriver!GetHandleVerifier [0x7ff7a39d1dce+3274e]
-	chromedriver!GetHandleVerifier [0x7ff7a39da82c+3b1ac]
-	chromedriver!GetHandleVerifier [0x7ff7a39bd744+1e0c4]
-	chromedriver!GetHandleVerifier [0x7ff7a39bd8d4+1e254]
-	chromedriver!GetHandleVerifier [0x7ff7a39a1447+1dc7]
-	KERNEL32!BaseThreadInitThunk [0x7ffcdb0ae957+17]
-	ntdll!RtlUserThreadStart [0x7ffcdc807c1c+2c]
-"
-2026-06-26 07:38:22,Musadiq,Salisu,musadiqsalisu@gmail.com,"Failed: Message: 
-"
-2026-06-26 07:42:28,Anyars,Farida,anyarsfarida@gmail.com,"Failed: Message: element click intercepted: Element <input data-cvent-id=""input"" maxlength=""30"" aria-required=""true"" required="""" type=""text"" autocomplete=""given-name"" class=""TextInput__textbox___eQpJt css-87ndg2"" label=""[object Object]"" id=""56aeaca6-a0ad-4548-8afc-94d8d4361ba1"" name=""56aeaca6-a0ad-4548-8afc-94d8d4361ba1"" aria-describedby=""56aeaca6-a0ad-4548-8afc-94d8d4361ba1"" value="""" style=""font-family: &quot;customGotham HTC&quot;, Helvetica, Arial, sans-serif; font-weight: 400; font-size: 16px; color: rgb(30, 32, 38); line-height: 1.3; font-style: normal; text-align: left; background-color: rgb(255, 255, 255); border-radius: 0px; border-width: 1px; border-style: solid; border-color: rgb(30, 32, 38); padding: 5px;""> is not clickable at point (716, 394). Other element would receive the click: <img alt=""BInance Learning Lab Podgorica"" srcset=""https://images-eur.cvent.com/pr53/09ea8e8dd03f4676a24755ba47394373/pix/9b4093f9a168407b96407a7869a0a7aa!_!ed910cf458cc41ff41870f752c32c739.jpg?d=320&amp;f=webp 320w,
-        https://images-eur.cvent.com/pr53/09ea8e8dd03f4676a24755ba47394373/pix/9b4093f9a168407b96407a7869a0a7aa!_!ed910cf458cc41ff41870f752c32c739.jpg?d=480&amp;f=webp 480w,
-        https://images-eur.cvent.com/pr53/09ea8e8dd03f4676a24755ba47394373/pix/9b4093f9a168407b96407a7869a0a7aa!_!ed910cf458cc41ff41870f752c32c739.jpg?d=768&amp;f=webp 768w,
-        https://images-eur.cvent.com/pr53/09ea8e8dd03f4676a24755ba47394373/pix/9b4093f9a168407b96407a7869a0a7aa!_!ed910cf458cc41ff41870f752c32c739.jpg?d=992&amp;f=webp 992w,
-        https://images-eur.cvent.com/pr53/09ea8e8dd03f4676a24755ba47394373/pix/9b4093f9a168407b96407a7869a0a7aa!_!ed910cf458cc41ff41870f752c32c739.jpg?f=webp 1600w"" src=""https://images-eur.cvent.com/pr53/09ea8e8dd03f4676a24755ba47394373/pix/9b4093f9a168407b96407a7869a0a7aa!_!ed910cf458cc41ff41870f752c32c739.jpg?f=webp"" style=""max-width: 1600px;"">
-  (Session info: chrome=149.0.7827.199); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementclickinterceptedexception
-Stacktrace:
-	chromedriver!GetHandleVerifier [0x7ff7a39b3fa5+14925]
-	chromedriver!GetHandleVerifier [0x7ff7a39b4000+14980]
-	chromedriver!(No symbol) [0x7ff7a34f793d]
-	chromedriver!(No symbol) [0x7ff7a3559755]
-	chromedriver!(No symbol) [0x7ff7a355736a]
-	chromedriver!(No symbol) [0x7ff7a35546b7]
-	chromedriver!(No symbol) [0x7ff7a3553567]
-	chromedriver!(No symbol) [0x7ff7a3545f48]
-	chromedriver!(No symbol) [0x7ff7a357a3ca]
-	chromedriver!(No symbol) [0x7ff7a35457c6]
-	chromedriver!(No symbol) [0x7ff7a359f39b]
-	chromedriver!(No symbol) [0x7ff7a354401c]
-	chromedriver!(No symbol) [0x7ff7a3544f43]
-	chromedriver!GetHandleVerifier [0x7ff7a3f97591+5f7f11]
-	chromedriver!GetHandleVerifier [0x7ff7a3f91902+5f2282]
-	chromedriver!GetHandleVerifier [0x7ff7a3fb7115+617a95]
-	chromedriver!GetHandleVerifier [0x7ff7a39d1dce+3274e]
-	chromedriver!GetHandleVerifier [0x7ff7a39da82c+3b1ac]
-	chromedriver!GetHandleVerifier [0x7ff7a39bd744+1e0c4]
-	chromedriver!GetHandleVerifier [0x7ff7a39bd8d4+1e254]
-	chromedriver!GetHandleVerifier [0x7ff7a39a1447+1dc7]
-	KERNEL32!BaseThreadInitThunk [0x7ffcdb0ae957+17]
-	ntdll!RtlUserThreadStart [0x7ffcdc807c1c+2c]
-"
-2026-06-26 07:44:49,Iddrisu ,Ibrahim ,iddrisu4356ibrahim@gmail.com,"Failed: Message: 
-"
-2026-06-26 07:52:07,ADAM ,IBRAHIM ,iadam7095@gmail.com,"Failed: Message: 
-"
-2026-06-26 07:58:19,Mavis ,Akusong ,makusong26.stu@utas.edu.gh,"Failed: Message: Select only works on <select> elements, not on div
-"
-2026-06-26 08:00:51,Philip ,Anafo ,anafophilipgrace@gmail.com,"Failed: Message: 
-"
-2026-06-26 08:05:28,Isaiah,Lugugia,lugugiaisaiah@gmail.com,"Failed: Message: element not interactable
-  (Session info: chrome=149.0.7827.199); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementnotinteractableexception
-Stacktrace:
-	chromedriver!GetHandleVerifier [0x7ff7a39b3fa5+14925]
-	chromedriver!GetHandleVerifier [0x7ff7a39b4000+14980]
-	chromedriver!(No symbol) [0x7ff7a34f7726]
-	chromedriver!(No symbol) [0x7ff7a354c8a9]
-	chromedriver!(No symbol) [0x7ff7a354a448]
-	chromedriver!(No symbol) [0x7ff7a357a3ca]
-	chromedriver!(No symbol) [0x7ff7a35457c6]
-	chromedriver!(No symbol) [0x7ff7a359f39b]
-	chromedriver!(No symbol) [0x7ff7a354401c]
-	chromedriver!(No symbol) [0x7ff7a3544f43]
-	chromedriver!GetHandleVerifier [0x7ff7a3f97591+5f7f11]
-	chromedriver!GetHandleVerifier [0x7ff7a3f91902+5f2282]
-	chromedriver!GetHandleVerifier [0x7ff7a3fb7115+617a95]
-	chromedriver!GetHandleVerifier [0x7ff7a39d1dce+3274e]
-	chromedriver!GetHandleVerifier [0x7ff7a39da82c+3b1ac]
-	chromedriver!GetHandleVerifier [0x7ff7a39bd744+1e0c4]
-	chromedriver!GetHandleVerifier [0x7ff7a39bd8d4+1e254]
-	chromedriver!GetHandleVerifier [0x7ff7a39a1447+1dc7]
-	KERNEL32!BaseThreadInitThunk [0x7ffcdb0ae957+17]
-	ntdll!RtlUserThreadStart [0x7ffcdc807c1c+2c]
-"
-2026-06-26 08:07:30,Okasha Gulza ,Tahibu ,gulzaokasha6@gmail.com,"Failed: Message: no such element: Unable to locate element: {""method"":""css selector"",""selector"":""[id=""forward""]""}
-  (Session info: chrome=149.0.7827.199); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
-Stacktrace:
-	chromedriver!GetHandleVerifier [0x7ff7a39b3fa5+14925]
-	chromedriver!GetHandleVerifier [0x7ff7a39b4000+14980]
-	chromedriver!(No symbol) [0x7ff7a34f793d]
-	chromedriver!(No symbol) [0x7ff7a3551aad]
-	chromedriver!(No symbol) [0x7ff7a3551dac]
-	chromedriver!(No symbol) [0x7ff7a35a27d7]
-	chromedriver!(No symbol) [0x7ff7a359f39b]
-	chromedriver!(No symbol) [0x7ff7a354401c]
-	chromedriver!(No symbol) [0x7ff7a3544f43]
-	chromedriver!GetHandleVerifier [0x7ff7a3f97591+5f7f11]
-	chromedriver!GetHandleVerifier [0x7ff7a3f91902+5f2282]
-	chromedriver!GetHandleVerifier [0x7ff7a3fb7115+617a95]
-	chromedriver!GetHandleVerifier [0x7ff7a39d1dce+3274e]
-	chromedriver!GetHandleVerifier [0x7ff7a39da82c+3b1ac]
-	chromedriver!GetHandleVerifier [0x7ff7a39bd744+1e0c4]
-	chromedriver!GetHandleVerifier [0x7ff7a39bd8d4+1e254]
-	chromedriver!GetHandleVerifier [0x7ff7a39a1447+1dc7]
-	KERNEL32!BaseThreadInitThunk [0x7ffcdb0ae957+17]
-	ntdll!RtlUserThreadStart [0x7ffcdc807c1c+2c]
-"
-2026-06-26 08:11:06,Adutwumwaa ,Erica ,ericaad205@gmail.com,"Failed: Message: 
-"
-2026-06-26 08:22:28,Yurizah ,Emmanuella ,yidanayussif1@gmail.com,"Failed: Message: target frame detached
-  (failed to check if window was closed: disconnected: Unable to receive message from renderer)
-  (Session info: chrome=149.0.7827.199)
-Stacktrace:
-	chromedriver!GetHandleVerifier [0x7ff7a39b3fa5+14925]
-	chromedriver!GetHandleVerifier [0x7ff7a39b4000+14980]
-	chromedriver!(No symbol) [0x7ff7a34f7726]
-	chromedriver!(No symbol) [0x7ff7a34e40c0]
-	chromedriver!(No symbol) [0x7ff7a34e2f96]
-	chromedriver!(No symbol) [0x7ff7a35090cc]
-	chromedriver!(No symbol) [0x7ff7a3581aa0]
-	chromedriver!(No symbol) [0x7ff7a359ec82]
-	chromedriver!(No symbol) [0x7ff7a354401c]
-	chromedriver!(No symbol) [0x7ff7a3544f43]
-	chromedriver!GetHandleVerifier [0x7ff7a3f97591+5f7f11]
-	chromedriver!GetHandleVerifier [0x7ff7a3f91902+5f2282]
-	chromedriver!GetHandleVerifier [0x7ff7a3fb7115+617a95]
-	chromedriver!GetHandleVerifier [0x7ff7a39d1dce+3274e]
-	chromedriver!GetHandleVerifier [0x7ff7a39da82c+3b1ac]
-	chromedriver!GetHandleVerifier [0x7ff7a39bd744+1e0c4]
-	chromedriver!GetHandleVerifier [0x7ff7a39bd8d4+1e254]
-	chromedriver!GetHandleVerifier [0x7ff7a39a1447+1dc7]
-	KERNEL32!BaseThreadInitThunk [0x7ffcdb0ae957+17]
-	ntdll!RtlUserThreadStart [0x7ffcdc807c1c+2c]
-"
-2026-06-26 08:27:49,Anastasia ,Aduku ,anastasiaaduku028@gmail.com,"Failed: Message: 
-"
-2026-06-26 08:36:31,Emmanuel ,Azaare ,emmanuelazare4@gmail.com,"Failed: Message: 
-"
-2026-06-26 08:40:26,Wanzeliba ,Theresah,wanzelibatheresah74@gmail.com,"Failed: Message: 
-"
-2026-06-26 08:44:48,Apina ,Patience ,patienceapina@gmail.com,"Failed: Message: 
-"
-2026-06-26 08:49:04,Rahinatu ,Adwoa ,ibrahimadwoa601@gmail.com,"Failed: Message: 
-"
-2026-06-26 08:49:42,Listowel Sunday ,Ayaribil ,listowelsundayayaribil377@gmail.com,"Failed: Message: no such element: Unable to locate element: {""method"":""css selector"",""selector"":""[id=""forward""]""}
-  (Session info: chrome=149.0.7827.199); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
-Stacktrace:
-	chromedriver!GetHandleVerifier [0x7ff7a39b3fa5+14925]
-	chromedriver!GetHandleVerifier [0x7ff7a39b4000+14980]
-	chromedriver!(No symbol) [0x7ff7a34f793d]
-	chromedriver!(No symbol) [0x7ff7a3551aad]
-	chromedriver!(No symbol) [0x7ff7a3551dac]
-	chromedriver!(No symbol) [0x7ff7a35a27d7]
-	chromedriver!(No symbol) [0x7ff7a359f39b]
-	chromedriver!(No symbol) [0x7ff7a354401c]
-	chromedriver!(No symbol) [0x7ff7a3544f43]
-	chromedriver!GetHandleVerifier [0x7ff7a3f97591+5f7f11]
-	chromedriver!GetHandleVerifier [0x7ff7a3f91902+5f2282]
-	chromedriver!GetHandleVerifier [0x7ff7a3fb7115+617a95]
-	chromedriver!GetHandleVerifier [0x7ff7a39d1dce+3274e]
-	chromedriver!GetHandleVerifier [0x7ff7a39da82c+3b1ac]
-	chromedriver!GetHandleVerifier [0x7ff7a39bd744+1e0c4]
-	chromedriver!GetHandleVerifier [0x7ff7a39bd8d4+1e254]
-	chromedriver!GetHandleVerifier [0x7ff7a39a1447+1dc7]
-	KERNEL32!BaseThreadInitThunk [0x7ffcdb0ae957+17]
-	ntdll!RtlUserThreadStart [0x7ffcdc807c1c+2c]
-"
-2026-06-26 09:14:40,Jacob,Kolwefera,jkolwefera@gmail.com,"Failed: Message: 
-"
-2026-06-26 09:19:35,Jacob,Kolwefera,jkolwefera@gmail.com,"Failed: Message: 
-"
-2026-06-26 09:20:38,Jacob,Kolwefera,jkolwefera@gmail.com,"Failed: Message: stale element reference: stale element not found in the current frame
-  (Session info: chrome=149.0.7827.199); For documentation on this error, please visit: https://www.selenium.dev/document"
+2026-06-26 06:37:19,Atiga,Kuniba Aisha ,atigakunibaaisha@gmail.com,Failed: Message: element not interactable
+2026-06-26 06:39:46,Abigail ,Tikesseh ,Abigailtikesseh@gmail.com,Failed: Message:
+2026-06-26 07:07:22,Patricia ,Yenbapoka ,patriciakparib25@gmail.com,Failed: Message: invalid session id: session deleted as the browser has closed the connection
+2026-06-26 07:13:53,Nabuer Zaccheous ,Nteajal,nabuerzaccheous001@gmail.com,Failed: Message: element not interactable
+2026-06-26 07:14:27,Fortune,Awinsune ,fortuneayaane718@gmail.com,Failed: Message: element not interactable
+2026-06-26 07:33:55,Tahiru ,Munira Winpini ,tahirumunirawinpini72@gmail.com,Failed: Message: element not interactable
+2026-06-26 07:36:26,Ndakan ,Akor ,ndakanakor0@gmail.com,"Failed: Message: no such element: Unable to locate element: {""method"":""css selector"",""selector"":""[id=""56aeaca6-a0ad-4548-8afc-94"
+2026-06-26 07:38:22,Musadiq,Salisu,musadiqsalisu@gmail.com,Failed: Message:
+2026-06-26 07:42:28,Anyars,Farida,anyarsfarida@gmail.com,"Failed: Message: element click intercepted: Element <input data-cvent-id=""input"" maxlength=""30"" aria-required=""true"" required="""""
+2026-06-26 07:44:49,Iddrisu ,Ibrahim ,iddrisu4356ibrahim@gmail.com,Failed: Message:
+2026-06-26 07:52:07,ADAM ,IBRAHIM ,iadam7095@gmail.com,Failed: Message:
+2026-06-26 07:58:19,Mavis ,Akusong ,makusong26.stu@utas.edu.gh,"Failed: Message: Select only works on <select> elements, not on div"
+2026-06-26 08:00:51,Philip ,Anafo ,anafophilipgrace@gmail.com,Failed: Message:
+2026-06-26 08:05:28,Isaiah,Lugugia,lugugiaisaiah@gmail.com,Failed: Message: element not interactable
+2026-06-26 08:07:30,Okasha Gulza ,Tahibu ,gulzaokasha6@gmail.com,"Failed: Message: no such element: Unable to locate element: {""method"":""css selector"",""selector"":""[id=""forward""]""}"
+2026-06-26 08:11:06,Adutwumwaa ,Erica ,ericaad205@gmail.com,Failed: Message:
+2026-06-26 08:22:28,Yurizah ,Emmanuella ,yidanayussif1@gmail.com,Failed: Message: target frame detached
+2026-06-26 08:27:49,Anastasia ,Aduku ,anastasiaaduku028@gmail.com,Failed: Message:
+2026-06-26 08:36:31,Emmanuel ,Azaare ,emmanuelazare4@gmail.com,Failed: Message:
+2026-06-26 08:40:26,Wanzeliba ,Theresah,wanzelibatheresah74@gmail.com,Failed: Message:
+2026-06-26 08:44:48,Apina ,Patience ,patienceapina@gmail.com,Failed: Message:
+2026-06-26 08:49:04,Rahinatu ,Adwoa ,ibrahimadwoa601@gmail.com,Failed: Message:
+2026-06-26 08:49:42,Listowel Sunday ,Ayaribil ,listowelsundayayaribil377@gmail.com,"Failed: Message: no such element: Unable to locate element: {""method"":""css selector"",""selector"":""[id=""forward""]""}"
+2026-06-26 09:14:40,Jacob,Kolwefera,jkolwefera@gmail.com,Failed: Message:
+2026-06-26 09:19:35,Jacob,Kolwefera,jkolwefera@gmail.com,Failed: Message:
+2026-06-26 09:20:38,Jacob,Kolwefera,jkolwefera@gmail.com,Failed: Message: stale element reference: stale element not found in the current frame
 2026-06-26 09:24:22,Jacob,Kolwefera,jkolwefera@gmail.com,Success
-2026-06-26 09:28:35,Isaac Newton,Quaye,isaacquaye508@gmail.com,"Failed: Message: 
-"
-2026-06-26 09:36:32,Atiga,Kuniba Aisha,atigakunibaaisha@gmail.com,"Failed: Message: 
-Stacktrace:
-	chromedriver!GetHandleVerifier [0x7ff7a39b3fa5+14925]
-	chromedriver!GetHandleVerifier [0x7ff7a39b4000+14980]
-	chromedriver!(No symbol) [0x7ff7a34f793d]
-	chromedriver!(No symbol)"
-2026-06-26 09:37:40,Abigail,Tikesseh,Abigailtikesseh@gmail.com,"Failed: Message: 
-"
-2026-06-26 09:38:52,Patricia,Yenbapoka,patriciakparib25@gmail.com,"Failed: Message: 
-Stacktrace:
-	chromedriver!GetHandleVerifier [0x7ff7a39b3fa5+14925]
-	chromedriver!GetHandleVerifier [0x7ff7a39b4000+14980]
-	chromedriver!(No symbol) [0x7ff7a34f793d]
-	chromedriver!(No symbol)"
-2026-06-26 09:40:06,Nabuer Zaccheous,Nteajal,nabuerzaccheous001@gmail.com,"Failed: Message: 
-"
-2026-06-26 09:41:14,Fortune,Awinsune,fortuneayaane718@gmail.com,"Failed: Message: 
-"
-2026-06-26 09:47:19,Atiga,Kuniba Aisha,atigakunibaaisha@gmail.com,"Failed: Message: 
-Stacktrace:
-	chromedriver!GetHandleVerifier [0x7ff7a39b3fa5+14925]
-	chromedriver!GetHandleVerifier [0x7ff7a39b4000+14980]
-	chromedriver!(No symbol) [0x7ff7a34f793d]
-	chromedriver!(No symbol)"
-2026-06-26 09:48:27,Abigail,Tikesseh,Abigailtikesseh@gmail.com,"Failed: Message: 
-"
-2026-06-26 09:49:35,Patricia,Yenbapoka,patriciakparib25@gmail.com,"Failed: Message: 
-"
-2026-06-26 09:50:43,Nabuer Zaccheous,Nteajal,nabuerzaccheous001@gmail.com,"Failed: Message: 
-"
-2026-06-26 09:51:57,Fortune,Awinsune,fortuneayaane718@gmail.com,"Failed: Message: 
-Stacktrace:
-	chromedriver!GetHandleVerifier [0x7ff7a39b3fa5+14925]
-	chromedriver!GetHandleVerifier [0x7ff7a39b4000+14980]
-	chromedriver!(No symbol) [0x7ff7a34f793d]
-	chromedriver!(No symbol)"
+2026-06-26 09:28:35,Isaac Newton,Quaye,isaacquaye508@gmail.com,Failed: Message:
+2026-06-26 09:36:32,Atiga,Kuniba Aisha,atigakunibaaisha@gmail.com,Failed: Message:
+2026-06-26 09:37:40,Abigail,Tikesseh,Abigailtikesseh@gmail.com,Failed: Message:
+2026-06-26 09:38:52,Patricia,Yenbapoka,patriciakparib25@gmail.com,Failed: Message:
+2026-06-26 09:40:06,Nabuer Zaccheous,Nteajal,nabuerzaccheous001@gmail.com,Failed: Message:
+2026-06-26 09:41:14,Fortune,Awinsune,fortuneayaane718@gmail.com,Failed: Message:
+2026-06-26 09:47:19,Atiga,Kuniba Aisha,atigakunibaaisha@gmail.com,Failed: Message:
+2026-06-26 09:48:27,Abigail,Tikesseh,Abigailtikesseh@gmail.com,Failed: Message:
+2026-06-26 09:49:35,Patricia,Yenbapoka,patriciakparib25@gmail.com,Failed: Message:
+2026-06-26 09:50:43,Nabuer Zaccheous,Nteajal,nabuerzaccheous001@gmail.com,Failed: Message:
+2026-06-26 09:51:57,Fortune,Awinsune,fortuneayaane718@gmail.com,Failed: Message:
 2026-06-26 09:57:45,Atiga,Kuniba Aisha,atigakunibaaisha@gmail.com,Already Registered
 2026-06-26 09:58:14,Abigail,Tikesseh,Abigailtikesseh@gmail.com,Already Registered
 2026-06-26 09:58:46,Patricia,Yenbapoka,patriciakparib25@gmail.com,Already Registered
 2026-06-26 09:59:16,Nabuer Zaccheous,Nteajal,nabuerzaccheous001@gmail.com,Already Registered
 2026-06-26 09:59:53,Fortune,Awinsune,fortuneayaane718@gmail.com,Failed: Timed out waiting for page to advance from Step 1.
 2026-06-26 11:09:41,Atiga,Kuniba Aisha,atigakunibaaisha@gmail.com,Already Registered
-2026-06-26 11:12:12,Abigail,Tikesseh,Abigailtikesseh@gmail.com,"Failed: Message: 
-Stacktrace:
-	chromedriver!GetHandleVerifier [0x7ff7a39b3fa5+14925]
-	chromedriver!GetHandleVerifier [0x7ff7a39b4000+14980]
-	chromedriver!(No symbol) [0x7ff7a34f793d]
-	chromedriver!(No symbol)"
-2026-06-26 11:12:39,Patricia,Yenbapoka,patriciakparib25@gmail.com,"Failed: Message: unknown error: net::ERR_NAME_NOT_RESOLVED
-  (Session info: chrome=149.0.7827.199)
-Stacktrace:
-	chromedriver!GetHandleVerifier [0x7ff7a39b3fa5+14925]
-	chromedriver!GetHandleVerifier [0x7ff7a39"
-2026-06-26 11:13:11,Nabuer Zaccheous,Nteajal,nabuerzaccheous001@gmail.com,"Failed: Message: unknown error: net::ERR_NAME_NOT_RESOLVED
-  (Session info: chrome=149.0.7827.199)
-Stacktrace:
-	chromedriver!GetHandleVerifier [0x7ff7a39b3fa5+14925]
-	chromedriver!GetHandleVerifier [0x7ff7a39"
+2026-06-26 11:12:12,Abigail,Tikesseh,Abigailtikesseh@gmail.com,Failed: Message:
+2026-06-26 11:12:39,Patricia,Yenbapoka,patriciakparib25@gmail.com,Failed: Message: unknown error: net::ERR_NAME_NOT_RESOLVED
+2026-06-26 11:13:11,Nabuer Zaccheous,Nteajal,nabuerzaccheous001@gmail.com,Failed: Message: unknown error: net::ERR_NAME_NOT_RESOLVED
 2026-06-26 11:23:54,Atiga,Kuniba Aisha,atigakunibaaisha@gmail.com,Already Registered
 2026-06-26 11:24:47,Abigail,Tikesseh,Abigailtikesseh@gmail.com,Failed: Timed out (25s) waiting for page to advance from Step 1.
 2026-06-26 11:25:38,Patricia,Yenbapoka,patriciakparib25@gmail.com,Already Registered
@@ -382,3 +69,566 @@ Stacktrace:
 2026-06-26 11:41:13,Musadiq,Salisu,musadiqsalisu@gmail.com,Already Registered
 2026-06-26 11:46:17,Alfred,Anumbia,alfredanumbia1@gmail.com,Failed: Could not find final Submit/Next button on summary page.
 2026-06-26 11:48:22,Iddrisu,Alhassan,iddrisualhassan551122@gmail.com,Failed: Could not find final Submit/Next button on summary page.
+2026-06-26 11:58:00,Asowe,Kupoli,asowekupoli@gmail.com,Success
+2026-06-26 11:59:52,Aloah,Ephresia,aloahephresia@gmail.com,Already Registered
+2026-06-26 12:00:38,Hisana,Mashud,mashudhisana57@gmail.com,Success
+2026-06-26 12:02:52,Aniwe,Selina,adwoaselina41@gmail.com,Success
+2026-06-26 12:03:42,Kwabena,Eric Nlabiche,enkwabena24.stu@cktutas.edu.gh,Success
+2026-06-26 12:04:33,Atawusu,Angela Kalo,atawusua@gmail.com,Success
+2026-06-26 12:05:54,Sulley Abdul-Rauf,Salifu,abdulraufsulleysalifu@gmail.com,Already Registered
+2026-06-26 12:06:47,Abukari,Rafatu,rafatuabukari484@gmail.com,Success
+2026-06-26 12:08:15,Abdul Wahab,Ayisha,nanaayishaawahab2005@gmail.com,Already Registered
+2026-06-26 12:09:02,Muazu,Mahamudu,mahamudumuazu@gmail.com,Success
+2026-06-26 12:10:41,Asigo Roska,Azumbilla,asigorose79@gmail.com,Already Registered
+2026-06-26 12:11:31,Adam,Sakina,adamsakina498@gmail.com,Success
+2026-06-26 12:12:35,Kamal,Namoam,nloikamal64@gmail.com,Success
+2026-06-26 12:14:02,Victoria  Azumah,Awinida,awinidavictoria929@gmail.com,Success
+2026-06-26 12:15:09,Emmanuella,Naoh,etnaoh24.stu@utas.edu.gh,Success
+2026-06-26 12:16:27,Arimiyaw Neindow,Abdulai,abdulaiarimiyawneindow@gmail.com,Already Registered
+2026-06-26 12:17:23,Ivy,Atambeogo,ivyawinsusit@gmail.com,Success
+2026-06-26 12:18:42,Chimual,Eric Njoboon,chimualnjobooneric@gmail.com,Success
+2026-06-26 12:19:33,Abdul-Jaliw,Mumuni,amumuni25.stu@utas.edu.gh,Success
+2026-06-26 12:20:39,Nachim,Naomi,yabanaomi7@gmail.com,Success
+2026-06-26 12:21:39,Emmanuella,Ali,aliyoroka@gmail.com,Success
+2026-06-26 12:22:31,Apana,Vida,apanavida100@gmail.com,Success
+2026-06-26 12:23:42,Christiana,Ndanbon,ndanbonchristiana@gmail.com,Success
+2026-06-26 12:24:27,Stanley,Niwubi Gmayeunyan,stanleyniwubi65@gmail.com,Success
+2026-06-26 12:25:20,Hassan,Benjamin,benjaminhassan262@gmail.com,Success
+2026-06-26 12:26:09,Murjana,Rufai,rufaimurjana46@gmail.com,Success
+2026-06-26 12:26:54,ASAAN,EMMANUEL NDEWIN,asaanemmanuelndewin@gmail.com,Success
+2026-06-26 12:27:56,Khadijah,Shiraz,Shirazkhadija56@gmail.com,Success
+2026-06-26 12:28:43,Sulemana,Abdallah,abdallahsulemana577@gmail.com,Success
+2026-06-26 12:29:31,Helena,Atanga,hatanga23.stu@utas.edu.gh,Success
+2026-06-26 12:30:43,MABEFAM,NMANI  BERNARD,mabefambernard@gmail.com,Success
+2026-06-26 12:31:14,Salifu,Hanizah Tiyumba,hanizahtiyumba026@gmail.com,Already Registered
+2026-06-26 12:31:44,Hafsat,Mohammed,mohammedhafsat1999@gmail.com,Already Registered
+2026-06-26 12:32:12,Domonja,Abigail,domonjaabigail2gmail.com@gmail.com,Already Registered
+2026-06-26 12:32:39,CHRISPIN,ATAMPUGRE,atampugrechrispin64@gmail.com,Already Registered
+2026-06-26 12:33:07,Issah,Mavis,issahmavis078@gmail.com,Already Registered
+2026-06-26 12:33:34,Reyaana,Gbolo,reyaanagbolo@gmail.com,Already Registered
+2026-06-26 12:34:03,Rahina,Mahama,rahinamahama2@gmail.com,Already Registered
+2026-06-26 12:34:32,Andrews,Banyaligu,andrewsbanyaligu12345@gmail.com,Already Registered
+2026-06-26 12:34:59,Nibebon,Belinda,litifrancis87@gmail.com,Already Registered
+2026-06-26 12:35:37,Tapan,Janet,tapanjanet00@gmail.com,Already Registered
+2026-06-26 12:36:06,EMELDA,ARHIN,emeldaarhin@gmail.com,Already Registered
+2026-06-26 12:36:37,Biliyimbu,Lamisi,dlamisi124@gmail.com,Already Registered
+2026-06-26 12:37:06,Zuwera,Sherika,zuwerasherika@gmail.com,Already Registered
+2026-06-26 12:37:40,Alhassan,Abdul-Majeed,abdulmajeedalhassan815@gmail.com,Already Registered
+2026-06-26 12:38:17,Abdul -karim,Fadilatu,abdulkarimfadilatu8@gmail.com,Already Registered
+2026-06-26 12:38:49,Abinini,Desmond,abininides11@gmail.com,Already Registered
+2026-06-26 12:39:25,George Abdul-Hakim,Bariche,abdulhakimgeorgebariche@gmail.com,Already Registered
+2026-06-26 12:40:06,Ibrahim,Zakaria,zakariaibrahim355@gmail.com,Already Registered
+2026-06-26 12:40:44,Abalaari,Wewobe Edna,abalaariedna@gmail.com,Already Registered
+2026-06-26 12:41:17,Abugbila,Francis,francisabugbila401@gmail.com,Already Registered
+2026-06-26 12:41:48,MARY,ANYEDINA AMAMBISE,maryanyedina@gmail.com,Already Registered
+2026-06-26 12:42:26,Amama,Mejida,amamamejida03@gmail.com,Already Registered
+2026-06-26 12:43:00,Ngaba,Mary  Sanatu,ngabamary704@gmail.com,Already Registered
+2026-06-26 12:43:55,Mary,Akugre,maryanyaporkaakugre@gmail.com,Failed: Timed out (25s) waiting for page to advance from Step 1.
+2026-06-26 12:44:39,Baachunia,Mikel,ayipogsongmikel@gmail.com,Success
+2026-06-26 12:45:56,Fred,N-nyanbini,nnyanbinif614@gmail.com,Success
+2026-06-26 12:47:51,Clemencia,Nangoot,nangootclemencia@gmail.com,Success
+2026-06-26 12:49:38,Anganyaaliboa Christopher,Abolimasa,christopheranganyaaliboa@gmail.com,Success
+2026-06-26 12:50:25,Fatimah,Atiiga,atiigafatimah@gmail.com,Success
+2026-06-26 12:51:22,Kulunla,Simon Nponiche,nponichekulunla@gmail.com,Success
+2026-06-26 12:52:31,Salamatu,Abubakar,salamatusalamatu10@gmail.com,Success
+2026-06-26 12:53:19,Abdul Wajid,Musah,abdulwajidmusah@gmail.com,Success
+2026-06-26 12:54:12,GRACE  YENNUMI,SINGIR,singirgrace@gmail.com,Success
+2026-06-26 12:54:55,JENNIFER,LAAR,jenniferbiikooklaar@gmail.com,Already Registered
+2026-06-26 12:55:27,Salifu,Fauzia,salifufauzia835@gmail.com,Already Registered
+2026-06-26 12:56:01,Abdul Washib,Kassim,abdulwashibk@gmail.com,Already Registered
+2026-06-26 12:56:32,Tayari,Samuel,tayarisamuel9@gmail.com,Already Registered
+2026-06-26 12:57:28,Aminatu,Mohammed Saani,mohammedaminatusaani7@gmail.com,Failed: Timed out (25s) waiting for page to advance from Step 1.
+2026-06-26 12:58:01,Osman,Azumah,osmanazumah020@gmail.com,Already Registered
+2026-06-26 12:58:42,Alhassan,Haruna,alhassanharuna9821@gmail.com,Success
+2026-06-26 13:03:23,Karim,Fatima,karimfatima112@gmail.com,Already Registered
+2026-06-26 13:03:53,Ayisha,Mumuni,ayisham4141@gmail.com,Already Registered
+2026-06-26 13:04:40,Juliet,Adobasom,julietadobasom25@gmail.com,Success
+2026-06-26 13:08:24,Joana Ayinsakiya,Akake,akakejoanaayinsakiya@gmail.com,Failed: Timed out (25s) waiting for page to advance from Step 1.
+2026-06-26 13:08:57,Tia,Luke,tialuke35@gmail.com,Already Registered
+2026-06-26 13:09:30,Njonan,Joseph Donkor,josephnjonan4@gmail.com,Already Registered
+2026-06-26 13:10:03,Saviour,Asante,sasante26.stu@utas.edu.gh,Already Registered
+2026-06-26 13:10:33,Ibrahim,Abdul Karim,ibrahimabdulkarima75@gmail.com,Already Registered
+2026-06-26 13:11:06,SARAH,AFFEDZIE,sarahaffedzie4@gmail.com,Already Registered
+2026-06-26 13:12:01,Joyce,Nbeninbe,Joycenbeninbe@gmail.com,Failed: Timed out (25s) waiting for page to advance from Step 1.
+2026-06-26 13:13:35,Alhassan,Amidu,alhassanamidu803@gmail.com,Failed: Submission unclear  still on: https://www.binance.events/event/a483c41e-d3f9-4fe3-ba5c-5e1a61f4e56b/regProcessStep1
+2026-06-26 13:14:06,Hummu Habiba,Haruna,hummuhabiba2@gmail.com,Already Registered
+2026-06-26 13:14:54,Millicent Ayeepoka,Abugri,abugrimillicent454@gmail.com,Already Registered
+2026-06-26 13:15:23,Mubashira Ahmed,Musah,mubashiramusah9@gmail.com,Already Registered
+2026-06-26 13:16:47,Ayamga,Desmond Aduko,adukodesmond274@gmail.com,Failed: Submission unclear  still on: https://www.binance.events/event/a483c41e-d3f9-4fe3-ba5c-5e1a61f4e56b/regProcessStep1
+2026-06-26 13:17:17,Dogo,Salam,dogosalam@gmail.com,Already Registered
+2026-06-26 13:17:56,Sulemana,Yussif,ysulemana40@gmail.com,Already Registered
+2026-06-26 13:18:42,Princess,Siyabia,princesssiyabia@gmail.com,Success
+2026-06-26 13:20:00,Nang,Rita,nangrita25@gmail.com,Already Registered
+2026-06-26 13:20:35,Ibrahim Bachandi,mananibrahim239@gmail.com,mananibrahim239@gmail.com,Already Registered
+2026-06-26 13:21:20,Priscilla,Buabeng,priscillakudugu@gmail.com,Already Registered
+2026-06-26 13:21:54,Gladys Turubagwi,Kufogidirah,turubagwigladys@gmail.com,Already Registered
+2026-06-26 13:22:29,Awovere,Lirayire Martin,martinawovere0@gmail.com,Already Registered
+2026-06-26 13:22:59,Kasimu,Khadija,khadijahkasimu440@gmail.com,Already Registered
+2026-06-26 13:23:29,Fatima,Deisheni,deborahfatima343@gmail.com,Already Registered
+2026-06-26 13:23:58,Lisa Wumboradak,Upoalkpajor,upoalkpajorlisa@gmail.com,Already Registered
+2026-06-26 13:24:34,Akudbil,Vida Datamwin,vidadatamwin@gmail.com,Already Registered
+2026-06-26 13:25:04,Sisu Atelyini,Musah,musahsisuatelyini@gmail.com,Already Registered
+2026-06-26 13:25:35,Godwin,Alouyere,alouyerew@gmail.com,Already Registered
+2026-06-26 13:26:09,Haruna,Wasib,wharuna25.stu@utas.edu.gh,Already Registered
+2026-06-26 13:26:38,Fariba,Eva Yelpita,faribaevayelpita21@gmail.com,Already Registered
+2026-06-26 13:27:12,Sujuab,Hannah Nyanapaak,sujuabhannah@gmail.com,Already Registered
+2026-06-26 13:27:44,Iddrisu,Mohammed Hardi,middrisu26.stu@utas.edu.gh,Already Registered
+2026-06-26 13:28:34,Abdulai,Abdul-Malick,abdulaiabdulmalick@gmail.com,Already Registered
+2026-06-26 13:29:03,Mugnen Batichu,Johnson,mugnenbjohnson@gmail.com,Already Registered
+2026-06-26 13:29:38,Franklina,Akwodam,akwodamfranklina@gmail.com,Already Registered
+2026-06-26 13:30:06,Abdul - Latif Seidu,Bouri,seiduabdullatif44@gmail.com,Already Registered
+2026-06-26 13:30:35,Joshua,Tungkungmen,jtungkungmen@gmail.com,Already Registered
+2026-06-26 13:31:26,Salma,Alhassan Salma,salhassansalma28@gmail.com,Already Registered
+2026-06-26 13:31:59,Moses,Akanjevari,akabiyerkwabena123@gmail.com,Already Registered
+2026-06-26 13:32:30,Delicia,Atuidem,deliciaawenimaalie@gmail.com,Already Registered
+2026-06-26 13:33:17,Bala,Mohammed Ahat,ahatbala@gmail.com,Success
+2026-06-26 13:37:23,Ishmael,Abdulai,abdulaiishmael86@gmail.com,Already Registered
+2026-06-26 13:38:42,Fakiha,Ziblila,keehart76@gmail.com,Success
+2026-06-26 13:40:15,Albert,Batanye,batanyealbert@gmail.com,Success
+2026-06-26 13:41:09,Firdaus,Hamidu,fhamidu23.stu@utas.edu.gh,Already Registered
+2026-06-26 13:41:56,Grace,Yennube,graceyennube958@gmail.com,Success
+2026-06-26 13:43:03,Jamal,Mahami,mahamijamal24@gmail.com,Already Registered
+2026-06-26 13:43:38,MARY,WANIB  KUTUNAM,marykutunam@gmail.com,Already Registered
+2026-06-26 13:44:15,Amadu,Hammadu,amadumahammde@gmail.com,Already Registered
+2026-06-26 13:44:49,Aminatu Mirabel,Karim,karimmirabel60@gmail.com,Already Registered
+2026-06-26 13:45:19,Philipa,Owusuaa,p12078393@gmail.com,Already Registered
+2026-06-26 13:45:54,Akolbire,Mary,ananganamahm@gmail.com,Already Registered
+2026-06-26 13:46:27,MATTHEW,AAKOM,maakom23.stu@utas.edu.gh,Already Registered
+2026-06-26 13:47:09,Konlan,Priscilla Yennuloom,konlanpriscilla53@gmail.com,Already Registered
+2026-06-26 13:47:44,Alidu,Musah,alidumusah494@gmail.com,Already Registered
+2026-06-26 13:48:15,Wakila,Baisaana,wbaisaana24@cktutas.edu.gh,Already Registered
+2026-06-26 13:49:09,Munyah,Deborah Akiwele,deborahmunyahd@gmail.com,Failed: Timed out (25s) waiting for page to advance from Step 1.
+2026-06-26 13:49:38,Sakina Awufor Bala,Kwabena,kwabenasakinaawuforbala03@gmail.com,Already Registered
+2026-06-26 13:50:28,Augustina,Luguyeire,augestinaluguyeire@gmail.com,Already Registered
+2026-06-26 14:00:55,Isaac Newton,Quaye,isaacquaye508@gmail.com,Already Registered
+2026-06-26 14:02:04,Ndakan,Akor,ndakanakor0@gmail.com,Failed: Could not find Submit button on summary page.
+2026-06-26 14:02:42,Anyars,Farida,anyarsfarida@gmail.com,Already Registered
+2026-06-26 14:03:18,Iddrisu,Ibrahim,iddrisu4356ibrahim@gmail.com,Already Registered
+2026-06-26 14:03:48,ADAM,IBRAHIM,iadam7095@gmail.com,Already Registered
+2026-06-26 14:04:27,Mavis,Akusong,makusong26.stu@utas.edu.gh,Already Registered
+2026-06-26 14:04:54,Philip,Anafo,anafophilipgrace@gmail.com,Already Registered
+2026-06-26 14:05:27,Isaiah,Lugugia,lugugiaisaiah@gmail.com,Already Registered
+2026-06-26 14:05:59,Okasha Gulza,Tahibu,gulzaokasha6@gmail.com,Already Registered
+2026-06-26 14:06:25,Adutwumwaa,Erica,ericaad205@gmail.com,Already Registered
+2026-06-26 14:07:08,Yurizah,Emmanuella,yidanayussif1@gmail.com,Success
+2026-06-26 14:08:11,Anastasia,Aduku,anastasiaaduku028@gmail.com,Success
+2026-06-26 14:08:51,Emmanuel,Azaare,emmanuelazare4@gmail.com,Already Registered
+2026-06-26 14:09:24,Wanzeliba,Theresah,wanzelibatheresah74@gmail.com,Already Registered
+2026-06-26 14:09:51,Apina,Patience,patienceapina@gmail.com,Already Registered
+2026-06-26 14:11:10,Rahinatu,Adwoa,ibrahimadwoa601@gmail.com,Success
+2026-06-26 14:11:50,Listowel Sunday,Ayaribil,listowelsundayayaribil377@gmail.com,Already Registered
+2026-06-26 14:12:21,Tia,Malik,tiamalikmalik@gmail.com,Already Registered
+2026-06-26 14:12:52,Kanyorbong,Obed maaloo,kanyorbongmaaloo@gmail.com,Already Registered
+2026-06-26 14:13:24,Clara,Akutek,akutekclara0@gmail.com,Already Registered
+2026-06-26 14:14:20,David,Azaare,azaaredavid86@gmail.com,Failed: Timed out (25s) waiting for page to advance from Step 1.
+2026-06-26 14:14:51,Patience Suguruman,Sambian,sambianpatience6@gmail.com,Already Registered
+2026-06-26 14:15:34,Nelson Gurimchamma,Gonose,nelsongonosegurimchamma@gmail.com,Success
+2026-06-26 14:16:38,ASUMAH,HASSANA,hassanaasumah80@gmail.com,Failed: Timed out (25s) waiting for page to advance from Step 1.
+2026-06-26 14:17:07,Abdul Samed Abugri,Musah,musahabdulsamed22824@gmail.com,Already Registered
+2026-06-26 14:18:05,EZEKIEL JANANMAH,LAAR,laarezekieljananmah@gmail.com,Success
+2026-06-26 14:18:44,Thomas Awedana,Tia,Tiathomas001@gmail.com,Already Registered
+2026-06-26 14:19:14,Abdul Zakiu Nindoo,Fuseini,anfuseini25.stu@cktutas.edu.gh,Already Registered
+2026-06-26 14:19:43,Abdul Halim,Aliyu,asaliyu24.stu@utas.edu.gh,Already Registered
+2026-06-26 14:20:21,Salifu,Adam,salifuadam6681@gmail.com,Already Registered
+2026-06-26 14:21:04,SAFIATU MBORIBA,IMORO,safiatuimoromboraba@gmail.com,Already Registered
+2026-06-26 14:21:42,Moses,Amangotiba,amadumoses0596@gmail.com,Already Registered
+2026-06-26 14:22:15,Cynthia,Ayinbono,akagalisecynthiaayinbono@gmail.com,Already Registered
+2026-06-26 14:22:50,Atupaga Simon,Anyenakori,saanyenakori25.stu@cktutas.edu.gh,Already Registered
+2026-06-26 14:23:35,Sumaila,Mustapha,sumailamustapha22@gmail.com,Success
+2026-06-26 14:24:15,Ibrahim,Jamila,ij1220120@gmail.com,Already Registered
+2026-06-26 14:24:45,Aliriba kaba,Isaiah,aliribaisaiah5@gmail.com,Already Registered
+2026-06-26 14:25:28,AFOBIA,KOFI,ishaqafobia@gmail.com,Already Registered
+2026-06-26 14:25:59,Mustapha,Mutadeen,mustaphamutadeen@gmail.com,Already Registered
+2026-06-26 14:26:29,Nachipoan,David,nachipoandavid24@gmail.com,Already Registered
+2026-06-26 14:27:00,Selina,Nsor,nsorselina492@gmail.com,Already Registered
+2026-06-26 14:27:33,SALIFU ISSAHAKU,AWUFFOR,issahakusalifu859@gmail.com,Already Registered
+2026-06-26 14:28:02,Mahama,Samsia Yahaya,yahayasamsia4@gmail.com,Already Registered
+2026-06-26 14:28:34,Hawa,Gumah,gumahhawa6@gmail.com,Already Registered
+2026-06-26 14:29:09,Nihad,Erason,erasonnihad261@gmail.com,Already Registered
+2026-06-26 14:29:38,Muhammad Nazeef,Issahaku,Muhammadnazeef601@gmail.com,Already Registered
+2026-06-26 14:30:05,Tijani,Mohammed,mohammedtijani5524@gmail.com,Already Registered
+2026-06-26 14:31:04,NONGIRI,EMMANUEL BENGA,emmanuelnongiri@gmail.com,Success
+2026-06-26 14:31:46,Takir,Bright Manyaya,takirbrightmanyaya@gmail.com,Already Registered
+2026-06-26 14:32:30,Adjoa Jerela,Kwame,jerelaadjoa@gmail.com,Success
+2026-06-26 14:33:09,Makpek,Isaac,makpekisaac77@gmail.com,Already Registered
+2026-06-26 14:33:40,Elizabeth,Musah,email2musahelizabeth@gmail.com,Already Registered
+2026-06-26 14:34:10,Binyow,Gifty,binyuangifty@gmail.com,Already Registered
+2026-06-26 14:35:14,Alfred,Anumbia,alfredanumbia1@gmail.com,Failed: Could not find Submit button on summary page.
+2026-06-26 14:35:46,Iddrisu,Alhassan,iddrisualhassan551122@gmail.com,Already Registered
+2026-06-26 14:36:16,Mercy Taatukni,Sanjah,mercysanjah2@gmail.com,Already Registered
+2026-06-26 14:36:52,Ismaila,Ismaila,yismaila25@gmail.com,Already Registered
+2026-06-26 14:37:20,ABRAHAM,AWINPANG,abawinpang99@gmail.com,Already Registered
+2026-06-26 14:37:49,John,Banbon Magaribi,johnbanbon6@gmail.com,Already Registered
+2026-06-26 14:38:29,Boare,Augustina,augustinaboare@gmail.com,Success
+2026-06-26 14:39:21,Evelyn Obiri,Cromwell,evelynobiric@gmail.com,Success
+2026-06-26 14:40:14,Basiba,Mawanye John,basibajohn2@gmail.com,Success
+2026-06-26 14:40:51,Mary,Akugre,maryanyaporkaakugre@gmail.com,Already Registered
+2026-06-26 14:41:34,Aminatu,Mohammed Saani,mohammedaminatusaani7@gmail.com,Success
+2026-06-26 14:42:11,Joana Ayinsakiya,Akake,akakejoanaayinsakiya@gmail.com,Already Registered
+2026-06-26 14:42:42,Joyce,Nbeninbe,Joycenbeninbe@gmail.com,Already Registered
+2026-06-26 14:43:13,Alhassan,Amidu,alhassanamidu803@gmail.com,Already Registered
+2026-06-26 14:44:08,Ayamga,Desmond Aduko,adukodesmond274@gmail.com,Success
+2026-06-26 14:44:47,Munyah,Deborah Akiwele,deborahmunyahd@gmail.com,Already Registered
+2026-06-26 14:45:17,Nlanjo,Elizabeth,elizabethnlanjo590@gmail.com,Already Registered
+2026-06-26 14:45:51,Genevieve,Awenseba,awensebagenevieve96@gmail.com,Already Registered
+2026-06-26 14:46:41,DAMATIUS,BUURINUMA MOLONAAH,damatiusmolonaah@gmail.com,Failed: Timed out (25s) waiting for page to advance from Step 1.
+2026-06-26 14:47:11,Emmanuel,Akazoore,emmanuelakazoore@gmail.com,Already Registered
+2026-06-26 14:47:42,issah,mohammed,issahmohammed051@gmail.com,Already Registered
+2026-06-26 14:55:23,Bintu,Bashiru,bintubashiru69@gmail.com,Success
+2026-06-26 14:56:19,PATRICK LIBUELABA,CHATI,bannepatrick08@gmail.com,Success
+2026-06-26 14:57:14,Simon Azindow,Jeja,simonjeja143@gmail.com,Success
+2026-06-26 14:58:15,JESSICA,AMOAKO,jessicaamoako110@gmail.com,Success
+2026-06-26 14:59:08,Emmanuel Yaw,Fosu,yawabrante31@gmail.com,Success
+2026-06-26 15:00:04,EMMANUEL,AWINE,awineemmanuel54@gmail.com,Success
+2026-06-26 15:00:58,Elijah Adipaare,Abeenlogo,aelijahadipaare@gmail.com,Success
+2026-06-26 15:02:01,VIVIAN,LEMPO,lempovivian30@gmail.com,Success
+2026-06-26 15:03:03,CYNDY,ASUTANE,asutanecyndy@gmail.com,Success
+2026-06-26 15:04:00,JAMILATU,ISSAKA,jamilatuissaka29@gmail.com,Success
+2026-06-26 15:04:54,Samuel,Akanboyuure,sammyselda3@gmail.com,Success
+2026-06-26 15:05:55,Regina Nsaksira,Akaba,nsaksiraregina3@gmail.com,Failed: Timed out (25s) waiting for page to advance from Step 1.
+2026-06-26 15:06:39,RASHIDATU,NURIDEEN,rashidatynurideen18@gmail.com,Success
+2026-06-26 15:07:42,ADAM MAMUDU,ABUGRI,adammamuduabugri@gmail.com,Failed: Timed out (25s) waiting for page to advance from Step 1.
+2026-06-26 15:08:35,THADDEUS,BALANSUAH,balansuahthaddeus@gmail.com,Failed: Timed out (25s) waiting for page to advance from Step 1.
+2026-06-26 15:09:17,GIDEON ADUAH,AWUCHONGANE,gideona1989@gmail.com,Success
+2026-06-26 15:10:08,ABDUL-RAHAMAN,IDDIRISU,abdulrahamaniddirisu1@gmail.com,Success
+2026-06-26 15:11:01,Emmanuel,Nsoh,emmanuelnsoh13@gmail.com,Success
+2026-06-26 15:11:56,ALICE AWUNNORUM,ANYEDINA,aliceanyedina@gmail.com,Success
+2026-06-26 15:12:55,PROSPER ASIAJUIK,AKUMKA,prosperakumka1@gmail.com,Success
+2026-06-26 15:14:37,Sixtus Atosona,Akologo,atosonasixtus2@gmail.com,Success
+2026-06-26 15:15:32,GARVIN,KOLOH,garvinkaloh50@gmail.com,Success
+2026-06-26 15:16:27,AMANDA AKOLPORBILA,AYAMGA,amandaayamga123@gmail.com,Success
+2026-06-26 15:17:31,Kwotua John,Dimbwei,dimbweikwotuaj@gmail.com,Success
+2026-06-26 15:18:28,David,Akanzire,davidakanzi2@gmail.com,Success
+2026-06-26 15:19:30,DAVID AZUMAH,AZAARE,davidazumah10@gmail.com,Success
+2026-06-26 15:20:28,ABUNKURUGU,SALIFU,eliezer122@gmail.com,Success
+2026-06-26 15:21:20,Thomas,Azibalyela,azibayelathomas96@gmail.com,Success
+2026-06-26 15:22:13,STELLA,MEMEH,stellamemeh2@gmail.com,Success
+2026-06-26 15:23:05,Felix Ayaga,Kantonge,akantongefelix@gmail.com,Success
+2026-06-26 15:24:16,Hillary Asalipe,Adiyire,hillarioushilare@gmail.com,Failed: Timed out (25s) waiting for page to advance from Step 1.
+2026-06-26 15:25:03,CLETUS AMALITINGA,ABOPELUM,cletusamalitinga@gmail.com,Success
+2026-06-26 15:26:05,Angelina Azemba,Adondiwo,angelinaazemba@gmail.com,Success
+2026-06-26 15:27:07,JAMES ADOLIWINE,ASELISE,aselisejames@gmail.com,Success
+2026-06-26 15:28:06,VERONICA,AVEREPARE,averepareveronica@gmail.com,Success
+2026-06-26 15:29:02,ABRAHAM SAGURU,DABUUG,abrahamsagurudabuug@gmail.com,Success
+2026-06-26 15:29:56,SUMAILA MANSAHAYA,DAWUDA,ibrahimmejira45@gmail.com,Success
+2026-06-26 15:30:55,Simon,Asewina,bsimon10.bs@gmail.com,Success
+2026-06-26 15:32:08,Joseph Guutin,Dubik,djosephguutin@gmail.com,Failed: Timed out (25s) waiting for page to advance from Step 1.
+2026-06-26 15:34:02,Paul,Alale,peterblackaon361@gmail.com,Success
+2026-06-26 15:35:42,Millicent Matanli,Npaabi,millicent2000gh@gmail.com,Success
+2026-06-26 15:36:38,DANIEL TALUNE,JAGRI,jagridaneil@gmail.com,Success
+2026-06-26 15:37:38,SALIFU,ADDA,addasalifu9@gmail.com,Success
+2026-06-26 15:38:32,ISAAC,BEDIAKO,nanaasarebediako500@gmail.com,Success
+2026-06-26 15:39:26,JAMES,ANIGABEY,anigabeyjames@gmail.com,Success
+2026-06-26 15:40:06,SALIFU,ADAM,salifuadam6681@gmail.com,Already Registered
+2026-06-26 15:40:48,BASHIRU,AKURUGU,akurugubashiru12@gmail.com,Success
+2026-06-26 15:41:41,ANGELINA,KANNAE,kannaeawelana92@gmail.com,Success
+2026-06-26 15:42:37,EVANS NSOWINE,AMEWINE,amewineevans5@gmail.com,Success
+2026-06-26 15:43:43,ZIBLIM,IBRAHIM,ibrahimziblim83@gmail.com,Failed: Timed out (25s) waiting for page to advance from Step 1.
+2026-06-26 15:44:25,KAMAL-DEEN,ABUDU,kamaldeenabudu331@gmail.com,Success
+2026-06-26 15:45:20,KOFI BARNABAS,WAJAH,wakbarnabas@gmail.com,Success
+2026-06-26 15:46:17,Bright Dingaadya,Seidu,atingajoel4@gmail.com,Success
+2026-06-26 15:47:14,Yunusah,Dawkyebile,yunusahdawkyebile@gmail.com,Success
+2026-06-26 15:48:17,Mary Fosu,Nkansah,maryfo1949@gmail.com,Success
+2026-06-26 15:49:21,AUGUSTINE,PWADAM,pwadamaugustinenani@gmail.com,Success
+2026-06-26 15:50:17,EMMANUEL,BASEH,basehemmanuel2020@gmail.com,Success
+2026-06-26 15:51:11,MARDIYA,DAUDA,mardiyad47@gmail.com,Success
+2026-06-26 15:52:06,ISAAC DOMONEE,WULO,isaacdomonee819@gmail.com,Success
+2026-06-26 15:53:09,Bartholomew,Elluh,elluh1404@gmail.com,Failed: Timed out (25s) waiting for page to advance from Step 1.
+2026-06-26 15:53:57,Nimatu,Ziblim,ziblimnimatu208@gmail.com,Success
+2026-06-26 15:55:05,Zenabu Yennuti,Zakari,zzenabuyennuti@gmail.com,Failed: Timed out (25s) waiting for page to advance from Step 1.
+2026-06-26 15:55:46,Gladys,Akwara,akwaragladys70@gmail.com,Success
+2026-06-26 15:56:49,PEACE TIYUMBA,SAAKA,pesaaka4@gmail.com,Failed: Timed out (25s) waiting for page to advance from Step 1.
+2026-06-26 15:57:40,Augustina,Akolgo,akolgoaugustina1@gmail.com,Failed: Timed out (25s) waiting for page to advance from Step 1.
+2026-06-26 15:58:22,Jessica,Serwaa,jserwaa85@gmail.com,Success
+2026-06-26 15:59:19,Stephen,Abugri,sabugri.stu@cktutas.edu.gh,Success
+2026-06-26 16:00:14,EVANS,AKANCHIAKUM,evansakanchiakum50@gmail.com,Success
+2026-06-26 16:00:55,Abdul Hafiz,Abdul Aziz,gafferbraun731@gmail.com,Already Registered
+2026-06-26 16:01:44,BULUA OSMAN,KUVRA,buluakuvra@gmail.com,Success
+2026-06-26 16:02:38,THECIA APUPEEYA,APELIGEBA,theciaapeligeba@gmail.com,Success
+2026-06-26 16:03:34,Kumi Emmanuel,Opoku,opokukumiemmany6677@gmail.com,Success
+2026-06-26 16:04:29,Atinganeriba,Awaafo,awaafoatinganeriba2022@gmail.com,Success
+2026-06-26 16:05:12,Sherifa,Zakaria,sherifasuccess100@gmail.com,Already Registered
+2026-06-26 16:05:55,Nuhu,Abubakari,abubakarinuhu20@gmail.com,Success
+2026-06-26 16:06:54,Godfred Awinzuure,Ayambire,winzuure@gmail.com,Success
+2026-06-26 16:07:50,ABDUL JABARU,ALHASSAN,alhassanabduljabaru7@gmail.com,Success
+2026-06-26 16:08:51,DANIEL DOOKYEBILE,NYUKORONG,danielnyukorongvandan9@gmail.com,Success
+2026-06-26 16:09:54,JALADEEN,YOHO,yohojaladeen@gmail.com,Success
+2026-06-26 16:10:54,Abigail,Tikesseh,boahenkod@gmail.com,Success
+2026-06-26 16:11:52,Teddy,Abagna,abagnateddy@yahoo.com,Success
+2026-06-26 16:12:54,Issah,Abdul Rahaman,abdulrahamanis1992@gmail.com,Success
+2026-06-26 16:14:06,Fatawu,Abu,abufatawu042@gmail.com,Success
+2026-06-26 16:15:10,EMMANUEL AWATARA,NDONGO,ndongoemmanuel57@gmail.com,Success
+2026-06-26 16:16:13,Moses Abugba,Abanga,mosesabugba1996@gmail.com,Success
+2026-06-26 16:18:16,FREDRICK AWEDAGA,KANDOSE,kandosefredrick6@gmail.com,Failed: Timed out (25s) waiting for page to advance from Step 1.
+2026-06-26 16:19:06,Edmond Nabare,Luguyimang,eluguyimang@gmail.com,Success
+2026-06-26 16:20:02,Geverina,Amoah,kofiakomeah999@gmail.com,Success
+2026-06-26 16:21:02,KARIM ADAMS,MARSU,marsukarimadams@gmail.com,Success
+2026-06-26 16:22:00,YUSSIF,MIVOTEY,mivoteyyussif@gmail.com,Success
+2026-06-26 16:23:13,DANIEL NABAARE,BAWE,bawedaniel6@gmail.com,Failed: Timed out (25s) waiting for page to advance from Step 1.
+2026-06-26 16:24:00,RAYMOND ABUGA,NABARETUA,abugaraymond7@gmail.com,Success
+2026-06-26 16:24:54,RASHIDA,ISMAIL,seinudele@gmail.com,Success
+2026-06-26 16:26:02,Peter,Addah,addahpeter@gmail.com,Success
+2026-06-26 16:27:08,MOSES MANYIMADIN,KULUNLA,kulunlamanyimadin@gmail.com,Failed: Timed out (25s) waiting for page to advance from Step 1.
+2026-06-26 16:27:41,Gladys Turubagwi,Kufogidirah,turubagwigladys@gmail.com,Already Registered
+2026-06-26 16:28:25,AUGUSTINA,AKANYELE,augustinaakanyele@gmail.com,Success
+2026-06-26 16:29:27,Mahadi,Osman,mahadiosman73@mail.com,Success
+2026-06-26 16:30:30,JOHN,ATEBUGRI,atubigajohnaloba@gmail.com,Success
+2026-06-26 16:31:26,DONATUS AYIDAANA,NCHOR,ayidaanadonatus@gmail.com,Success
+2026-06-26 16:32:34,VANESSA,WOMOWE,womowevanessa@gmail.com,Success
+2026-06-26 16:33:39,Emmanuel Tiah,Kaba,etiah66@gmail.com,Success
+2026-06-26 16:34:39,Amina,Alidu,aalidu154@gmail.com,Success
+2026-06-26 16:35:36,IRENE,A-ENGKILUM,ireneangkilum@gmail.com,Success
+2026-06-26 16:36:36,leticia Awewora,Adomba,chrismode45@gmail.com,Success
+2026-06-26 16:37:20,Moses Amangotiba,Ayubego,amadumoses0596@gmail.com,Already Registered
+2026-06-26 16:37:50,SAFIATU MBORIBA,IMORO,safiatuimoromboraba@gmail.com,Already Registered
+2026-06-26 16:38:36,DORITHY MMAA,AYAMBIRE,joshuaayambire1@gmail.com,Success
+2026-06-26 16:39:42,Prosper Nsohyine,Asakiya,asakiyaprosper131@gmail.com,Success
+2026-06-26 16:40:41,SIBID ADAMA,LAAR,laardavid6@gmail.com,Success
+2026-06-26 16:41:52,KENNETH,AKANLUGBA,kennethakanlugba@gmail.com,Failed: Timed out (25s) waiting for page to advance from Step 1.
+2026-06-26 16:42:42,THOMAS,ADAYA,thomasadaya3@gmail.com,Success
+2026-06-26 16:43:40,ABEL DOKURUGU,THOMAS,abelthomasdokurugu@gmail.com,Success
+2026-06-26 16:44:38,Vincent Awinmalia,Akugri,winmalia99@gmail.com,Success
+2026-06-26 16:45:52,LYWELLIN DOGBE,AGBOVIE,lywellinlynnald3703@gmail.com,Failed: Timed out (25s) waiting for page to advance from Step 1.
+2026-06-26 16:46:45,ELMOND AKANTUE,AKANYIM,eakanyim2243@gmail.com,Failed: Timed out (25s) waiting for page to advance from Step 1.
+2026-06-26 16:47:32,gabriel awintini,awini,gawini@gmail.com,Success
+2026-06-26 16:48:27,Nuhu,Imoro,nuhuimoro80@gmail.com,Success
+2026-06-26 16:49:32,Lydia Kachonga,Awoweni,wepireduna@gmail.com,Success
+2026-06-26 16:50:27,AWUDU,ABULIGA,abuligaawudu@gmail.com,Success
+2026-06-26 16:51:34,INNOCENT,KAMBOE,kaminnoce@gmail.com,Success
+2026-06-26 16:52:34,CLEMENCIA,JUJUGENIA,jujugeniaclemencia@gmail.com,Success
+2026-06-26 16:53:50,GODFRED,LOGONIA,www.godfredlogo@gmail.com,Success
+2026-06-26 16:54:49,MICHAEL NAAGMINYERE,PIIDRO,michaelpiidro398@gmail.com,Success
+2026-06-26 16:55:53,Daniel,Pwayidi,danielpwayidi998@gmail.com,Success
+2026-06-26 16:56:56,Raphael,Ajibe,ajiberaphael62@gmail.com,Success
+2026-06-26 16:57:57,Emelia,Awuni,emeliaawuni35@gmail.com,Success
+2026-06-26 16:58:56,bushira chamtiwuni,tidow,tidowbushira4@gmail.com,Success
+2026-06-26 16:59:54,HABIBATU,MOHAMMED,mohammedhabiba121@gmail.com,Success
+2026-06-26 17:00:51,KINGSLEY ABEL,AZURE,kinsleyazure32@gmail.com,Success
+2026-06-26 17:01:31,Janet Donsonnee,Tampuori,tampuorijane@gmail.com,Already Registered
+2026-06-26 17:02:18,Meshack Awindola Azumah,Mboba,mbobameshack@gmail.com,Already Registered
+2026-06-26 17:03:04,Samuel,Azirigo,choicekidchoice@gmail.com,Success
+2026-06-26 17:04:04,Abdul-Samed Mankuziliba,Saibu,sabdulsamed02@gmail.com,Success
+2026-06-26 17:05:04,Naah Kuubeneem,Ankaara,fuzyankaara@gmail.com,Success
+2026-06-26 17:06:03,Daniel Mukanjor,Naja,Najamukanjordaniel@gmail.com,Success
+2026-06-26 17:07:04,ALBERT BOGIWMINE,TAMPUOR,albertampuor205@gmail.com,Success
+2026-06-26 17:08:05,IBRAHIM,ABDUL-RAHAMAN,abdulrahamanibrahim526@gmail.com,Already Registered
+2026-06-26 17:09:09,Esther Mmabila,Agana,aganaesther050@gmail.com,Success
+2026-06-26 17:10:05,CYNTHIA MAJIFELA,WANDO,wandocynthia15@gmail.com,Success
+2026-06-26 17:11:12,EMMANUELLA MILLS,GYAN,gyanmillsemmanuella@gmail.com,Success
+2026-06-26 17:12:09,Monica Awontemi,Akanvariboka,awontemimonica123@gmail.com,Success
+2026-06-26 17:13:04,Eunice Mbama,Ayawin,eunicembama82@gmail.com,Success
+2026-06-26 17:14:09,Jennifer Anaribala,Nsobila,nsobilajenniferanaribala@gmail.com,Success
+2026-06-26 17:15:02,FATUHULAI,NASHIRU,nashirufatuhulai19@gmail.com,Already Registered
+2026-06-26 17:15:43,KARIMATU,MAHAMAH,mahamahkarimatu@gmail.com,Success
+2026-06-26 17:16:42,WISDOM ASWONONA,ABUGABE,abugabewisdom@gmail.com,Success
+2026-06-26 17:17:37,LOUISA WELAM,ANAFO,louisawelamanafo@gmail.com,Success
+2026-06-26 17:18:28,Jabaab,Mananyi Michael,jabaabmananyimichael@gmail.com,Success
+2026-06-26 17:19:27,BISMARK NYAABA,APELIGIDE,apeligidebismark@gmail.com,Success
+2026-06-26 17:20:32,Ibrahim Anyass,Ahmed,maimako1503@gmail.com,Success
+2026-06-26 17:21:37,Shafew,Mohammed,slemzybwoy@gmail.com,Failed: Timed out (25s) waiting for page to advance from Step 1.
+2026-06-26 17:22:27,Cecilia,Adutwumwaa,eirkuahm@gmail.com,Success
+2026-06-26 17:23:24,Christopher,Abapore,abaporechristopher14@gmail.com,Success
+2026-06-26 17:24:23,GRACE YINEMI,ABONGO,abongograce3@gmail.com,Success
+2026-06-26 17:25:20,MICHAEL,BUKARI,bukarimichael64@gmail.com,Success
+2026-06-26 17:26:24,Safiru,Mohammed,mohammedsafiru55@gmail.com,Failed: Timed out (25s) waiting for page to advance from Step 1.
+2026-06-26 17:27:14,LAMISI,ISIGUB,lamisicharity25@gmail.com,Success
+2026-06-26 17:28:14,GLORIA,OPPONG,glooppong900@gmail.com,Success
+2026-06-26 17:29:09,Sandra,Opoku,opoku553sandra@gmail.com,Success
+2026-06-26 17:29:52,Asare Danso,Gideon,asaredansogideon3229@gmail.com,Already Registered
+2026-06-26 17:30:35,MOSES,AKUGRI,akugrimoses1@gmail.com,Success
+2026-06-26 17:31:29,MARIAM,Mohammed,mamohammed660@gmail.com,Success
+2026-06-26 17:32:28,BENEDICTA AWINE,ANAFO,anafobenedicta77@gmail.com,Success
+2026-06-26 17:33:31,Justina,Anedam,anedamjustina8@gmail.com,Success
+2026-06-26 17:34:13,Yahuza Ibn Iddris,Azimlogo,yahuzaibniddrisa@gmail.com,Already Registered
+2026-06-26 17:35:16,MAHEART NYAANAPAAK,KONLAN,maheartnyaanapaak2023@gmail.com,Success
+2026-06-26 17:36:09,Gloria,Nkumene,gloriankumene32@gmail.com,Already Registered
+2026-06-26 17:36:53,Gifty Kapari,Awoli,giftykapari@gmail.com,Success
+2026-06-26 17:37:47,FIRDAUS,TIZAAWE,firdaustizaawe82@gmail.com,Success
+2026-06-26 17:38:44,ZULEIHA,NABILA,nabilazuleiha241@gmail.com,Success
+2026-06-26 17:39:41,HARRIET,AWESE,harrietawese13@gmail.com,Success
+2026-06-26 17:40:37,WASILA,ADAM,wasilaadam707@gmail.com,Success
+2026-06-26 17:41:43,Salifu Wisdom,Saaka,wisdomsaka2002@gmail.com,Success
+2026-06-26 17:42:28,KONLAN YUMMANDAM,JARA,emmanueljarakonlany@gmail.com,Already Registered
+2026-06-26 17:42:59,ABDULMANAN,AMADU,amaduabdulmanan32@gmail.com,Already Registered
+2026-06-26 17:43:51,Abubakari,Zakaria,zakariaabubakari994@gmail.com,Failed: Timed out (25s) waiting for page to advance from Step 1.
+2026-06-26 17:44:35,Alhassan,Zakaria,zakariaalhassan247@gmail.com,Success
+2026-06-26 17:45:31,RAZAK SUBINDAM,AWUDU,awudurazak149@gmail.com,Success
+2026-06-26 17:46:25,RICHMOND NTEFUNI,NLANIBI,richmondnlanibi@gmail.com,Success
+2026-06-26 17:47:18,Zaliya,Dauda,zaliyadauda379@gmail.com,Success
+2026-06-26 17:48:17,Joseph Akugre,Ataba,www.josephataba@gmail.com,Success
+2026-06-26 17:49:01,MUNTAKILU ALHASSAN,KONLAN,alhassanmutawakil542@gmail.com,Already Registered
+2026-06-26 17:49:30,Raphael Abotiyuure,Nsoh,abotiyuureraphael@gmail.com,Already Registered
+2026-06-26 17:50:19,JEREMIAH AKWOWUTUGE,KUTUAH,jeremiahkutuah81@gmail.com,Success
+2026-06-26 17:51:15,DOUGLAS ADOLIWINE,ABAGNA,abagnadouglas@icloud.com,Success
+2026-06-26 17:52:08,ROLAND N-MOAN,BINTRIME,nrolandbintrime@gmail.com,Success
+2026-06-26 17:52:51,GRACE AWINELOYA,AKABATI,graceakabati@gmail.com,Already Registered
+2026-06-26 17:53:47,EMMANUEL ARIKU,AZAARE,elvisalaru@gmail.com,Failed: Timed out (25s) waiting for page to advance from Step 1.
+2026-06-26 17:54:30,Moses Awinpang,Aladago,awinpangaladagomoses@gmail.com,Success
+2026-06-26 17:55:12,Shawukia Yaro,Issah,shawkyyaaro@gmail.com,Already Registered
+2026-06-26 17:56:00,FOUZIA,YAHAYA,proflisto@yahoo.com,Success
+2026-06-26 17:56:55,MAJAH DANIEL,NTAKGMA,majahdaniel@gmail.com,Success
+2026-06-26 17:57:50,Matthew,Nambam,nambammatthew@gmail.com,Success
+2026-06-26 17:58:46,Celestina Salima,Iddrisu,iddrisu.celine@gmail.com,Success
+2026-06-26 17:59:45,Radiatu Mohammed,Forgor,uxah500@gmail.com,Success
+2026-06-26 18:00:43,Mamata Awini,Issah,brobbyebenezer1@gmail.com,Success
+2026-06-26 18:01:41,Florence,Antoh,florenceantoh29@gmail.com,Success
+2026-06-26 18:02:45,MARY AZUMAH,ABUGRI,abugrim284@gmail.com,Success
+2026-06-26 18:03:46,ABDUL WASIU,AHMED,abdulwasiudindagerba@gmail.com,Success
+2026-06-26 18:04:42,UMU-HAIRA,MOHAMMED,abdulraufmohammed53@gmail.com,Success
+2026-06-26 18:05:42,Nurudeen,Alhassan,alhassannurudeen704@gmail.com,Success
+2026-06-26 18:06:40,Musah,Abass,abassmusah2424@gmail.com,Success
+2026-06-26 18:07:36,GLORIA WEMOYEI,ACHANA,wemoyeigloria@gmail.com,Success
+2026-06-26 18:08:31,FATIMATU,ISSAKA,fatimatuissaka42@gmail.com,Success
+2026-06-26 18:10:00,Gregory Anontee,Atubiga,g.atubiga@yahoo.com,Success
+2026-06-26 18:10:59,CLEMENCIA ALIJETU,AKOLBUGRI,akolbugriclemencia@gmail.com,Success
+2026-06-26 18:12:02,NAJAT KUKILAM,ISSIFU,najatissifu908@gmail.com,Success
+2026-06-26 18:13:01,DORCAS LAADI,MBAWIN,dorcasmbawin@gmail.com,Success
+2026-06-26 18:14:03,Ernestina,Anim,animernestina545@gmail.com,Success
+2026-06-26 18:15:10,ALBERT AYAMBA,BAWA,bawaalbertayamba@gmail.com,Failed: Timed out (25s) waiting for page to advance from Step 1.
+2026-06-26 18:16:05,KELVIN ELIKPLIM,GOCKEL,kelvingockel@gmail.com,Failed: Timed out (25s) waiting for page to advance from Step 1.
+2026-06-26 18:16:58,SIMON BIAKANANG,NAYAM,simoncasionayam@gmail.com,Success
+2026-06-26 18:18:08,Sakina Felicia,Seidu,feliciaseidu096@gmail.com,Failed: Timed out (25s) waiting for page to advance from Step 1.
+2026-06-26 18:19:00,UMAR TIA,MAMMARA,mammaraumar1@gmail.com,Success
+2026-06-26 18:20:00,Kifaya,Ibrahim,ibrahimkifaya@email.com,Success
+2026-06-26 18:21:09,KABIRU,SAANI,saanikabiru1212@gmail.com,Failed: Timed out (25s) waiting for page to advance from Step 1.
+2026-06-26 18:22:10,Nafisah,Baba,babanafty@gmail.com,Failed: Timed out (25s) waiting for page to advance from Step 1.
+2026-06-26 18:23:12,Sarpong,Emmanuella,ellasarpog@18y.com,Failed: Timed out (25s) waiting for page to advance from Step 1.
+2026-06-26 18:23:51,Ni-ematu,Abdallah,niematuabdallah@gmail.com,Already Registered
+2026-06-26 18:24:50,Gifty,Ayombil,ayogifty80@gmail.com,Success
+2026-06-26 18:25:58,MARK RAPHAEL,AKWAA,markraphael750@gmail.com,Success
+2026-06-26 18:26:59,Asante Fosuhene,Owusu,nanakwaku1985@yahoo.com,Success
+2026-06-26 18:28:11,HAMIDATU,BAWAH,bawahhamidatu27@gmail.com,Success
+2026-06-26 18:29:17,RACHAEL BABAZOROVII,TAAYI,taayirachael9@gmail.com,Success
+2026-06-26 18:30:16,SOLOMON,NABAREDAM,swaggerlyrikal@gmail.com,Success
+2026-06-26 18:31:29,FATIMATA,MUSAH,musahfatimata64@gmail.com,Success
+2026-06-26 18:32:17,Arimiyaw Neindow,Abdulai,abdulaiarimiyawneindow@gmail.com,Already Registered
+2026-06-26 18:33:08,ABDUL-GAFAR,HALIDU,gafarhalidu5@gmail.com,Success
+2026-06-26 18:34:11,REYNOLDS ATUNDIWE,ATUYANI,atuyanireynolds3@gmail.com,Success
+2026-06-26 18:35:16,Sophia Azumah,Atiah,azumahsophia@gmail.com,Success
+2026-06-26 18:36:25,SOLOMON,ABUGRI,solomonabugri05@gmail.com,Success
+2026-06-26 18:37:37,JULIANA,DUAH,simonag1898@gmail.com,Failed: Timed out (25s) waiting for page to advance from Step 1.
+2026-06-26 18:38:33,AFUSHATA,SALIFU,afushatas@gmail.com,Success
+2026-06-26 18:39:35,Francisca Aguze-ele,Agamboka,agambokafrancisca@gmail.com,Success
+2026-06-26 18:40:34,Emelia Oparebea,Boateng,boatengemelia400@gmail.com,Success
+2026-06-26 18:41:36,NTIBE NAOMI,ALI,alintibe@gmail.com,Success
+2026-06-26 18:42:24,GRACE,Asare,asaregrace291@gmail.com,Already Registered
+2026-06-26 18:43:14,Wepia,Sambatura,wepiasambatura@gmail.com,Success
+2026-06-26 18:44:21,Thomas,Makumbe,thomasmakumbe2@gmail.com,Success
+2026-06-26 18:45:27,Christopher Njorkuni,Kilula,kilulachris@gmail.com,Success
+2026-06-26 18:46:30,Brian Julius,Zaghe,brianjuliuszaghe@gmail.com,Success
+2026-06-26 18:47:35,Dorcas,Oppong Peprah,anastasiaoppong18@gmail.com,Success
+2026-06-26 18:48:21,Seidu Hanan,Atibila,atibilaseiduhanan0@gmail.com,Already Registered
+2026-06-26 18:49:14,Malik,Yaanaba,yaanabamalik1@gmail.com,Success
+2026-06-26 18:50:39,Gloria Nsomah,Akongzirigo,akongzirigogloria@gmail.com,Success
+2026-06-26 18:51:30,Zaidatu,Sulemana,sulemanazaidatu@gmail.com,Already Registered
+2026-06-26 18:52:04,AGNES WEMATU,ADALINGEYA,adalingeyaagnes27@gmail.com,Already Registered
+2026-06-26 18:52:40,NOAH YENNUKUA,DUBENG,noahdubeng156@gmail.com,Already Registered
+2026-06-26 18:53:33,Fuseini,Musah,musahfuseini7784@gmail.com,Success
+2026-06-26 18:54:30,Inusah,Mohammed,inusahm505@gmail.com,Success
+2026-06-26 18:55:23,Samira Namso,Bakuchama,bakuchamasamira@gmail.com,Success
+2026-06-26 18:56:17,MARIAM SALIFU,AYAMBILLA,mariamayambilla09@gmail.com,Success
+2026-06-26 18:57:13,TIMOTHY,KAMBOE,timothykamboe19@gmail.com,Success
+2026-06-26 18:58:23,Gertrude Afia,Atitsogbe,atitsogbegertrude@gmail.com,Success
+2026-06-26 18:59:21,Rafia,Tijani,tijanirafia22@gmail.com,Success
+2026-06-26 19:00:02,Mutadeen,Mustapha,mustaphamutadeen@gmail.com,Already Registered
+2026-06-26 19:00:50,Awushatu,Fataw,fatawawushatu9561@gmail.com,Success
+2026-06-26 19:01:49,Stephanie Yaa peprah,Addai,stephanieaddai94@gmail.com,Success
+2026-06-26 19:02:46,Jessica,Nsobila,jessicansobila2002@gmail.com,Success
+2026-06-26 19:03:26,Samiratu,Zakaria,zakariasamiratu2@gmail.com,Already Registered
+2026-06-26 19:04:10,Jennifer Kolpogbil,Zure,zurejennifer@gmail.com,Success
+2026-06-26 19:05:07,Sandra,Adusei,sandraadusei55@gmail.com,Success
+2026-06-26 19:06:03,IDDRISU,ALIDU,ialidu535@gmail.com,Success
+2026-06-26 19:06:57,VINCENT KUBI,APPIA,vincentappiahkubi91@gmail.com,Success
+2026-06-26 19:07:38,Umu Salma,Issahaku,umusalmaissahaku@gmail.com,Already Registered
+2026-06-26 19:08:22,Agnes Nimotimi,Ulanja,agnesnimotimiulanja@gmail.com,Success
+2026-06-26 19:09:27,Pancras Kwowora,Kwayire,pankykwowora@gmail,Failed: Timed out (25s) waiting for page to advance from Step 1.
+2026-06-26 19:09:58,RAHINATU,IBRAHIM,ibrahimrahinatu664@gmail.com,Already Registered
+2026-06-26 19:10:47,Emmanuella Yennupiini,Kombat,emmanuellakombatpeter@gmail.com,Success
+2026-06-26 19:11:28,ABIGAIL,DARKWA,abigaildarkwa2006@gmail.com,Already Registered
+2026-06-26 19:12:11,ALIMA,AMIDU,amidualima431@gmail.com,Success
+2026-06-26 19:13:13,KUNAGNAN LOUIS,MABORIGNAN,maborignanl@gmail.com,Success
+2026-06-26 19:13:55,Mahabubatu,Salley,salleymahabubatu1@gmail.com,Already Registered
+2026-06-26 19:14:40,SAHARATU,IDDRISU,iddrisusaharatu716@gmail.com,Success
+2026-06-26 19:15:37,Al-Mubarak,Yussif,almubarakyussif305@gmail.com,Success
+2026-06-26 19:16:33,Maxwell Anenya,Duniah,duniahmaxwell3@gmail.com,Success
+2026-06-26 19:17:26,Amama Neina,Mutala,amamadamba13@gmail.com,Success
+2026-06-26 21:41:44,CYNTHIA,AKWODOBA,cythiaakwodoba@yahoo.com,Already Registered
+2026-06-26 21:42:09,Mohammed Atubiga,Ayeeba,mohammedatubiga086@gmail.com,Already Registered
+2026-06-26 21:42:38,NAPARI,SAKPEINI,naparisukpeini@gmail.com,Already Registered
+2026-06-26 21:43:03,MABEL,TANGBALE,tangbalemabel@gmail.com,Already Registered
+2026-06-26 21:43:29,Shafaw Nasamu,Sulemana Nasamu,sulemananasamushafaw153@gmail.com,Already Registered
+2026-06-26 21:43:56,HELENA YIDANA,BUJEERA,bujeerahelena7@gmail.com,Already Registered
+2026-06-26 21:45:51,Priscilla Akpene,Adzaklo,prillalovesgod1@gmail.com,Success
+2026-06-26 21:46:39,BERNICE AYINPOGBILA,ANABILA,berniceayinpogbila@gmail.com,Success
+2026-06-26 21:47:17,ISAAC NEWTON,QUAYE,isaacquaye508@gmail.com,Already Registered
+2026-06-26 21:47:54,ERIC NLABICHE,KWABENA,kwabenaeric750@gmail.com,Success
+2026-06-26 21:48:44,BASHIRU,ABAVERI,bashiruabaveri3535@gmail.com,Success
+2026-06-26 21:49:38,BERNARD NMANI,MABEFAM,najahenterprise63@gmail.com,Success
+2026-06-26 21:51:18,Edward Suguruman,Laar,laaredward68@gmail.com,Failed: Submission unclear � still on: https://www.binance.events/event/a483c41e-d3f9-4fe3-ba5c-5e1a61f4e56b/regPage:8a362de7-7f50-4880-a9a5-1035b2c14d43
+2026-06-26 21:52:02,Bright Mohammed,Abugri,abugridixturb@gamil.com,Success
+2026-06-26 21:52:51,Edmond Suuk,Konlan,edmondsuukk@gmail.com,Success
+2026-06-26 21:53:44,Solomon Appiah,Doku,solomondokuappiah@gmail.com,Success
+2026-06-26 21:54:38,Joseph Liporbiliyi,Sambo,joshsambo027@gmail.com,Success
+2026-06-26 21:55:24,KIJOTIIK BERNARD,TIKPOR,kijortiiktikporbernard@gmail.com,Success
+2026-06-26 21:56:12,Moses Wechiga,Akoka,mosesakoka3200@gmail.com,Success
+2026-06-26 21:57:00,NORBERT,AKANZAGISI,akanzagisin@gmail.com,Success
+2026-06-26 21:57:53,Ampong kwame,Samuel,ampongsamuel37@gmail.com,Success
+2026-06-26 21:58:46,WILSON AZIPAALA,AKULGA,akulgawilson8@gmail.com,Success
+2026-06-26 21:59:56,GODFRED BINIBALIN,DALARB,solomondalarb06@gmail.com,Success
+2026-06-26 22:00:44,Abdul-Rahim,Fusheini,fusheiniabdulrahim49@gmail.com,Success
+2026-06-26 22:01:37,CHRISTOPHER,AYAMBIRE,ayambirechristopher212@gmail.com,Success
+2026-06-26 22:02:30,Prosper,Atiga,prosperatiga2003@gmail.com,Success
+2026-06-26 22:03:23,MONICA AWINE,AYOLIYIRE,ayoliyiremonicaawine@gmail.com,Success
+2026-06-26 22:04:33,Osman,Abdulai,osmanabdulai654@gmail.com,Success
+2026-06-26 22:05:27,Bilal,Abdul-Karim,bilalyussif147@gmail.com,Success
+2026-06-26 22:06:15,PRISCILLA,TANGOMSE,tangomsepriscilla@gmail.com,Success
+2026-06-26 22:07:07,FRANCISCA AWENIA,AGYEMANG,aweniaagyemang@gmail.com,Success
+2026-06-26 22:07:59,Jonathan Nlikchibi,Nkoteen,nlikchibijonathann@gmail.com,Success
+2026-06-26 22:09:56,Rifdah Suntiahah,kareem,rifdahkareem13@gmail.com,Success
+2026-06-26 22:10:46,Nkanyii Dominic,Wumborijah,wumborijahdominic@gmail.com,Success
+2026-06-26 22:11:35,AMINA,HASHIMI,hashimiamina20@gmail.com,Success
+2026-06-26 22:12:27,N-NAANKORLA,BINYAM,nicobinyam14@gmail.com,Success
+2026-06-26 22:13:13,LAWRENCIA AYINE,ANAFO,anafoissah68@gmail.com,Success
+2026-06-26 22:14:03,Stella Bugre,Kolbila,rockstarstella1@icloud.com,Success
+2026-06-26 22:14:52,HALIMAH,HAMIDU,hamiduhalimah@gmail.com,Success
+2026-06-26 22:15:45,Iddris,Abubakar,abubakariddi12@gmail.com,Success
+2026-06-26 22:16:41,Jacob,Ali,alijacob360@gmail.com,Success
+2026-06-26 22:17:33,Michael,Awinbisa Abagna,michaelawinbisa@gmail.com,Success
+2026-06-26 22:18:23,EMMANUEL,AYINE,eayine260@gmail.com,Success
+2026-06-26 22:19:09,Gad,Dorla,dorlagad995@gmail.com,Success
+2026-06-26 22:19:56,Enoch Mayewani,Jayoum,Jayoummenoch98@gmail.com,Success
+2026-06-26 22:20:51,Mohammed,Abubakari,mabubakari181@gmail.com,Success
+2026-06-26 22:21:49,NICHOLAS WEMOYIE,BANICHIGA,nicholasbanichiga@gmail.com,Success
+2026-06-26 22:22:41,JEFFREY AYAANAM,AKALIGAUNG,ayaanamakaligaung6@gmail.com,Success
+2026-06-26 22:23:39,Stephanie Awo Marfoa Asantewaa,Asante,stephanieasantewaaasante@gmail.com,Success
+2026-06-26 22:24:27,Susana,Abakah,susannaabakah@gmail.com,Success
+2026-06-26 22:25:27,JOYCE,SENCHI,senchikombanyeli@gmail.com,Success
+2026-06-26 22:26:16,Mary Yandal,Bosil,bosilyandalmary@gmail.com,Success
+2026-06-26 22:27:10,Lawrence Aboagye,Mensah,mensahaboagyelawrence0@gmail.com,Success
+2026-06-26 22:28:04,Sophia,Ndeego,samfordsophie@gmail.com,Success
+2026-06-26 22:28:53,Issaka Suhyini,Mohammed,mohammadlshark51@gmail.com,Success
+2026-06-26 22:29:44,Philemon,Adu-Mensah,adumensahphilemon75@gmail.com,Success
+2026-06-26 22:30:34,Richmond Yabir,Manyir,richmondyabir@gmail.com,Success
+2026-06-26 22:31:34,BASILIDE,NAGA,basilidenaga@gmail.com,Success
+2026-06-26 22:32:22,JUSTINA,AFOU,afoujustina@gmail.com,Success
+2026-06-26 22:33:14,Rabiatu,Salifu,salifurabiatu759@gmail.com,Success
+2026-06-26 22:34:04,AWWAL OLASUNMOYE,SALAWU,awwalsalawu001@gmail.com,Success
+2026-06-26 22:34:54,Augustine Antwi,Boamah,augustine641@gmail.com,Success
+2026-06-26 22:36:06,MILLICENT,OSEI,millicentosei856@gmail.com,Success
+2026-06-26 22:36:59,DAVID NDAFEN,NIGNALWAIN,nndafendavid@gmail.com,Success
+2026-06-26 22:37:54,NOAH,MBON,noahmbon929@gmail.com,Success
+2026-06-26 22:38:43,Emmanuel,Zaghe,eustacemaurice@gmail.com,Success
+2026-06-26 22:39:40,STEPHEN,AKPABIL,akpabilstephen95@gmail.com,Success
+2026-06-26 22:40:38,BENEDICTA AKATUSI,AGAMU,sethakantey@gmail.com,Success
+2026-06-26 22:41:31,Alale Isaac,Azampak,alaleazampakisaac@gmail.com,Success
+2026-06-26 22:42:28,KENNEDY,AZAGSIA,kazagsia@gmail.com,Success
+2026-06-26 22:43:32,MATHIAS,YIDANA,mathiasyidana45@gmail.com,Success
+2026-06-26 22:44:26,Boniface,Ajuri,bonifaceajuri@gmail.com,Success
+2026-06-26 22:45:20,Jacob Fitilayar,Naamok,naamokjacob36@gmail.com,Success
+2026-06-26 22:46:11,Faustina Apaawin,Amande,aberav9@gmail.com,Success
+2026-06-26 22:47:01,MAC-ANDY WEMOYEI,ATI,macandyati152@gmail.com,Success
+2026-06-26 22:47:51,Jerome Jerome,Vorlashie,seraphinevorlashie7@gmail.com,Success
+2026-06-26 22:48:46,Clement,Atayoko,atayokoclement@gmail.com,Success
+2026-06-26 22:49:36,richmond subunin,kangben,richmondkangben233@gmail.com,Success
+2026-06-26 22:50:21,Bismark Makpatanli,Kwayaja,bismarcksparkle@gmail.com,Already Registered
+2026-06-26 22:51:19,Moses,Awineyela,awineyelamoses@gmail.com,Success

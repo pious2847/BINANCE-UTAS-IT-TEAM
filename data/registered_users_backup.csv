@@ -1,0 +1,515 @@
+Timestamp,First Name,Last Name,Email,Status
+2026-06-26 06:24:13,Jacob ,Kolwefera ,jkolwefera@gmail.com,Failed: module 'selenium.webdriver.support.expected_conditions' has no attribute 'presence_of_element_list'
+2026-06-26 06:29:46,Isaac Newton ,Quaye,isaacquaye508@gmail.com,Failed: module 'selenium.webdriver.support.expected_conditions' has no attribute 'presence_of_element_list'
+2026-06-26 06:37:19,Atiga,Kuniba Aisha ,atigakunibaaisha@gmail.com,"Failed: Message: element not interactable
+  (Session info: chrome=149.0.7827.199); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementnotinteractableexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff7a39b3fa5+14925]
+	chromedriver!GetHandleVerifier [0x7ff7a39b4000+14980]
+	chromedriver!(No symbol) [0x7ff7a34f7726]
+	chromedriver!(No symbol) [0x7ff7a354c8a9]
+	chromedriver!(No symbol) [0x7ff7a354a448]
+	chromedriver!(No symbol) [0x7ff7a357a3ca]
+	chromedriver!(No symbol) [0x7ff7a35457c6]
+	chromedriver!(No symbol) [0x7ff7a359f39b]
+	chromedriver!(No symbol) [0x7ff7a354401c]
+	chromedriver!(No symbol) [0x7ff7a3544f43]
+	chromedriver!GetHandleVerifier [0x7ff7a3f97591+5f7f11]
+	chromedriver!GetHandleVerifier [0x7ff7a3f91902+5f2282]
+	chromedriver!GetHandleVerifier [0x7ff7a3fb7115+617a95]
+	chromedriver!GetHandleVerifier [0x7ff7a39d1dce+3274e]
+	chromedriver!GetHandleVerifier [0x7ff7a39da82c+3b1ac]
+	chromedriver!GetHandleVerifier [0x7ff7a39bd744+1e0c4]
+	chromedriver!GetHandleVerifier [0x7ff7a39bd8d4+1e254]
+	chromedriver!GetHandleVerifier [0x7ff7a39a1447+1dc7]
+	KERNEL32!BaseThreadInitThunk [0x7ffcdb0ae957+17]
+	ntdll!RtlUserThreadStart [0x7ffcdc807c1c+2c]
+"
+2026-06-26 06:39:46,Abigail ,Tikesseh ,Abigailtikesseh@gmail.com,"Failed: Message: 
+"
+2026-06-26 07:07:22,Patricia ,Yenbapoka ,patriciakparib25@gmail.com,"Failed: Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=149.0.7827.199); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff7a39b3fa5+14925]
+	chromedriver!GetHandleVerifier [0x7ff7a39b4000+14980]
+	chromedriver!(No symbol) [0x7ff7a34f793d]
+	chromedriver!(No symbol) [0x7ff7a34e2d82]
+	chromedriver!(No symbol) [0x7ff7a35090cc]
+	chromedriver!(No symbol) [0x7ff7a3581aa0]
+	chromedriver!(No symbol) [0x7ff7a359ec82]
+	chromedriver!(No symbol) [0x7ff7a354401c]
+	chromedriver!(No symbol) [0x7ff7a3544f43]
+	chromedriver!GetHandleVerifier [0x7ff7a3f97591+5f7f11]
+	chromedriver!GetHandleVerifier [0x7ff7a3f91902+5f2282]
+	chromedriver!GetHandleVerifier [0x7ff7a3fb7115+617a95]
+	chromedriver!GetHandleVerifier [0x7ff7a39d1dce+3274e]
+	chromedriver!GetHandleVerifier [0x7ff7a39da82c+3b1ac]
+	chromedriver!GetHandleVerifier [0x7ff7a39bd744+1e0c4]
+	chromedriver!GetHandleVerifier [0x7ff7a39bd8d4+1e254]
+	chromedriver!GetHandleVerifier [0x7ff7a39a1447+1dc7]
+	KERNEL32!BaseThreadInitThunk [0x7ffcdb0ae957+17]
+	ntdll!RtlUserThreadStart [0x7ffcdc807c1c+2c]
+"
+2026-06-26 07:13:53,Nabuer Zaccheous ,Nteajal,nabuerzaccheous001@gmail.com,"Failed: Message: element not interactable
+  (Session info: chrome=149.0.7827.199); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementnotinteractableexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff7a39b3fa5+14925]
+	chromedriver!GetHandleVerifier [0x7ff7a39b4000+14980]
+	chromedriver!(No symbol) [0x7ff7a34f7726]
+	chromedriver!(No symbol) [0x7ff7a354c8a9]
+	chromedriver!(No symbol) [0x7ff7a354a448]
+	chromedriver!(No symbol) [0x7ff7a357a3ca]
+	chromedriver!(No symbol) [0x7ff7a35457c6]
+	chromedriver!(No symbol) [0x7ff7a359f39b]
+	chromedriver!(No symbol) [0x7ff7a354401c]
+	chromedriver!(No symbol) [0x7ff7a3544f43]
+	chromedriver!GetHandleVerifier [0x7ff7a3f97591+5f7f11]
+	chromedriver!GetHandleVerifier [0x7ff7a3f91902+5f2282]
+	chromedriver!GetHandleVerifier [0x7ff7a3fb7115+617a95]
+	chromedriver!GetHandleVerifier [0x7ff7a39d1dce+3274e]
+	chromedriver!GetHandleVerifier [0x7ff7a39da82c+3b1ac]
+	chromedriver!GetHandleVerifier [0x7ff7a39bd744+1e0c4]
+	chromedriver!GetHandleVerifier [0x7ff7a39bd8d4+1e254]
+	chromedriver!GetHandleVerifier [0x7ff7a39a1447+1dc7]
+	KERNEL32!BaseThreadInitThunk [0x7ffcdb0ae957+17]
+	ntdll!RtlUserThreadStart [0x7ffcdc807c1c+2c]
+"
+2026-06-26 07:14:27,Fortune,Awinsune ,fortuneayaane718@gmail.com,"Failed: Message: element not interactable
+  (Session info: chrome=149.0.7827.199); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementnotinteractableexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff7a39b3fa5+14925]
+	chromedriver!GetHandleVerifier [0x7ff7a39b4000+14980]
+	chromedriver!(No symbol) [0x7ff7a34f7726]
+	chromedriver!(No symbol) [0x7ff7a354c8a9]
+	chromedriver!(No symbol) [0x7ff7a354a448]
+	chromedriver!(No symbol) [0x7ff7a357a3ca]
+	chromedriver!(No symbol) [0x7ff7a35457c6]
+	chromedriver!(No symbol) [0x7ff7a359f39b]
+	chromedriver!(No symbol) [0x7ff7a354401c]
+	chromedriver!(No symbol) [0x7ff7a3544f43]
+	chromedriver!GetHandleVerifier [0x7ff7a3f97591+5f7f11]
+	chromedriver!GetHandleVerifier [0x7ff7a3f91902+5f2282]
+	chromedriver!GetHandleVerifier [0x7ff7a3fb7115+617a95]
+	chromedriver!GetHandleVerifier [0x7ff7a39d1dce+3274e]
+	chromedriver!GetHandleVerifier [0x7ff7a39da82c+3b1ac]
+	chromedriver!GetHandleVerifier [0x7ff7a39bd744+1e0c4]
+	chromedriver!GetHandleVerifier [0x7ff7a39bd8d4+1e254]
+	chromedriver!GetHandleVerifier [0x7ff7a39a1447+1dc7]
+	KERNEL32!BaseThreadInitThunk [0x7ffcdb0ae957+17]
+	ntdll!RtlUserThreadStart [0x7ffcdc807c1c+2c]
+"
+2026-06-26 07:33:55,Tahiru ,Munira Winpini ,tahirumunirawinpini72@gmail.com,"Failed: Message: element not interactable
+  (Session info: chrome=149.0.7827.199); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementnotinteractableexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff7a39b3fa5+14925]
+	chromedriver!GetHandleVerifier [0x7ff7a39b4000+14980]
+	chromedriver!(No symbol) [0x7ff7a34f7726]
+	chromedriver!(No symbol) [0x7ff7a354c8a9]
+	chromedriver!(No symbol) [0x7ff7a354a448]
+	chromedriver!(No symbol) [0x7ff7a357a3ca]
+	chromedriver!(No symbol) [0x7ff7a35457c6]
+	chromedriver!(No symbol) [0x7ff7a359f39b]
+	chromedriver!(No symbol) [0x7ff7a354401c]
+	chromedriver!(No symbol) [0x7ff7a3544f43]
+	chromedriver!GetHandleVerifier [0x7ff7a3f97591+5f7f11]
+	chromedriver!GetHandleVerifier [0x7ff7a3f91902+5f2282]
+	chromedriver!GetHandleVerifier [0x7ff7a3fb7115+617a95]
+	chromedriver!GetHandleVerifier [0x7ff7a39d1dce+3274e]
+	chromedriver!GetHandleVerifier [0x7ff7a39da82c+3b1ac]
+	chromedriver!GetHandleVerifier [0x7ff7a39bd744+1e0c4]
+	chromedriver!GetHandleVerifier [0x7ff7a39bd8d4+1e254]
+	chromedriver!GetHandleVerifier [0x7ff7a39a1447+1dc7]
+	KERNEL32!BaseThreadInitThunk [0x7ffcdb0ae957+17]
+	ntdll!RtlUserThreadStart [0x7ffcdc807c1c+2c]
+"
+2026-06-26 07:36:26,Ndakan ,Akor ,ndakanakor0@gmail.com,"Failed: Message: no such element: Unable to locate element: {""method"":""css selector"",""selector"":""[id=""56aeaca6-a0ad-4548-8afc-94d8d4361ba1""]""}
+  (Session info: chrome=149.0.7827.199); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff7a39b3fa5+14925]
+	chromedriver!GetHandleVerifier [0x7ff7a39b4000+14980]
+	chromedriver!(No symbol) [0x7ff7a34f793d]
+	chromedriver!(No symbol) [0x7ff7a3551aad]
+	chromedriver!(No symbol) [0x7ff7a3551dac]
+	chromedriver!(No symbol) [0x7ff7a35a27d7]
+	chromedriver!(No symbol) [0x7ff7a359f39b]
+	chromedriver!(No symbol) [0x7ff7a354401c]
+	chromedriver!(No symbol) [0x7ff7a3544f43]
+	chromedriver!GetHandleVerifier [0x7ff7a3f97591+5f7f11]
+	chromedriver!GetHandleVerifier [0x7ff7a3f91902+5f2282]
+	chromedriver!GetHandleVerifier [0x7ff7a3fb7115+617a95]
+	chromedriver!GetHandleVerifier [0x7ff7a39d1dce+3274e]
+	chromedriver!GetHandleVerifier [0x7ff7a39da82c+3b1ac]
+	chromedriver!GetHandleVerifier [0x7ff7a39bd744+1e0c4]
+	chromedriver!GetHandleVerifier [0x7ff7a39bd8d4+1e254]
+	chromedriver!GetHandleVerifier [0x7ff7a39a1447+1dc7]
+	KERNEL32!BaseThreadInitThunk [0x7ffcdb0ae957+17]
+	ntdll!RtlUserThreadStart [0x7ffcdc807c1c+2c]
+"
+2026-06-26 07:38:22,Musadiq,Salisu,musadiqsalisu@gmail.com,"Failed: Message: 
+"
+2026-06-26 07:42:28,Anyars,Farida,anyarsfarida@gmail.com,"Failed: Message: element click intercepted: Element <input data-cvent-id=""input"" maxlength=""30"" aria-required=""true"" required="""" type=""text"" autocomplete=""given-name"" class=""TextInput__textbox___eQpJt css-87ndg2"" label=""[object Object]"" id=""56aeaca6-a0ad-4548-8afc-94d8d4361ba1"" name=""56aeaca6-a0ad-4548-8afc-94d8d4361ba1"" aria-describedby=""56aeaca6-a0ad-4548-8afc-94d8d4361ba1"" value="""" style=""font-family: &quot;customGotham HTC&quot;, Helvetica, Arial, sans-serif; font-weight: 400; font-size: 16px; color: rgb(30, 32, 38); line-height: 1.3; font-style: normal; text-align: left; background-color: rgb(255, 255, 255); border-radius: 0px; border-width: 1px; border-style: solid; border-color: rgb(30, 32, 38); padding: 5px;""> is not clickable at point (716, 394). Other element would receive the click: <img alt=""BInance Learning Lab Podgorica"" srcset=""https://images-eur.cvent.com/pr53/09ea8e8dd03f4676a24755ba47394373/pix/9b4093f9a168407b96407a7869a0a7aa!_!ed910cf458cc41ff41870f752c32c739.jpg?d=320&amp;f=webp 320w,
+        https://images-eur.cvent.com/pr53/09ea8e8dd03f4676a24755ba47394373/pix/9b4093f9a168407b96407a7869a0a7aa!_!ed910cf458cc41ff41870f752c32c739.jpg?d=480&amp;f=webp 480w,
+        https://images-eur.cvent.com/pr53/09ea8e8dd03f4676a24755ba47394373/pix/9b4093f9a168407b96407a7869a0a7aa!_!ed910cf458cc41ff41870f752c32c739.jpg?d=768&amp;f=webp 768w,
+        https://images-eur.cvent.com/pr53/09ea8e8dd03f4676a24755ba47394373/pix/9b4093f9a168407b96407a7869a0a7aa!_!ed910cf458cc41ff41870f752c32c739.jpg?d=992&amp;f=webp 992w,
+        https://images-eur.cvent.com/pr53/09ea8e8dd03f4676a24755ba47394373/pix/9b4093f9a168407b96407a7869a0a7aa!_!ed910cf458cc41ff41870f752c32c739.jpg?f=webp 1600w"" src=""https://images-eur.cvent.com/pr53/09ea8e8dd03f4676a24755ba47394373/pix/9b4093f9a168407b96407a7869a0a7aa!_!ed910cf458cc41ff41870f752c32c739.jpg?f=webp"" style=""max-width: 1600px;"">
+  (Session info: chrome=149.0.7827.199); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementclickinterceptedexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff7a39b3fa5+14925]
+	chromedriver!GetHandleVerifier [0x7ff7a39b4000+14980]
+	chromedriver!(No symbol) [0x7ff7a34f793d]
+	chromedriver!(No symbol) [0x7ff7a3559755]
+	chromedriver!(No symbol) [0x7ff7a355736a]
+	chromedriver!(No symbol) [0x7ff7a35546b7]
+	chromedriver!(No symbol) [0x7ff7a3553567]
+	chromedriver!(No symbol) [0x7ff7a3545f48]
+	chromedriver!(No symbol) [0x7ff7a357a3ca]
+	chromedriver!(No symbol) [0x7ff7a35457c6]
+	chromedriver!(No symbol) [0x7ff7a359f39b]
+	chromedriver!(No symbol) [0x7ff7a354401c]
+	chromedriver!(No symbol) [0x7ff7a3544f43]
+	chromedriver!GetHandleVerifier [0x7ff7a3f97591+5f7f11]
+	chromedriver!GetHandleVerifier [0x7ff7a3f91902+5f2282]
+	chromedriver!GetHandleVerifier [0x7ff7a3fb7115+617a95]
+	chromedriver!GetHandleVerifier [0x7ff7a39d1dce+3274e]
+	chromedriver!GetHandleVerifier [0x7ff7a39da82c+3b1ac]
+	chromedriver!GetHandleVerifier [0x7ff7a39bd744+1e0c4]
+	chromedriver!GetHandleVerifier [0x7ff7a39bd8d4+1e254]
+	chromedriver!GetHandleVerifier [0x7ff7a39a1447+1dc7]
+	KERNEL32!BaseThreadInitThunk [0x7ffcdb0ae957+17]
+	ntdll!RtlUserThreadStart [0x7ffcdc807c1c+2c]
+"
+2026-06-26 07:44:49,Iddrisu ,Ibrahim ,iddrisu4356ibrahim@gmail.com,"Failed: Message: 
+"
+2026-06-26 07:52:07,ADAM ,IBRAHIM ,iadam7095@gmail.com,"Failed: Message: 
+"
+2026-06-26 07:58:19,Mavis ,Akusong ,makusong26.stu@utas.edu.gh,"Failed: Message: Select only works on <select> elements, not on div
+"
+2026-06-26 08:00:51,Philip ,Anafo ,anafophilipgrace@gmail.com,"Failed: Message: 
+"
+2026-06-26 08:05:28,Isaiah,Lugugia,lugugiaisaiah@gmail.com,"Failed: Message: element not interactable
+  (Session info: chrome=149.0.7827.199); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementnotinteractableexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff7a39b3fa5+14925]
+	chromedriver!GetHandleVerifier [0x7ff7a39b4000+14980]
+	chromedriver!(No symbol) [0x7ff7a34f7726]
+	chromedriver!(No symbol) [0x7ff7a354c8a9]
+	chromedriver!(No symbol) [0x7ff7a354a448]
+	chromedriver!(No symbol) [0x7ff7a357a3ca]
+	chromedriver!(No symbol) [0x7ff7a35457c6]
+	chromedriver!(No symbol) [0x7ff7a359f39b]
+	chromedriver!(No symbol) [0x7ff7a354401c]
+	chromedriver!(No symbol) [0x7ff7a3544f43]
+	chromedriver!GetHandleVerifier [0x7ff7a3f97591+5f7f11]
+	chromedriver!GetHandleVerifier [0x7ff7a3f91902+5f2282]
+	chromedriver!GetHandleVerifier [0x7ff7a3fb7115+617a95]
+	chromedriver!GetHandleVerifier [0x7ff7a39d1dce+3274e]
+	chromedriver!GetHandleVerifier [0x7ff7a39da82c+3b1ac]
+	chromedriver!GetHandleVerifier [0x7ff7a39bd744+1e0c4]
+	chromedriver!GetHandleVerifier [0x7ff7a39bd8d4+1e254]
+	chromedriver!GetHandleVerifier [0x7ff7a39a1447+1dc7]
+	KERNEL32!BaseThreadInitThunk [0x7ffcdb0ae957+17]
+	ntdll!RtlUserThreadStart [0x7ffcdc807c1c+2c]
+"
+2026-06-26 08:07:30,Okasha Gulza ,Tahibu ,gulzaokasha6@gmail.com,"Failed: Message: no such element: Unable to locate element: {""method"":""css selector"",""selector"":""[id=""forward""]""}
+  (Session info: chrome=149.0.7827.199); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff7a39b3fa5+14925]
+	chromedriver!GetHandleVerifier [0x7ff7a39b4000+14980]
+	chromedriver!(No symbol) [0x7ff7a34f793d]
+	chromedriver!(No symbol) [0x7ff7a3551aad]
+	chromedriver!(No symbol) [0x7ff7a3551dac]
+	chromedriver!(No symbol) [0x7ff7a35a27d7]
+	chromedriver!(No symbol) [0x7ff7a359f39b]
+	chromedriver!(No symbol) [0x7ff7a354401c]
+	chromedriver!(No symbol) [0x7ff7a3544f43]
+	chromedriver!GetHandleVerifier [0x7ff7a3f97591+5f7f11]
+	chromedriver!GetHandleVerifier [0x7ff7a3f91902+5f2282]
+	chromedriver!GetHandleVerifier [0x7ff7a3fb7115+617a95]
+	chromedriver!GetHandleVerifier [0x7ff7a39d1dce+3274e]
+	chromedriver!GetHandleVerifier [0x7ff7a39da82c+3b1ac]
+	chromedriver!GetHandleVerifier [0x7ff7a39bd744+1e0c4]
+	chromedriver!GetHandleVerifier [0x7ff7a39bd8d4+1e254]
+	chromedriver!GetHandleVerifier [0x7ff7a39a1447+1dc7]
+	KERNEL32!BaseThreadInitThunk [0x7ffcdb0ae957+17]
+	ntdll!RtlUserThreadStart [0x7ffcdc807c1c+2c]
+"
+2026-06-26 08:11:06,Adutwumwaa ,Erica ,ericaad205@gmail.com,"Failed: Message: 
+"
+2026-06-26 08:22:28,Yurizah ,Emmanuella ,yidanayussif1@gmail.com,"Failed: Message: target frame detached
+  (failed to check if window was closed: disconnected: Unable to receive message from renderer)
+  (Session info: chrome=149.0.7827.199)
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff7a39b3fa5+14925]
+	chromedriver!GetHandleVerifier [0x7ff7a39b4000+14980]
+	chromedriver!(No symbol) [0x7ff7a34f7726]
+	chromedriver!(No symbol) [0x7ff7a34e40c0]
+	chromedriver!(No symbol) [0x7ff7a34e2f96]
+	chromedriver!(No symbol) [0x7ff7a35090cc]
+	chromedriver!(No symbol) [0x7ff7a3581aa0]
+	chromedriver!(No symbol) [0x7ff7a359ec82]
+	chromedriver!(No symbol) [0x7ff7a354401c]
+	chromedriver!(No symbol) [0x7ff7a3544f43]
+	chromedriver!GetHandleVerifier [0x7ff7a3f97591+5f7f11]
+	chromedriver!GetHandleVerifier [0x7ff7a3f91902+5f2282]
+	chromedriver!GetHandleVerifier [0x7ff7a3fb7115+617a95]
+	chromedriver!GetHandleVerifier [0x7ff7a39d1dce+3274e]
+	chromedriver!GetHandleVerifier [0x7ff7a39da82c+3b1ac]
+	chromedriver!GetHandleVerifier [0x7ff7a39bd744+1e0c4]
+	chromedriver!GetHandleVerifier [0x7ff7a39bd8d4+1e254]
+	chromedriver!GetHandleVerifier [0x7ff7a39a1447+1dc7]
+	KERNEL32!BaseThreadInitThunk [0x7ffcdb0ae957+17]
+	ntdll!RtlUserThreadStart [0x7ffcdc807c1c+2c]
+"
+2026-06-26 08:27:49,Anastasia ,Aduku ,anastasiaaduku028@gmail.com,"Failed: Message: 
+"
+2026-06-26 08:36:31,Emmanuel ,Azaare ,emmanuelazare4@gmail.com,"Failed: Message: 
+"
+2026-06-26 08:40:26,Wanzeliba ,Theresah,wanzelibatheresah74@gmail.com,"Failed: Message: 
+"
+2026-06-26 08:44:48,Apina ,Patience ,patienceapina@gmail.com,"Failed: Message: 
+"
+2026-06-26 08:49:04,Rahinatu ,Adwoa ,ibrahimadwoa601@gmail.com,"Failed: Message: 
+"
+2026-06-26 08:49:42,Listowel Sunday ,Ayaribil ,listowelsundayayaribil377@gmail.com,"Failed: Message: no such element: Unable to locate element: {""method"":""css selector"",""selector"":""[id=""forward""]""}
+  (Session info: chrome=149.0.7827.199); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff7a39b3fa5+14925]
+	chromedriver!GetHandleVerifier [0x7ff7a39b4000+14980]
+	chromedriver!(No symbol) [0x7ff7a34f793d]
+	chromedriver!(No symbol) [0x7ff7a3551aad]
+	chromedriver!(No symbol) [0x7ff7a3551dac]
+	chromedriver!(No symbol) [0x7ff7a35a27d7]
+	chromedriver!(No symbol) [0x7ff7a359f39b]
+	chromedriver!(No symbol) [0x7ff7a354401c]
+	chromedriver!(No symbol) [0x7ff7a3544f43]
+	chromedriver!GetHandleVerifier [0x7ff7a3f97591+5f7f11]
+	chromedriver!GetHandleVerifier [0x7ff7a3f91902+5f2282]
+	chromedriver!GetHandleVerifier [0x7ff7a3fb7115+617a95]
+	chromedriver!GetHandleVerifier [0x7ff7a39d1dce+3274e]
+	chromedriver!GetHandleVerifier [0x7ff7a39da82c+3b1ac]
+	chromedriver!GetHandleVerifier [0x7ff7a39bd744+1e0c4]
+	chromedriver!GetHandleVerifier [0x7ff7a39bd8d4+1e254]
+	chromedriver!GetHandleVerifier [0x7ff7a39a1447+1dc7]
+	KERNEL32!BaseThreadInitThunk [0x7ffcdb0ae957+17]
+	ntdll!RtlUserThreadStart [0x7ffcdc807c1c+2c]
+"
+2026-06-26 09:14:40,Jacob,Kolwefera,jkolwefera@gmail.com,"Failed: Message: 
+"
+2026-06-26 09:19:35,Jacob,Kolwefera,jkolwefera@gmail.com,"Failed: Message: 
+"
+2026-06-26 09:20:38,Jacob,Kolwefera,jkolwefera@gmail.com,"Failed: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=149.0.7827.199); For documentation on this error, please visit: https://www.selenium.dev/document"
+2026-06-26 09:24:22,Jacob,Kolwefera,jkolwefera@gmail.com,Success
+2026-06-26 09:28:35,Isaac Newton,Quaye,isaacquaye508@gmail.com,"Failed: Message: 
+"
+2026-06-26 09:36:32,Atiga,Kuniba Aisha,atigakunibaaisha@gmail.com,"Failed: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff7a39b3fa5+14925]
+	chromedriver!GetHandleVerifier [0x7ff7a39b4000+14980]
+	chromedriver!(No symbol) [0x7ff7a34f793d]
+	chromedriver!(No symbol)"
+2026-06-26 09:37:40,Abigail,Tikesseh,Abigailtikesseh@gmail.com,"Failed: Message: 
+"
+2026-06-26 09:38:52,Patricia,Yenbapoka,patriciakparib25@gmail.com,"Failed: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff7a39b3fa5+14925]
+	chromedriver!GetHandleVerifier [0x7ff7a39b4000+14980]
+	chromedriver!(No symbol) [0x7ff7a34f793d]
+	chromedriver!(No symbol)"
+2026-06-26 09:40:06,Nabuer Zaccheous,Nteajal,nabuerzaccheous001@gmail.com,"Failed: Message: 
+"
+2026-06-26 09:41:14,Fortune,Awinsune,fortuneayaane718@gmail.com,"Failed: Message: 
+"
+2026-06-26 09:47:19,Atiga,Kuniba Aisha,atigakunibaaisha@gmail.com,"Failed: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff7a39b3fa5+14925]
+	chromedriver!GetHandleVerifier [0x7ff7a39b4000+14980]
+	chromedriver!(No symbol) [0x7ff7a34f793d]
+	chromedriver!(No symbol)"
+2026-06-26 09:48:27,Abigail,Tikesseh,Abigailtikesseh@gmail.com,"Failed: Message: 
+"
+2026-06-26 09:49:35,Patricia,Yenbapoka,patriciakparib25@gmail.com,"Failed: Message: 
+"
+2026-06-26 09:50:43,Nabuer Zaccheous,Nteajal,nabuerzaccheous001@gmail.com,"Failed: Message: 
+"
+2026-06-26 09:51:57,Fortune,Awinsune,fortuneayaane718@gmail.com,"Failed: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff7a39b3fa5+14925]
+	chromedriver!GetHandleVerifier [0x7ff7a39b4000+14980]
+	chromedriver!(No symbol) [0x7ff7a34f793d]
+	chromedriver!(No symbol)"
+2026-06-26 09:57:45,Atiga,Kuniba Aisha,atigakunibaaisha@gmail.com,Already Registered
+2026-06-26 09:58:14,Abigail,Tikesseh,Abigailtikesseh@gmail.com,Already Registered
+2026-06-26 09:58:46,Patricia,Yenbapoka,patriciakparib25@gmail.com,Already Registered
+2026-06-26 09:59:16,Nabuer Zaccheous,Nteajal,nabuerzaccheous001@gmail.com,Already Registered
+2026-06-26 09:59:53,Fortune,Awinsune,fortuneayaane718@gmail.com,Failed: Timed out waiting for page to advance from Step 1.
+2026-06-26 11:09:41,Atiga,Kuniba Aisha,atigakunibaaisha@gmail.com,Already Registered
+2026-06-26 11:12:12,Abigail,Tikesseh,Abigailtikesseh@gmail.com,"Failed: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff7a39b3fa5+14925]
+	chromedriver!GetHandleVerifier [0x7ff7a39b4000+14980]
+	chromedriver!(No symbol) [0x7ff7a34f793d]
+	chromedriver!(No symbol)"
+2026-06-26 11:12:39,Patricia,Yenbapoka,patriciakparib25@gmail.com,"Failed: Message: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=149.0.7827.199)
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff7a39b3fa5+14925]
+	chromedriver!GetHandleVerifier [0x7ff7a39"
+2026-06-26 11:13:11,Nabuer Zaccheous,Nteajal,nabuerzaccheous001@gmail.com,"Failed: Message: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=149.0.7827.199)
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff7a39b3fa5+14925]
+	chromedriver!GetHandleVerifier [0x7ff7a39"
+2026-06-26 11:23:54,Atiga,Kuniba Aisha,atigakunibaaisha@gmail.com,Already Registered
+2026-06-26 11:24:47,Abigail,Tikesseh,Abigailtikesseh@gmail.com,Failed: Timed out (25s) waiting for page to advance from Step 1.
+2026-06-26 11:25:38,Patricia,Yenbapoka,patriciakparib25@gmail.com,Already Registered
+2026-06-26 11:26:10,Nabuer Zaccheous,Nteajal,nabuerzaccheous001@gmail.com,Already Registered
+2026-06-26 11:28:04,Atiga,Kuniba Aisha,atigakunibaaisha@gmail.com,Already Registered
+2026-06-26 11:29:02,Abigail,Tikesseh,Abigailtikesseh@gmail.com,Failed: Timed out (25s) waiting for page to advance from Step 1.
+2026-06-26 11:29:59,Patricia,Yenbapoka,patriciakparib25@gmail.com,Failed: Timed out (25s) waiting for page to advance from Step 1.
+2026-06-26 11:30:54,Nabuer Zaccheous,Nteajal,nabuerzaccheous001@gmail.com,Failed: Timed out (25s) waiting for page to advance from Step 1.
+2026-06-26 11:31:53,Fortune,Awinsune,fortuneayaane718@gmail.com,Already Registered
+2026-06-26 11:32:25,Tahiru,Munira Winpini,tahirumunirawinpini72@gmail.com,Already Registered
+2026-06-26 11:34:24,Ndakan,Akor,ndakanakor0@gmail.com,Failed: Could not find final Submit/Next button on summary page.
+2026-06-26 11:36:53,Atiga,Kuniba Aisha,atigakunibaaisha@gmail.com,Already Registered
+2026-06-26 11:37:25,Abigail,Tikesseh,Abigailtikesseh@gmail.com,Already Registered
+2026-06-26 11:37:59,Patricia,Yenbapoka,patriciakparib25@gmail.com,Already Registered
+2026-06-26 11:38:34,Nabuer Zaccheous,Nteajal,nabuerzaccheous001@gmail.com,Already Registered
+2026-06-26 11:39:09,Fortune,Awinsune,fortuneayaane718@gmail.com,Already Registered
+2026-06-26 11:39:42,Tahiru,Munira Winpini,tahirumunirawinpini72@gmail.com,Already Registered
+2026-06-26 11:40:40,Ndakan,Akor,ndakanakor0@gmail.com,Failed: Timed out (25s) waiting for page to advance from Step 1.
+2026-06-26 11:41:13,Musadiq,Salisu,musadiqsalisu@gmail.com,Already Registered
+2026-06-26 11:46:17,Alfred,Anumbia,alfredanumbia1@gmail.com,Failed: Could not find final Submit/Next button on summary page.
+2026-06-26 11:48:22,Iddrisu,Alhassan,iddrisualhassan551122@gmail.com,Failed: Could not find final Submit/Next button on summary page.
+2026-06-26 11:58:00,Asowe,Kupoli,asowekupoli@gmail.com,Success
+2026-06-26 11:59:52,Aloah,Ephresia,aloahephresia@gmail.com,Already Registered
+2026-06-26 12:00:38,Hisana,Mashud,mashudhisana57@gmail.com,Success
+2026-06-26 12:02:52,Aniwe,Selina,adwoaselina41@gmail.com,Success
+2026-06-26 12:03:42,Kwabena,Eric Nlabiche,enkwabena24.stu@cktutas.edu.gh,Success
+2026-06-26 12:04:33,Atawusu,Angela Kalo,atawusua@gmail.com,Success
+2026-06-26 12:05:54,Sulley Abdul-Rauf,Salifu,abdulraufsulleysalifu@gmail.com,Already Registered
+2026-06-26 12:06:47,Abukari,Rafatu,rafatuabukari484@gmail.com,Success
+2026-06-26 12:08:15,Abdul Wahab,Ayisha,nanaayishaawahab2005@gmail.com,Already Registered
+2026-06-26 12:09:02,Muazu,Mahamudu,mahamudumuazu@gmail.com,Success
+2026-06-26 12:10:41,Asigo Roska,Azumbilla,asigorose79@gmail.com,Already Registered
+2026-06-26 12:11:31,Adam,Sakina,adamsakina498@gmail.com,Success
+2026-06-26 12:12:35,Kamal,Namoam,nloikamal64@gmail.com,Success
+2026-06-26 12:14:02,Victoria  Azumah,Awinida,awinidavictoria929@gmail.com,Success
+2026-06-26 12:15:09,Emmanuella,Naoh,etnaoh24.stu@utas.edu.gh,Success
+2026-06-26 12:16:27,Arimiyaw Neindow,Abdulai,abdulaiarimiyawneindow@gmail.com,Already Registered
+2026-06-26 12:17:23,Ivy,Atambeogo,ivyawinsusit@gmail.com,Success
+2026-06-26 12:18:42,Chimual,Eric Njoboon,chimualnjobooneric@gmail.com,Success
+2026-06-26 12:19:33,Abdul-Jaliw,Mumuni,amumuni25.stu@utas.edu.gh,Success
+2026-06-26 12:20:39,Nachim,Naomi,yabanaomi7@gmail.com,Success
+2026-06-26 12:21:39,Emmanuella,Ali,aliyoroka@gmail.com,Success
+2026-06-26 12:22:31,Apana,Vida,apanavida100@gmail.com,Success
+2026-06-26 12:23:42,Christiana,Ndanbon,ndanbonchristiana@gmail.com,Success
+2026-06-26 12:24:27,Stanley,Niwubi Gmayeunyan,stanleyniwubi65@gmail.com,Success
+2026-06-26 12:25:20,Hassan,Benjamin,benjaminhassan262@gmail.com,Success
+2026-06-26 12:26:09,Murjana,Rufai,rufaimurjana46@gmail.com,Success
+2026-06-26 12:26:54,ASAAN,EMMANUEL NDEWIN,asaanemmanuelndewin@gmail.com,Success
+2026-06-26 12:27:56,Khadijah,Shiraz,Shirazkhadija56@gmail.com,Success
+2026-06-26 12:28:43,Sulemana,Abdallah,abdallahsulemana577@gmail.com,Success
+2026-06-26 12:29:31,Helena,Atanga,hatanga23.stu@utas.edu.gh,Success
+2026-06-26 12:30:43,MABEFAM,NMANI  BERNARD,mabefambernard@gmail.com,Success
+2026-06-26 12:31:14,Salifu,Hanizah Tiyumba,hanizahtiyumba026@gmail.com,Already Registered
+2026-06-26 12:31:44,Hafsat,Mohammed,mohammedhafsat1999@gmail.com,Already Registered
+2026-06-26 12:32:12,Domonja,Abigail,domonjaabigail2gmail.com@gmail.com,Already Registered
+2026-06-26 12:32:39,CHRISPIN,ATAMPUGRE,atampugrechrispin64@gmail.com,Already Registered
+2026-06-26 12:33:07,Issah,Mavis,issahmavis078@gmail.com,Already Registered
+2026-06-26 12:33:34,Reyaana,Gbolo,reyaanagbolo@gmail.com,Already Registered
+2026-06-26 12:34:03,Rahina,Mahama,rahinamahama2@gmail.com,Already Registered
+2026-06-26 12:34:32,Andrews,Banyaligu,andrewsbanyaligu12345@gmail.com,Already Registered
+2026-06-26 12:34:59,Nibebon,Belinda,litifrancis87@gmail.com,Already Registered
+2026-06-26 12:35:37,Tapan,Janet,tapanjanet00@gmail.com,Already Registered
+2026-06-26 12:36:06,EMELDA,ARHIN,emeldaarhin@gmail.com,Already Registered
+2026-06-26 12:36:37,Biliyimbu,Lamisi,dlamisi124@gmail.com,Already Registered
+2026-06-26 12:37:06,Zuwera,Sherika,zuwerasherika@gmail.com,Already Registered
+2026-06-26 12:37:40,Alhassan,Abdul-Majeed,abdulmajeedalhassan815@gmail.com,Already Registered
+2026-06-26 12:38:17,Abdul -karim,Fadilatu,abdulkarimfadilatu8@gmail.com,Already Registered
+2026-06-26 12:38:49,Abinini,Desmond,abininides11@gmail.com,Already Registered
+2026-06-26 12:39:25,George Abdul-Hakim,Bariche,abdulhakimgeorgebariche@gmail.com,Already Registered
+2026-06-26 12:40:06,Ibrahim,Zakaria,zakariaibrahim355@gmail.com,Already Registered
+2026-06-26 12:40:44,Abalaari,Wewobe Edna,abalaariedna@gmail.com,Already Registered
+2026-06-26 12:41:17,Abugbila,Francis,francisabugbila401@gmail.com,Already Registered
+2026-06-26 12:41:48,MARY,ANYEDINA AMAMBISE,maryanyedina@gmail.com,Already Registered
+2026-06-26 12:42:26,Amama,Mejida,amamamejida03@gmail.com,Already Registered
+2026-06-26 12:43:00,Ngaba,Mary  Sanatu,ngabamary704@gmail.com,Already Registered
+2026-06-26 12:43:55,Mary,Akugre,maryanyaporkaakugre@gmail.com,Failed: Timed out (25s) waiting for page to advance from Step 1.
+2026-06-26 12:44:39,Baachunia,Mikel,ayipogsongmikel@gmail.com,Success
+2026-06-26 12:45:56,Fred,N-nyanbini,nnyanbinif614@gmail.com,Success
+2026-06-26 12:47:51,Clemencia,Nangoot,nangootclemencia@gmail.com,Success
+2026-06-26 12:49:38,Anganyaaliboa Christopher,Abolimasa,christopheranganyaaliboa@gmail.com,Success
+2026-06-26 12:50:25,Fatimah,Atiiga,atiigafatimah@gmail.com,Success
+2026-06-26 12:51:22,Kulunla,Simon Nponiche,nponichekulunla@gmail.com,Success
+2026-06-26 12:52:31,Salamatu,Abubakar,salamatusalamatu10@gmail.com,Success
+2026-06-26 12:53:19,Abdul Wajid,Musah,abdulwajidmusah@gmail.com,Success
+2026-06-26 12:54:12,GRACE  YENNUMI,SINGIR,singirgrace@gmail.com,Success
+2026-06-26 12:54:55,JENNIFER,LAAR,jenniferbiikooklaar@gmail.com,Already Registered
+2026-06-26 12:55:27,Salifu,Fauzia,salifufauzia835@gmail.com,Already Registered
+2026-06-26 12:56:01,Abdul Washib,Kassim,abdulwashibk@gmail.com,Already Registered
+2026-06-26 12:56:32,Tayari,Samuel,tayarisamuel9@gmail.com,Already Registered
+2026-06-26 12:57:28,Aminatu,Mohammed Saani,mohammedaminatusaani7@gmail.com,Failed: Timed out (25s) waiting for page to advance from Step 1.
+2026-06-26 12:58:01,Osman,Azumah,osmanazumah020@gmail.com,Already Registered
+2026-06-26 12:58:42,Alhassan,Haruna,alhassanharuna9821@gmail.com,Success
+2026-06-26 13:03:23,Karim,Fatima,karimfatima112@gmail.com,Already Registered
+2026-06-26 13:03:53,Ayisha,Mumuni,ayisham4141@gmail.com,Already Registered
+2026-06-26 13:04:40,Juliet,Adobasom,julietadobasom25@gmail.com,Success
+2026-06-26 13:08:24,Joana Ayinsakiya,Akake,akakejoanaayinsakiya@gmail.com,Failed: Timed out (25s) waiting for page to advance from Step 1.
+2026-06-26 13:08:57,Tia,Luke,tialuke35@gmail.com,Already Registered
+2026-06-26 13:09:30,Njonan,Joseph Donkor,josephnjonan4@gmail.com,Already Registered
+2026-06-26 13:10:03,Saviour,Asante,sasante26.stu@utas.edu.gh,Already Registered
+2026-06-26 13:10:33,Ibrahim,Abdul Karim,ibrahimabdulkarima75@gmail.com,Already Registered
+2026-06-26 13:11:06,SARAH,AFFEDZIE,sarahaffedzie4@gmail.com,Already Registered
+2026-06-26 13:12:01,Joyce,Nbeninbe,Joycenbeninbe@gmail.com,Failed: Timed out (25s) waiting for page to advance from Step 1.
+2026-06-26 13:13:35,Alhassan,Amidu,alhassanamidu803@gmail.com,Failed: Submission unclear — still on: https://www.binance.events/event/a483c41e-d3f9-4fe3-ba5c-5e1a61f4e56b/regProcessStep1
+2026-06-26 13:14:06,Hummu Habiba,Haruna,hummuhabiba2@gmail.com,Already Registered
+2026-06-26 13:14:54,Millicent Ayeepoka,Abugri,abugrimillicent454@gmail.com,Already Registered
+2026-06-26 13:15:23,Mubashira Ahmed,Musah,mubashiramusah9@gmail.com,Already Registered
+2026-06-26 13:16:47,Ayamga,Desmond Aduko,adukodesmond274@gmail.com,Failed: Submission unclear — still on: https://www.binance.events/event/a483c41e-d3f9-4fe3-ba5c-5e1a61f4e56b/regProcessStep1
+2026-06-26 13:17:17,Dogo,Salam,dogosalam@gmail.com,Already Registered
+2026-06-26 13:17:56,Sulemana,Yussif,ysulemana40@gmail.com,Already Registered
+2026-06-26 13:18:42,Princess,Siyabia,princesssiyabia@gmail.com,Success
+2026-06-26 13:20:00,Nang,Rita,nangrita25@gmail.com,Already Registered
+2026-06-26 13:20:35,Ibrahim Bachandi,mananibrahim239@gmail.com,mananibrahim239@gmail.com,Already Registered
+2026-06-26 13:21:20,Priscilla,Buabeng,priscillakudugu@gmail.com,Already Registered
+2026-06-26 13:21:54,Gladys Turubagwi,Kufogidirah,turubagwigladys@gmail.com,Already Registered
+2026-06-26 13:22:29,Awovere,Lirayire Martin,martinawovere0@gmail.com,Already Registered
+2026-06-26 13:22:59,Kasimu,Khadija,khadijahkasimu440@gmail.com,Already Registered
+2026-06-26 13:23:29,Fatima,Deisheni,deborahfatima343@gmail.com,Already Registered
+2026-06-26 13:23:58,Lisa Wumboradak,Upoalkpajor,upoalkpajorlisa@gmail.com,Already Registered
+2026-06-26 13:24:34,Akudbil,Vida Datamwin,vidadatamwin@gmail.com,Already Registered
+2026-06-26 13:25:04,Sisu Atelyini,Musah,musahsisuatelyini@gmail.com,Already Registered
+2026-06-26 13:25:35,Godwin,Alouyere,alouyerew@gmail.com,Already Registered
+2026-06-26 13:26:09,Haruna,Wasib,wharuna25.stu@utas.edu.gh,Already Registered
+2026-06-26 13:26:38,Fariba,Eva Yelpita,faribaevayelpita21@gmail.com,Already Registered
+2026-06-26 13:27:12,Sujuab,Hannah Nyanapaak,sujuabhannah@gmail.com,Already Registered
+2026-06-26 13:27:44,Iddrisu,Mohammed Hardi,middrisu26.stu@utas.edu.gh,Already Registered
+2026-06-26 13:28:34,Abdulai,Abdul-Malick,abdulaiabdulmalick@gmail.com,Already Registered
+2026-06-26 13:29:03,Mugnen Batichu,Johnson,mugnenbjohnson@gmail.com,Already Registered
+2026-06-26 13:29:38,Franklina,Akwodam,akwodamfranklina@gmail.com,Already Registered
+2026-06-26 13:30:06,Abdul - Latif Seidu,Bouri,seiduabdullatif44@gmail.com,Already Registered
+2026-06-26 13:30:35,Joshua,Tungkungmen,jtungkungmen@gmail.com,Already Registered
+2026-06-26 13:31:26,Salma,Alhassan Salma,salhassansalma28@gmail.com,Already Registered
+2026-06-26 13:31:59,Moses,Akanjevari,akabiyerkwabena123@gmail.com,Already Registered
+2026-06-26 13:32:30,Delicia,Atuidem,deliciaawenimaalie@gmail.com,Already Registered
+2026-06-26 13:33:17,Bala,Mohammed Ahat,ahatbala@gmail.com,Success
+2026-06-26 13:37:23,Ishmael,Abdulai,abdulaiishmael86@gmail.com,Already Registered
+2026-06-26 13:38:42,Fakiha,Ziblila,keehart76@gmail.com,Success
+2026-06-26 13:40:15,Albert,Batanye,batanyealbert@gmail.com,Success
+2026-06-26 13:41:09,Firdaus,Hamidu,fhamidu23.stu@utas.edu.gh,Already Registered
+2026-06-26 13:41:56,Grace,Yennube,graceyennube958@gmail.com,Success
+2026-06-26 13:43:03,Jamal,Mahami,mahamijamal24@gmail.com,Already Registered
+2026-06-26 13:43:38,MARY,WANIB  KUTUNAM,marykutunam@gmail.com,Already Registered
+2026-06-26 13:44:15,Amadu,Hammadu,amadumahammde@gmail.com,Already Registered
+2026-06-26 13:44:49,Aminatu Mirabel,Karim,karimmirabel60@gmail.com,Already Registered
+2026-06-26 13:45:19,Philipa,Owusuaa,p12078393@gmail.com,Already Registered
+2026-06-26 13:45:54,Akolbire,Mary,ananganamahm@gmail.com,Already Registered
+2026-06-26 13:46:27,MATTHEW,AAKOM,maakom23.stu@utas.edu.gh,Already Registered
+2026-06-26 13:47:09,Konlan,Priscilla Yennuloom,konlanpriscilla53@gmail.com,Already Registered
+2026-06-26 13:47:44,Alidu,Musah,alidumusah494@gmail.com,Already Registered
+2026-06-26 13:48:15,Wakila,Baisaana,wbaisaana24@cktutas.edu.gh,Already Registered
+2026-06-26 13:49:09,Munyah,Deborah Akiwele,deborahmunyahd@gmail.com,Failed: Timed out (25s) waiting for page to advance from Step 1.
+2026-06-26 13:49:38,Sakina Awufor Bala,Kwabena,kwabenasakinaawuforbala03@gmail.com,Already Registered
+2026-06-26 13:50:28,Augustina,Luguyeire,augestinaluguyeire@gmail.com,Already Registered

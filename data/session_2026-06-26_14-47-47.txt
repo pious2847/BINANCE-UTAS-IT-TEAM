@@ -1,0 +1,25 @@
+====================================================
+     REGISTRATION SESSION SUMMARY
+====================================================
+  Date/Time        : 2026-06-26 14:47:47
+  Successful       : 13
+  Already Registered: 56
+  Failed           : 5
+  Total Processed  : 74
+====================================================
+
+Newly Registered Participants:
+----------------------------------------------------
+    1. Yurizah Emmanuella — yidanayussif1@gmail.com
+    2. Anastasia Aduku — anastasiaaduku028@gmail.com
+    3. Rahinatu Adwoa — ibrahimadwoa601@gmail.com
+    4. Nelson Gurimchamma Gonose — nelsongonosegurimchamma@gmail.com
+    5. EZEKIEL JANANMAH LAAR — laarezekieljananmah@gmail.com
+    6. Sumaila Mustapha — sumailamustapha22@gmail.com
+    7. NONGIRI EMMANUEL BENGA — emmanuelnongiri@gmail.com
+    8. Adjoa Jerela Kwame — jerelaadjoa@gmail.com
+    9. Boare Augustina — augustinaboare@gmail.com
+   10. Evelyn Obiri Cromwell — evelynobiric@gmail.com
+   11. Basiba Mawanye John — basibajohn2@gmail.com
+   12. Aminatu Mohammed Saani — mohammedaminatusaani7@gmail.com
+   13. Ayamga Desmond Aduko — adukodesmond274@gmail.com

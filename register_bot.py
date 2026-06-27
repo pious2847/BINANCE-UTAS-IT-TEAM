@@ -23,14 +23,19 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
-# Referral options that appear in the React-Select dropdown
+# Referral options — matches exactly what's in the live React-Select dropdown.
+# option-0 is a blank placeholder and must never be selected.
 REFERRAL_OPTIONS = [
-    "Binance App",
     "Binance Communications",
     "Email",
     "X",
     "Instagram",
     "YouTube",
+    "Facebook",
+    "LinkedIn",
+    "TikTok",
+    "Google Search",
+    "Media",
     "Others",
 ]
 
@@ -279,19 +284,29 @@ class RegistrationBot:
             matched = None
             matched_idx = None
             for i, txt in enumerate(option_texts):
+                # Skip the blank placeholder (option-0)
+                if not txt.strip():
+                    continue
                 if txt.lower() == target:
                     matched = options[i]
                     matched_idx = i
                     break
             if matched is None:
                 for i, txt in enumerate(option_texts):
+                    if not txt.strip():
+                        continue
                     if target in txt.lower():
                         matched = options[i]
                         matched_idx = i
                         break
             if matched is None:
-                matched = options[0]
-                logger.warning(f"   [Referral] '{value}' not found, using first: '{option_texts[0]}'")
+                # Fallback: first non-blank option
+                for i, txt in enumerate(option_texts):
+                    if txt.strip():
+                        matched = options[i]
+                        matched_idx = i
+                        logger.warning(f"   [Referral] '{value}' not found, using first non-blank: '{txt}'")
+                        break
 
             # Re-fetch wrapper position in case of any re-render, then click option
             driver.execute_script("arguments[0].scrollIntoView({block:'center'});", matched)
@@ -759,7 +774,8 @@ class RegistrationBot:
                 success_count += 1
                 session_successes.append(row.to_dict())
                 if self.config['settings'].get('manual_ip_rotation', False):
-                    input(">>> Rotate your IP now, then press ENTER to continue...")
+                    logger.info("   [IP Rotation] Pausing 10s — rotate IP now...")
+                    time.sleep(10)
             elif result == "already_registered":
                 already_count += 1
                 # No IP rotation needed; no delay either — just move on

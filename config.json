@@ -1,6 +1,6 @@
 {
   "target_url": "https://www.binance.events/event/a483c41e-d3f9-4fe3-ba5c-5e1a61f4e56b/regProcessStep1",
-  "excel_path": "data/Contact Information (Responses).xlsx",
+  "excel_path": "data/Contact Information (Responses) Processed.xlsx",
   "log_path": "data/registered_users.csv",
   "defaults": {
     "country": "Ghana",

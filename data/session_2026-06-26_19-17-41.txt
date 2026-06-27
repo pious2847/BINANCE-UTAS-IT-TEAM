@@ -1,0 +1,230 @@
+====================================================
+     REGISTRATION SESSION SUMMARY
+====================================================
+  Date/Time        : 2026-06-26 19:17:41
+  Successful       : 218
+  Already Registered: 32
+  Failed           : 28
+  Total Processed  : 278
+====================================================
+
+Newly Registered Participants:
+----------------------------------------------------
+    1. Bintu Bashiru — bintubashiru69@gmail.com
+    2. PATRICK LIBUELABA CHATI — bannepatrick08@gmail.com
+    3. Simon Azindow Jeja — simonjeja143@gmail.com
+    4. JESSICA AMOAKO — jessicaamoako110@gmail.com
+    5. Emmanuel Yaw Fosu — yawabrante31@gmail.com
+    6. EMMANUEL AWINE — awineemmanuel54@gmail.com
+    7. Elijah Adipaare Abeenlogo — aelijahadipaare@gmail.com
+    8. VIVIAN LEMPO — lempovivian30@gmail.com
+    9. CYNDY ASUTANE — asutanecyndy@gmail.com
+   10. JAMILATU ISSAKA — jamilatuissaka29@gmail.com
+   11. Samuel Akanboyuure — sammyselda3@gmail.com
+   12. RASHIDATU NURIDEEN — rashidatynurideen18@gmail.com
+   13. GIDEON ADUAH AWUCHONGANE — gideona1989@gmail.com
+   14. ABDUL-RAHAMAN IDDIRISU — abdulrahamaniddirisu1@gmail.com
+   15. Emmanuel Nsoh — emmanuelnsoh13@gmail.com
+   16. ALICE AWUNNORUM ANYEDINA — aliceanyedina@gmail.com
+   17. PROSPER ASIAJUIK AKUMKA — prosperakumka1@gmail.com
+   18. Sixtus Atosona Akologo — atosonasixtus2@gmail.com
+   19. GARVIN KOLOH — garvinkaloh50@gmail.com
+   20. AMANDA AKOLPORBILA AYAMGA — amandaayamga123@gmail.com
+   21. Kwotua John Dimbwei — dimbweikwotuaj@gmail.com
+   22. David Akanzire — davidakanzi2@gmail.com
+   23. DAVID AZUMAH AZAARE — davidazumah10@gmail.com
+   24. ABUNKURUGU SALIFU — eliezer122@gmail.com
+   25. Thomas Azibalyela — azibayelathomas96@gmail.com
+   26. STELLA MEMEH — stellamemeh2@gmail.com
+   27. Felix Ayaga Kantonge — akantongefelix@gmail.com
+   28. CLETUS AMALITINGA ABOPELUM — cletusamalitinga@gmail.com
+   29. Angelina Azemba Adondiwo — angelinaazemba@gmail.com
+   30. JAMES ADOLIWINE ASELISE — aselisejames@gmail.com
+   31. VERONICA AVEREPARE — averepareveronica@gmail.com
+   32. ABRAHAM SAGURU DABUUG — abrahamsagurudabuug@gmail.com
+   33. SUMAILA MANSAHAYA DAWUDA — ibrahimmejira45@gmail.com
+   34. Simon Asewina — bsimon10.bs@gmail.com
+   35. Paul Alale — peterblackaon361@gmail.com
+   36. Millicent Matanli Npaabi — millicent2000gh@gmail.com
+   37. DANIEL TALUNE JAGRI — jagridaneil@gmail.com
+   38. SALIFU ADDA — addasalifu9@gmail.com
+   39. ISAAC BEDIAKO — nanaasarebediako500@gmail.com
+   40. JAMES ANIGABEY — anigabeyjames@gmail.com
+   41. BASHIRU AKURUGU — akurugubashiru12@gmail.com
+   42. ANGELINA KANNAE — kannaeawelana92@gmail.com
+   43. EVANS NSOWINE AMEWINE — amewineevans5@gmail.com
+   44. KAMAL-DEEN ABUDU — kamaldeenabudu331@gmail.com
+   45. KOFI BARNABAS WAJAH — wakbarnabas@gmail.com
+   46. Bright Dingaadya Seidu — atingajoel4@gmail.com
+   47. Yunusah Dawkyebile — yunusahdawkyebile@gmail.com
+   48. Mary Fosu Nkansah — maryfo1949@gmail.com
+   49. AUGUSTINE PWADAM — pwadamaugustinenani@gmail.com
+   50. EMMANUEL BASEH — basehemmanuel2020@gmail.com
+   51. MARDIYA DAUDA — mardiyad47@gmail.com
+   52. ISAAC DOMONEE WULO — isaacdomonee819@gmail.com
+   53. Nimatu Ziblim — ziblimnimatu208@gmail.com
+   54. Gladys Akwara — akwaragladys70@gmail.com
+   55. Jessica Serwaa — jserwaa85@gmail.com
+   56. Stephen Abugri — sabugri.stu@cktutas.edu.gh
+   57. EVANS AKANCHIAKUM — evansakanchiakum50@gmail.com
+   58. BULUA OSMAN KUVRA — buluakuvra@gmail.com
+   59. THECIA APUPEEYA APELIGEBA — theciaapeligeba@gmail.com
+   60. Kumi Emmanuel Opoku — opokukumiemmany6677@gmail.com
+   61. Atinganeriba Awaafo — awaafoatinganeriba2022@gmail.com
+   62. Nuhu Abubakari — abubakarinuhu20@gmail.com
+   63. Godfred Awinzuure Ayambire — winzuure@gmail.com
+   64. ABDUL JABARU ALHASSAN — alhassanabduljabaru7@gmail.com
+   65. DANIEL DOOKYEBILE NYUKORONG — danielnyukorongvandan9@gmail.com
+   66. JALADEEN YOHO — yohojaladeen@gmail.com
+   67. Abigail Tikesseh — boahenkod@gmail.com
+   68. Teddy Abagna — abagnateddy@yahoo.com
+   69. Issah Abdul Rahaman — abdulrahamanis1992@gmail.com
+   70. Fatawu Abu — abufatawu042@gmail.com
+   71. EMMANUEL AWATARA NDONGO — ndongoemmanuel57@gmail.com
+   72. Moses Abugba Abanga — mosesabugba1996@gmail.com
+   73. Edmond Nabare Luguyimang — eluguyimang@gmail.com
+   74. Geverina Amoah — kofiakomeah999@gmail.com
+   75. KARIM ADAMS MARSU — marsukarimadams@gmail.com
+   76. YUSSIF MIVOTEY — mivoteyyussif@gmail.com
+   77. RAYMOND ABUGA NABARETUA — abugaraymond7@gmail.com
+   78. RASHIDA ISMAIL — seinudele@gmail.com
+   79. Peter Addah — addahpeter@gmail.com
+   80. AUGUSTINA AKANYELE — augustinaakanyele@gmail.com
+   81. Mahadi Osman — mahadiosman73@mail.com
+   82. JOHN ATEBUGRI — atubigajohnaloba@gmail.com
+   83. DONATUS AYIDAANA NCHOR — ayidaanadonatus@gmail.com
+   84. VANESSA WOMOWE — womowevanessa@gmail.com
+   85. Emmanuel Tiah Kaba — etiah66@gmail.com
+   86. Amina Alidu — aalidu154@gmail.com
+   87. IRENE A-ENGKILUM — ireneangkilum@gmail.com
+   88. leticia Awewora Adomba — chrismode45@gmail.com
+   89. DORITHY MMAA AYAMBIRE — joshuaayambire1@gmail.com
+   90. Prosper Nsohyine Asakiya — asakiyaprosper131@gmail.com
+   91. SIBID ADAMA LAAR — laardavid6@gmail.com
+   92. THOMAS ADAYA — thomasadaya3@gmail.com
+   93. ABEL DOKURUGU THOMAS — abelthomasdokurugu@gmail.com
+   94. Vincent Awinmalia Akugri — winmalia99@gmail.com
+   95. gabriel awintini awini — gawini@gmail.com
+   96. Nuhu Imoro — nuhuimoro80@gmail.com
+   97. Lydia Kachonga Awoweni — wepireduna@gmail.com
+   98. AWUDU ABULIGA — abuligaawudu@gmail.com
+   99. INNOCENT KAMBOE — kaminnoce@gmail.com
+  100. CLEMENCIA JUJUGENIA — jujugeniaclemencia@gmail.com
+  101. GODFRED LOGONIA — www.godfredlogo@gmail.com
+  102. MICHAEL NAAGMINYERE PIIDRO — michaelpiidro398@gmail.com
+  103. Daniel Pwayidi — danielpwayidi998@gmail.com
+  104. Raphael Ajibe — ajiberaphael62@gmail.com
+  105. Emelia Awuni — emeliaawuni35@gmail.com
+  106. bushira chamtiwuni tidow — tidowbushira4@gmail.com
+  107. HABIBATU MOHAMMED — mohammedhabiba121@gmail.com
+  108. KINGSLEY ABEL AZURE — kinsleyazure32@gmail.com
+  109. Samuel Azirigo — choicekidchoice@gmail.com
+  110. Abdul-Samed Mankuziliba Saibu — sabdulsamed02@gmail.com
+  111. Naah Kuubeneem Ankaara — fuzyankaara@gmail.com
+  112. Daniel Mukanjor Naja — Najamukanjordaniel@gmail.com
+  113. ALBERT BOGIWMINE TAMPUOR — albertampuor205@gmail.com
+  114. Esther Mmabila Agana — aganaesther050@gmail.com
+  115. CYNTHIA MAJIFELA WANDO — wandocynthia15@gmail.com
+  116. EMMANUELLA MILLS GYAN — gyanmillsemmanuella@gmail.com
+  117. Monica Awontemi Akanvariboka — awontemimonica123@gmail.com
+  118. Eunice Mbama Ayawin — eunicembama82@gmail.com
+  119. Jennifer Anaribala Nsobila — nsobilajenniferanaribala@gmail.com
+  120. KARIMATU MAHAMAH — mahamahkarimatu@gmail.com
+  121. WISDOM ASWONONA ABUGABE — abugabewisdom@gmail.com
+  122. LOUISA WELAM ANAFO — louisawelamanafo@gmail.com
+  123. Jabaab Mananyi Michael — jabaabmananyimichael@gmail.com
+  124. BISMARK NYAABA APELIGIDE — apeligidebismark@gmail.com
+  125. Ibrahim Anyass Ahmed — maimako1503@gmail.com
+  126. Cecilia Adutwumwaa — eirkuahm@gmail.com
+  127. Christopher Abapore — abaporechristopher14@gmail.com
+  128. GRACE YINEMI ABONGO — abongograce3@gmail.com
+  129. MICHAEL BUKARI — bukarimichael64@gmail.com
+  130. LAMISI ISIGUB — lamisicharity25@gmail.com
+  131. GLORIA OPPONG — glooppong900@gmail.com
+  132. Sandra Opoku — opoku553sandra@gmail.com
+  133. MOSES AKUGRI — akugrimoses1@gmail.com
+  134. MARIAM Mohammed — mamohammed660@gmail.com
+  135. BENEDICTA AWINE ANAFO — anafobenedicta77@gmail.com
+  136. Justina Anedam — anedamjustina8@gmail.com
+  137. MAHEART NYAANAPAAK KONLAN — maheartnyaanapaak2023@gmail.com
+  138. Gifty Kapari Awoli — giftykapari@gmail.com
+  139. FIRDAUS TIZAAWE — firdaustizaawe82@gmail.com
+  140. ZULEIHA NABILA — nabilazuleiha241@gmail.com
+  141. HARRIET AWESE — harrietawese13@gmail.com
+  142. WASILA ADAM — wasilaadam707@gmail.com
+  143. Salifu Wisdom Saaka — wisdomsaka2002@gmail.com
+  144. Alhassan Zakaria — zakariaalhassan247@gmail.com
+  145. RAZAK SUBINDAM AWUDU — awudurazak149@gmail.com
+  146. RICHMOND NTEFUNI NLANIBI — richmondnlanibi@gmail.com
+  147. Zaliya Dauda — zaliyadauda379@gmail.com
+  148. Joseph Akugre Ataba — www.josephataba@gmail.com
+  149. JEREMIAH AKWOWUTUGE KUTUAH — jeremiahkutuah81@gmail.com
+  150. DOUGLAS ADOLIWINE ABAGNA — abagnadouglas@icloud.com
+  151. ROLAND N-MOAN BINTRIME — nrolandbintrime@gmail.com
+  152. Moses Awinpang Aladago — awinpangaladagomoses@gmail.com
+  153. FOUZIA YAHAYA — proflisto@yahoo.com
+  154. MAJAH DANIEL NTAKGMA — majahdaniel@gmail.com
+  155. Matthew Nambam — nambammatthew@gmail.com
+  156. Celestina Salima Iddrisu — iddrisu.celine@gmail.com
+  157. Radiatu Mohammed Forgor — uxah500@gmail.com
+  158. Mamata Awini Issah — brobbyebenezer1@gmail.com
+  159. Florence Antoh — florenceantoh29@gmail.com
+  160. MARY AZUMAH ABUGRI — abugrim284@gmail.com
+  161. ABDUL WASIU AHMED — abdulwasiudindagerba@gmail.com
+  162. UMU-HAIRA MOHAMMED — abdulraufmohammed53@gmail.com
+  163. Nurudeen Alhassan — alhassannurudeen704@gmail.com
+  164. Musah Abass — abassmusah2424@gmail.com
+  165. GLORIA WEMOYEI ACHANA — wemoyeigloria@gmail.com
+  166. FATIMATU ISSAKA — fatimatuissaka42@gmail.com
+  167. Gregory Anontee Atubiga — g.atubiga@yahoo.com
+  168. CLEMENCIA ALIJETU AKOLBUGRI — akolbugriclemencia@gmail.com
+  169. NAJAT KUKILAM ISSIFU — najatissifu908@gmail.com
+  170. DORCAS LAADI MBAWIN — dorcasmbawin@gmail.com
+  171. Ernestina Anim — animernestina545@gmail.com
+  172. SIMON BIAKANANG NAYAM — simoncasionayam@gmail.com
+  173. UMAR TIA MAMMARA — mammaraumar1@gmail.com
+  174. Kifaya Ibrahim — ibrahimkifaya@email.com
+  175. Gifty Ayombil — ayogifty80@gmail.com
+  176. MARK RAPHAEL AKWAA — markraphael750@gmail.com
+  177. Asante Fosuhene Owusu — nanakwaku1985@yahoo.com
+  178. HAMIDATU BAWAH — bawahhamidatu27@gmail.com
+  179. RACHAEL BABAZOROVII TAAYI — taayirachael9@gmail.com
+  180. SOLOMON NABAREDAM — swaggerlyrikal@gmail.com
+  181. FATIMATA MUSAH — musahfatimata64@gmail.com
+  182. ABDUL-GAFAR HALIDU — gafarhalidu5@gmail.com
+  183. REYNOLDS ATUNDIWE ATUYANI — atuyanireynolds3@gmail.com
+  184. Sophia Azumah Atiah — azumahsophia@gmail.com
+  185. SOLOMON ABUGRI — solomonabugri05@gmail.com
+  186. AFUSHATA SALIFU — afushatas@gmail.com
+  187. Francisca Aguze-ele Agamboka — agambokafrancisca@gmail.com
+  188. Emelia Oparebea Boateng — boatengemelia400@gmail.com
+  189. NTIBE NAOMI ALI — alintibe@gmail.com
+  190. Wepia Sambatura — wepiasambatura@gmail.com
+  191. Thomas Makumbe — thomasmakumbe2@gmail.com
+  192. Christopher Njorkuni Kilula — kilulachris@gmail.com
+  193. Brian Julius Zaghe — brianjuliuszaghe@gmail.com
+  194. Dorcas Oppong Peprah — anastasiaoppong18@gmail.com
+  195. Malik Yaanaba — yaanabamalik1@gmail.com
+  196. Gloria Nsomah Akongzirigo — akongzirigogloria@gmail.com
+  197. Fuseini Musah — musahfuseini7784@gmail.com
+  198. Inusah Mohammed — inusahm505@gmail.com
+  199. Samira Namso Bakuchama — bakuchamasamira@gmail.com
+  200. MARIAM SALIFU AYAMBILLA — mariamayambilla09@gmail.com
+  201. TIMOTHY KAMBOE — timothykamboe19@gmail.com
+  202. Gertrude Afia Atitsogbe — atitsogbegertrude@gmail.com
+  203. Rafia Tijani — tijanirafia22@gmail.com
+  204. Awushatu Fataw — fatawawushatu9561@gmail.com
+  205. Stephanie Yaa peprah Addai — stephanieaddai94@gmail.com
+  206. Jessica Nsobila — jessicansobila2002@gmail.com
+  207. Jennifer Kolpogbil Zure — zurejennifer@gmail.com
+  208. Sandra Adusei — sandraadusei55@gmail.com
+  209. IDDRISU ALIDU — ialidu535@gmail.com
+  210. VINCENT KUBI APPIA — vincentappiahkubi91@gmail.com
+  211. Agnes Nimotimi Ulanja — agnesnimotimiulanja@gmail.com
+  212. Emmanuella Yennupiini Kombat — emmanuellakombatpeter@gmail.com
+  213. ALIMA AMIDU — amidualima431@gmail.com
+  214. KUNAGNAN LOUIS MABORIGNAN — maborignanl@gmail.com
+  215. SAHARATU IDDRISU — iddrisusaharatu716@gmail.com
+  216. Al-Mubarak Yussif — almubarakyussif305@gmail.com
+  217. Maxwell Anenya Duniah — duniahmaxwell3@gmail.com
+  218. Amama Neina Mutala — amamadamba13@gmail.com
